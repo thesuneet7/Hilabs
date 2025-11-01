@@ -113,8 +113,8 @@ def expand_via_synonyms(text: str, synonyms: Dict[str, List[str]]) -> List[str]:
 
 def compute_confidence(is_exact: bool, fuzzy_score: float, synonym_hit: bool) -> float:
     # weights tuned for baseline
-    wE = 0.6
-    wF = 0.35
+    wE = 0.5
+    wF = 0.45
     wS = 0.05
     E = 1.0 if is_exact else 0.0
     F = max(0.0, min(1.0, fuzzy_score))
@@ -156,8 +156,18 @@ def match_single(raw: str, synonyms: Dict[str, List[str]], index_by_norm: Dict[s
 
     top_candidate, top_score, _ = results[0]
     fuzzy_score = top_score / 100.0
+    # handle borderline fuzzy matches
     if fuzzy_score < fuzzy_cutoff:
+    # 👇 new condition: still accept if fuzzy_score is strong enough (>= 0.80)
+        if fuzzy_score >= 0.80:
+            idx = mapping[top_candidate]
+            matched_codes = [codes[idx]]
+            confidence = compute_confidence(False, fuzzy_score, synonym_hit)
+            explain = f"high fuzzy match accepted (score={fuzzy_score:.2f}) to '{top_candidate}'"
+            return "|".join(sorted(set([c for c in matched_codes if c]))) or "JUNK", round(confidence, 2), explain
+        # otherwise treat as junk
         return "JUNK", round(compute_confidence(False, fuzzy_score, synonym_hit), 2), f"top fuzzy {fuzzy_score:.2f} below cutoff"
+
 
     # gather all candidates within 3 points (0.03) of top and above cutoff
     top_scores = [r for r in results if (r[1]/100.0) >= fuzzy_cutoff and (top_score - r[1]) <= 3]
