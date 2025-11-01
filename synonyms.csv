@@ -1,0 +1,141 @@
+raw,expanded
+ENT,otolaryngology
+ENT Specialist,otolaryngology
+OBGYN,obstetrics and gynecology
+OB/GYN,obstetrics and gynecology
+Gyn,gynecology
+Cardio,cardiology
+Cardiology Dept,cardiology
+PCP,internal medicine|family medicine
+GP,general practice|family medicine
+General Practitioner,general practice|family medicine
+Derm,dermatology
+Dermatologist,dermatology
+Skin Specialist,dermatology
+Skin Clinic,dermatology
+Pedi,pediatrics
+Peds,pediatrics
+Pediatrician,pediatrics
+Child Specialist,pediatrics
+Neuro,neurology
+Neurologist,neurology
+Neuro Surgeon,neurological surgery
+Psych,psychiatry|psychology
+Psychiatrist,psychiatry
+Psychologist,psychology
+Onco,oncology
+Oncologist,oncology
+Cancer Specialist,oncology
+ENT and Allergy,otolaryngology|allergy and immunology
+Endo,endocrinology
+Endocrinologist,endocrinology
+Diabetologist,endocrinology
+Ortho,orthopedic surgery|orthopedics
+Ortho Surgeon,orthopedic surgery|surgery
+Orthopedic Doctor,orthopedic surgery
+Pain Medicine,pain medicine
+Pain Clinic,pain medicine
+Pain and Spine,pain medicine|spinal surgery
+Cardio Thoracic,thoracic surgery|cardiothoracic surgery
+Cardiac Surgeon,thoracic surgery|cardiothoracic surgery
+Uro,urology
+Urologist,urology
+Ophtho,ophthalmology
+Ophthalmologist,ophthalmology
+Eye Doctor,ophthalmology
+Eye Specialist,ophthalmology
+Optometrist,optometry
+Rheum,rheumatology
+Rheumatologist,rheumatology
+Gastro,gastroenterology
+Gastroenterologist,gastroenterology
+GI,gastroenterology
+Hemat,hematology
+Hematologist,hematology
+Heme Onc,hematology|oncology
+Family Medicine,family medicine
+Internal Med,internal medicine
+IM,internal medicine
+Pulmo,pulmonology
+Pulmonologist,pulmonology
+Respiratory,pulmonology
+Allergy Specialist,allergy and immunology
+Allergist,allergy and immunology
+Immunologist,allergy and immunology
+Nephro,nephrology
+Nephrologist,nephrology
+Renal,nephrology
+Addiction,addiction medicine
+Addiction Medicine,addiction medicine
+Sports Med,sports medicine
+Sports Medicine,sports medicine
+Rehab,physical medicine and rehabilitation
+Rehabilitation,physical medicine and rehabilitation
+Physical Therapy,physical therapy
+Physiotherapist,physical therapy
+Plastic Surgeon,plastic surgery
+Plastic Surgery,plastic surgery
+Surgeon,surgery
+Surgery Dept,surgery
+Surgical Oncology,surgery|oncology
+Vascular,vascular surgery
+Vascular Surgeon,vascular surgery
+Emergency,emergency medicine
+ER Doctor,emergency medicine
+Critical Care,critical care medicine
+Intensive Care,critical care medicine
+ICU,critical care medicine
+Radiology,radiology|diagnostic radiology
+Radiologist,radiology|diagnostic radiology
+Diagnostic Imaging,diagnostic radiology
+Nuclear Medicine,nuclear medicine
+Anesthesiology,anesthesiology
+Anesthetist,anesthesiology
+Pain Anesthesia,anesthesiology|pain medicine
+Obesity,bariatric medicine
+Weight Loss,bariatric medicine
+Bariatric,bariatric medicine
+Dietitian,nutrition|dietitian
+Nutritionist,nutrition
+Audiologist,audiology
+Speech Therapist,speech-language pathology
+Pathologist,pathology
+Microbiologist,medical microbiology
+Histo,pathology
+Lab Medicine,pathology|laboratory medicine
+Forensic,forensic pathology
+Public Health,public health
+Preventive Medicine,preventive medicine
+Occupational Health,occupational medicine
+Industrial Health,occupational medicine
+Geriatric,geriatrics
+Elder Care,geriatrics
+Adolescent Medicine,adolescent medicine
+Infectious Disease,infectious disease
+Infectious Diseases,infectious disease
+ID Specialist,infectious disease
+HIV Specialist,infectious disease
+STD Clinic,infectious disease
+Travel Medicine,infectious disease
+Sleep Medicine,sleep medicine
+Pain Management,pain medicine
+Palliative,hospice and palliative medicine
+Hospice,hospice and palliative medicine
+Clinical Pharmacology,clinical pharmacology
+Genetics,medical genetics
+Geneticist,medical genetics
+Laboratory Medicine,laboratory medicine
+Transfusion Medicine,pathology|laboratory medicine
+Tropical Medicine,infectious disease
+Community Medicine,public health
+Dental,dentistry
+Dentist,dentistry
+Oral Surgeon,oral and maxillofacial surgery
+Maxillofacial,oral and maxillofacial surgery
+Periodontist,periodontology
+Prosthodontist,prosthodontics
+Orthodontist,orthodontics
+Endodontist,endodontics
+General Dentist,dentistry
+Veterinary,veterinary medicine
+Vet,veterinary medicine
