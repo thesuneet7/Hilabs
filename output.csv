@@ -292,7 +292,7 @@ TAXI,344600000X,1.0,exact match on 'taxi'
 FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
 IP,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='ip')
 Public Health,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 JD,JUNK,0.2857,best fuzzy 0.29 below cutoff 0.60 (query='jd')
 URGENT CARE - STAFF,261QU0200X,1.0,fuzzy match (query='urgent staff'): 'urgent' score=1.00
 JG,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='jg')
@@ -4172,7 +4172,7 @@ Radiology Mobile Clinic/Center,261QR0208X,1.0,exact match on 'radiology mobile'
 Dr. Plastic Surgery,208200000X|208600000X,1.0,fuzzy match (query='dr plastic surgery'): 'plastic surgery' score=1.00; 'surgery' score=1.00
 Internal Med,207R00000X,1.0,exact match on 'internal medicine'
 FREESTANDING(RURALHEALTHCLINIC),JUNK,0.4706,best fuzzy 0.47 below cutoff 0.60 (query='freestanding ruralhealthclinic')
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 med office,246YC3302X,0.75,fuzzy match (query='med office'): 'information coding physician office based' score=0.75
 Pain Management,163WP0000X|261QP3300X,1.0,fuzzy match (query='pain management'): 'nurse pain management' score=1.00; 'pain' score=1.00
 Dept of FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='of free standing rural'): 'rural' score=1.00
@@ -4203,7 +4203,7 @@ Surgical Oncology,208600000X,1.0,exact match on 'surgery'
 Nephrology Practice,246ZN0300X,1.0,exact match on 'nephrology'
 physician,363A00000X|363AM0700X,1.0,exact match on 'physician'
 Endocrinology hospital,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Clinical Psychology Center,103TH0100X,0.8182,fuzzy match (query='psychology'): 'psychologist' score=0.82
 PULMONARY MEDICINE,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
 PEDIATRICS dept,208000000X,1.0,exact match on 'pediatrics'
@@ -4243,7 +4243,7 @@ PEDIATRICS CLINIC,208000000X,1.0,exact match on 'pediatrics'
 IP,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='ip')
 Dept of Nephrology,246ZN0300X,1.0,fuzzy match (query='of nephrology'): 'nephrology' score=1.00
 Family Medicine CLINIC,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
-IR hospital,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR hospital,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dept of Speech-Language Pathologist,2355S0801X|235Z00000X,1.0,fuzzy match (query='of speech language pathologist'): 'speech language' score=1.00; 'speech language pathologist' score=1.00
 Urology CLINIC,208800000X,1.0,exact match on 'urology'
 Sports Medicine,204C00000X|207PE0004X|207PS0010X|207QS0010X|207RS0010X,1.0,fuzzy match (query='sports medicine'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00
@@ -4295,7 +4295,7 @@ Emergency,JUNK,0.0,blank input
 Pediatric Dentistry,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
 OB/GYN Program,207V00000X,1.0,exact match on 'obstetrics gynecology'
-OB/G,JUNK,0.3529,best fuzzy 0.35 below cutoff 0.60 (query='ob g')
+OB/G,207V00000X,1.0,exact match on 'obstetrics gynecology'
 OCCUPATIONAL THERAPIST,225X00000X,1.0,exact match on 'occupational therapist'
 Endocrinology dept,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 ORTHOPEDIC SURGERY,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
@@ -4324,7 +4324,7 @@ Urology - USA,208800000X,1.0,fuzzy match (query='urology usa'): 'urology' score=
 Clinical Psychology - USA,103TH0100X,0.7692,fuzzy match (query='psychology usa'): 'psychologist' score=0.77
 Critical Care Medicine,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Dept of PEDIATRIC OPTOMETRIST,152W00000X,1.0,fuzzy match (query='of pediatric optometrist'): 'optometrist' score=1.00
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Addiction Medicine dept,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Clinical Psychology CLINIC,103TH0100X,0.8182,fuzzy match (query='psychology'): 'psychologist' score=0.82
 none,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='none')
@@ -4371,7 +4371,7 @@ Anesthesiology dept,207L00000X,1.0,exact match on 'anesthesiology'
 Anesthe,207L00000X,0.6667,fuzzy match (query='anesthe'): 'anesthesiology' score=0.67
 ip,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='ip')
 PEDIATRIC OPTOMETRIST dept,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Urology dept,208800000X,1.0,exact match on 'urology'
 Marriage & Family Therapist,106H00000X,1.0,exact match on 'marriage family therapist'
 MARRIAGE&FAMILYTHERAPIST,106H00000X,0.9796,fuzzy match (query='marriage familytherapist'): 'marriage family therapist' score=0.98
@@ -4511,7 +4511,7 @@ Gerontology - Nurse Practitioner dept,363L00000X|363LG0600X,1.0,fuzzy match (que
 sports medicine,204C00000X|207PE0004X|207PS0010X|207QS0010X|207RS0010X,1.0,fuzzy match (query='sports medicine'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00
 Gerontology - Nurse Practitioner Service,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
 MARRIAGE & FAMILY THERAPIST hospital,106H00000X,1.0,exact match on 'marriage family therapist'
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 OPTICIAN CLINIC,156FX1800X,1.0,exact match on 'optician'
 ADULT HEALTH NURSE PRACTITIONER,363L00000X|363LA2200X|364SP0809X,1.0,fuzzy match (query='adult nurse'): 'nurse' score=1.00; 'nurse psychiatric mental adult' score=1.00; 'nurse adult' score=1.00
 OB/GYN hospital,207V00000X,1.0,exact match on 'obstetrics gynecology'
@@ -4557,7 +4557,7 @@ General ,208D00000X,1.0,exact match on 'general'
 endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Sports ,204C00000X|207PS0010X|207QS0010X|207RS0010X|207XX0005X,1.0,fuzzy match (query='sports'): 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00; 'orthopaedic surgery sports medicine' score=1.00
 Chiropractic Center,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
-IR Service,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Service,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 PHYSICALMEDICINE&REHAB,207PE0005X|363LC0200X,0.6667,fuzzy match (query='physicalmedicine rehab'): 'nurse critical medicine' score=0.67; 'medicine undersea hyperbaric medicine' score=0.64
 Dermatology hospital,207N00000X,1.0,exact match on 'dermatology'
 Speech-Language Pathologist dept,235Z00000X,1.0,exact match on 'speech language pathologist'
@@ -4595,7 +4595,7 @@ InternalMedicine,207R00000X,0.9697,fuzzy match (query='internalmedicine'): 'inte
 Addiction Medicine Program,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Occupational Therapist dept,225X00000X,1.0,exact match on 'occupational therapist'
 CHIROPRACTIC,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
-Ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+Ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 OPTI,156FX1800X,0.6667,fuzzy match (query='opti'): 'optician' score=0.67
 Gastroen,JUNK,0.5333,best fuzzy 0.53 below cutoff 0.60 (query='gastroen')
 NEPHROLOGY,246ZN0300X,1.0,exact match on 'nephrology'
@@ -4618,7 +4618,7 @@ Dr. Anesthesiology,207L00000X,1.0,fuzzy match (query='dr anesthesiology'): 'anes
 RADIOLOGY MOBILE CLINIC/CENTER CLINIC,261QR0208X,1.0,exact match on 'radiology mobile'
 Dr. Critical Care Medicine,207PE0004X,1.0,fuzzy match (query='dr critical medicine'): 'medicine' score=1.00
 Pathology Practice,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
-IR Practice,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Practice,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 COMMUNITY HEALTH - CLINIC/CENTER hospital,261QC1500X,1.0,exact match on 'community'
 Gastroenterology dept,163WG0100X|207RG0100X|2080P0206X,1.0,fuzzy match (query='gastroenterology'): 'internal medicine gastroenterology' score=1.00; 'pediatrics pediatric gastroenterology' score=1.00; 'nurse gastroenterology' score=1.00
 Cardiothoracic Surgery dept,208600000X|208G00000X,1.0,fuzzy match (query='cardiothoracic surgery'): 'surgery' score=1.00; 'thoracic surgery cardiothoracic vascular surgery' score=1.00
@@ -4773,7 +4773,7 @@ Dr. Pain Management,261QP3300X,1.0,fuzzy match (query='dr pain management'): 'pa
 Psychiatry Center,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 PULMONARY MEDICINE Practice,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
 Dept of Adult Health Nurse Practitioner,363L00000X|363LA2200X,1.0,fuzzy match (query='of adult nurse'): 'nurse' score=1.00; 'nurse adult' score=1.00
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Radiology Program,243U00000X|261QR0200X,1.0,exact match on 'radiology'
 PEDIATRIC OPTOMETRIST hospital,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
 Cardiothoracic Surgery Program,208600000X|208G00000X,1.0,fuzzy match (query='cardiothoracic surgery'): 'surgery' score=1.00; 'thoracic surgery cardiothoracic vascular surgery' score=1.00
@@ -4811,7 +4811,7 @@ COMMUNITY HEALTH - CLINIC/CENTER - USA,261QC1500X,1.0,fuzzy match (query='commun
 marriage & family therapist,106H00000X,1.0,exact match on 'marriage family therapist'
 Anesthesiology Service,207L00000X,1.0,exact match on 'anesthesiology'
 Endocrinology CLINIC,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
-IR Program,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Program,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Internal Medicine - USA,207PE0004X|207R00000X,1.0,fuzzy match (query='internal medicine usa'): 'medicine' score=1.00; 'internal medicine' score=1.00
 sleep medicine,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
 Dentistry dept,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
@@ -4941,7 +4941,7 @@ taxi,344600000X,1.0,exact match on 'taxi'
 Neurology,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Endocrinology Center,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Gerontology-NursePractitioner,363LG0600X,0.7857,fuzzy match (query='gerontology nursepractitioner'): 'nurse gerontology' score=0.79
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Critical Care Medicine,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Orthopedic Surgery Center,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
 Orthopedic Surgery Service,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
@@ -4955,7 +4955,7 @@ PEDIATRICS Center,208000000X,1.0,exact match on 'pediatrics'
 Critical Care Medicine Center,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Neurology - USA,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,0.8182,fuzzy match (query='neurology usa'): 'psychiatry neurology addiction medicine' score=0.82; 'psychiatry neurology addiction psychiatry' score=0.82; 'psychiatry neurology behavioral neurology neuropsychiatry' score=0.82; 'psychiatry neurology brain injury medicine' score=0.82; 'psychiatry neurology child adolescent psychiatry' score=0.82
 FamilyMedicine,207QA0505X|207QS0010X|207QS1201X,0.8,fuzzy match (query='familymedicine'): 'family medicine adult medicine' score=0.80; 'family medicine sleep medicine' score=0.80; 'family medicine sports medicine' score=0.78
-IR hospital,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR hospital,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Emergency Medicine CLINIC,207P00000X|207PE0004X,1.0,exact match on 'medicine'
 Dr. Emergency Medicine,207PE0004X,1.0,fuzzy match (query='dr medicine'): 'medicine' score=1.00
 Dr. OB/GYN,JUNK,0.4762,best fuzzy 0.48 below cutoff 0.60 (query='dr ob gyn')
@@ -4973,7 +4973,7 @@ Cardiology - USA,246W00000X,1.0,fuzzy match (query='cardiology usa'): 'cardiolog
 Radiology hospital,243U00000X|261QR0200X,1.0,exact match on 'radiology'
 OB/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Urology CLINIC,208800000X,1.0,exact match on 'urology'
-OB/G,JUNK,0.3529,best fuzzy 0.35 below cutoff 0.60 (query='ob g')
+OB/G,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Public Health CLINIC,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
 endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 PublicHealth,JUNK,0.5517,best fuzzy 0.55 below cutoff 0.60 (query='publichealth')
@@ -5022,7 +5022,7 @@ xyz,JUNK,0.2857,best fuzzy 0.29 below cutoff 0.60 (query='xyz')
 UNKNOWN,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='unknown')
 Critical Care Medicine CLINIC,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 CriticalCareMedicine,207RC0200X|363LC0200X,0.7442,fuzzy match (query='criticalcaremedicine'): 'nurse critical medicine' score=0.74; 'internal medicine critical medicine' score=0.74
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Cardiology CLINIC,246W00000X,1.0,exact match on 'cardiology'
 Radiology - USA,261QR0200X,1.0,fuzzy match (query='radiology usa'): 'radiology' score=1.00
 Emergency Medicine dept,207P00000X|207PE0004X,1.0,exact match on 'medicine'
@@ -5093,10 +5093,10 @@ Emergency Medicine Service,207P00000X|207PE0004X,1.0,exact match on 'medicine'
 ENDOCRINOLOGY,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Family Medicine CLINIC,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
 Ophthalmology Service,207W00000X,1.0,exact match on 'ophthalmology'
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 none,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='none')
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 DERMATOLOGY,207N00000X,1.0,exact match on 'dermatology'
 physician,363A00000X|363AM0700X,1.0,exact match on 'physician'
 TAXI hospital,344600000X,1.0,exact match on 'taxi'
@@ -5144,7 +5144,7 @@ Neur,363L00000X,0.6667,fuzzy match (query='neur'): 'nurse' score=0.67
 dentistry,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
 Anesthesiology dept,207L00000X,1.0,exact match on 'anesthesiology'
 PEDIA,208000000X|284300000X,0.6667,fuzzy match (query='pedia'): 'pediatrics' score=0.67; 'special' score=0.67
-IR Service,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Service,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 ob/gyn,207V00000X,1.0,exact match on 'obstetrics gynecology'
 neurology,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Emergency,JUNK,0.0,blank input
@@ -5169,7 +5169,7 @@ Cardiology Center,246W00000X,1.0,exact match on 'cardiology'
 Gerontology - Nurse Practitioner Center,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
 OPTICIAN CLINIC,156FX1800X,1.0,exact match on 'optician'
 Critical Care Medicine - USA,207PE0004X,1.0,fuzzy match (query='critical medicine usa'): 'medicine' score=1.00
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dermatology CLINIC,207N00000X,1.0,exact match on 'dermatology'
 Dr. PHYSICAL MEDICINE & REHAB,207PE0004X,1.0,fuzzy match (query='dr medicine rehab'): 'medicine' score=1.00
 Dr. Ophthalmology,207W00000X,1.0,fuzzy match (query='dr ophthalmology'): 'ophthalmology' score=1.00
@@ -5184,7 +5184,7 @@ Emergency Med,JUNK,0.5714,best fuzzy 0.57 below cutoff 0.60 (query='med')
 OB/GYN Center,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Nephrology hospital,246ZN0300X,1.0,exact match on 'nephrology'
 gerontology - nurse practitioner,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Critical Care Medicine hospital,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 1P,JUNK,0.3333,best fuzzy 0.33 below cutoff 0.60 (query='1p')
 Oncology CLINIC,261QX0200X,1.0,exact match on 'oncology'
@@ -5292,7 +5292,7 @@ Nuclear Medicine Unit,207U00000X,1.0,exact match on 'nuclear medicine'
 Neurology dept,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Pharmacy,183700000X|333600000X,1.0,exact match on 'pharmacy'
 Midwife,176B00000X,1.0,exact match on 'midwife'
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 HospiceandPalliativeCare,207PH0002X|2086H0002X,0.7059,fuzzy match (query='hospiceandpalliativecare'): 'medicine hospice palliative medicine' score=0.71; 'surgery hospice palliative medicine' score=0.68
 Nuclear Medicine Division,207PE0004X|207U00000X,1.0,fuzzy match (query='nuclear medicine division'): 'medicine' score=1.00; 'nuclear medicine' score=1.00
 PEDIATRIC DENTISTRY,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
@@ -5553,7 +5553,7 @@ RADIOLOGY MOBILE CLINIC/CENTER,261QR0208X,1.0,exact match on 'radiology mobile'
 Dept of RADIOLOGY MOBILE CLINIC/CENTER,261QR0200X|261QR0208X,1.0,fuzzy match (query='of radiology mobile'): 'radiology' score=1.00; 'radiology mobile' score=1.00
 Dr. MARRIAGE & FAMILY THERAPIST,106H00000X|225100000X,1.0,fuzzy match (query='dr marriage family therapist'): 'marriage family therapist' score=1.00; 'therapist' score=1.00
 Midw,176B00000X,0.7273,fuzzy match (query='midw'): 'midwife' score=0.73
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Radiation Oncology,2085R0001X|261QX0200X|261QX0203X,1.0,fuzzy match (query='radiation oncology'): 'radiology radiation oncology' score=1.00; 'oncology' score=1.00; 'oncology radiation' score=1.00
 Sleep Medicine Program,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
 adult health nurse practitioner,363L00000X|363LA2200X|364SP0809X,1.0,fuzzy match (query='adult nurse'): 'nurse' score=1.00; 'nurse psychiatric mental adult' score=1.00; 'nurse adult' score=1.00
@@ -5578,7 +5578,7 @@ Neuropsychiatry CLINIC,2084B0040X,1.0,fuzzy match (query='neuropsychiatry'): 'ps
 InternalMedicine,207R00000X,0.9697,fuzzy match (query='internalmedicine'): 'internal medicine' score=0.97
 other,JUNK,0.0,blank input
 Speech-LanguagePathologist,235Z00000X,0.9811,fuzzy match (query='speech languagepathologist'): 'speech language pathologist' score=0.98
-IR Services,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Services,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 PATHOLOGY,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Geriatric Medicine Division,207PE0004X,1.0,fuzzy match (query='geriatric medicine division'): 'medicine' score=1.00
 Surgical Oncology Division,246ZS0410X|261QX0200X,1.0,fuzzy match (query='surgical oncology division'): 'surgical' score=1.00; 'oncology' score=1.00
@@ -5587,7 +5587,7 @@ Neur,363L00000X,0.6667,fuzzy match (query='neur'): 'nurse' score=0.67
 pathology,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Pediatric Dentistry Center,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 Audiology Unit,2355A2700X,1.0,exact match on 'audiology'
-IR Unit,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Unit,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Endocrinology Division,163WR1000X|207RE0101X|207VE0102X|2080P0205X,0.7429,fuzzy match (query='endocrinology division'): 'internal medicine endocrinology diabetes metabolism' score=0.74; 'obstetrics gynecology reproductive endocrinology' score=0.74; 'pediatrics pediatric endocrinology' score=0.74; 'nurse reproductive endocrinology infertility' score=0.74
 Occupational Therapist Division,225100000X|225X00000X,1.0,fuzzy match (query='occupational therapist division'): 'occupational therapist' score=1.00; 'therapist' score=1.00
 Pathology Center,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
@@ -5645,7 +5645,7 @@ MARRIAGE & FAMILY THERAPIST dept,106H00000X,1.0,exact match on 'marriage family 
 Urology Practice,208800000X,1.0,exact match on 'urology'
 RADIOLOGY-MOBILE-CLINIC/CENTER,261QR0208X,1.0,exact match on 'radiology mobile'
 Naturopathic Physician CLINIC,363AM0700X,1.0,fuzzy match (query='naturopathic physician'): 'physician' score=1.00
-Ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+Ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Audiology hospital,2355A2700X,1.0,exact match on 'audiology'
 Emergency Medical Technician CLINIC,JUNK,0.0,blank input
@@ -5757,7 +5757,7 @@ Clinical Laboratory - USA,291U00000X,1.0,fuzzy match (query='laboratory usa'): '
 Occupational Therapist,225X00000X,1.0,exact match on 'occupational therapist'
 Dr. Audiology,2355A2700X,1.0,fuzzy match (query='dr audiology'): 'audiology' score=1.00
 Hospice and Palliative Care Service,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH0002X,1.0,fuzzy match (query='hospice palliative'): 'anesthesiology hospice palliative medicine' score=1.00; 'medicine hospice palliative medicine' score=1.00; 'family medicine hospice palliative medicine' score=1.00; 'internal medicine hospice palliative medicine' score=1.00; 'obstetrics gynecology hospice palliative medicine' score=1.00
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Behavioral Health Counselor Center,101Y00000X,1.0,fuzzy match (query='behavioral counselor'): 'counselor' score=1.00
 Dr. PEDIATRIC OPTOMETRIST,152W00000X,1.0,fuzzy match (query='dr pediatric optometrist'): 'optometrist' score=1.00
 Ophthalmology Service,207W00000X,1.0,exact match on 'ophthalmology'
@@ -5767,7 +5767,7 @@ OB/GYN Practice,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Pain Management Unit,163WP0000X|261QP3300X,1.0,fuzzy match (query='pain management'): 'nurse pain management' score=1.00; 'pain' score=1.00
 Sleep Medicine CLINIC,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
 Orthotics and Prosthetics CLINIC,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
-IR Service,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Service,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Oncology CLINIC,261QX0200X,1.0,exact match on 'oncology'
 Addiction Medicine Center,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Psychiatry - USA,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,0.8333,fuzzy match (query='psychiatry usa'): 'psychiatry neurology addiction medicine' score=0.83; 'psychiatry neurology addiction psychiatry' score=0.83; 'psychiatry neurology behavioral neurology neuropsychiatry' score=0.83; 'psychiatry neurology brain injury medicine' score=0.83; 'psychiatry neurology child adolescent psychiatry' score=0.83
@@ -5840,7 +5840,7 @@ Psychiatry Center,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuz
 RadiationOncology,133VN1301X|261QR0200X,0.6923,fuzzy match (query='radiationoncology'): 'radiology' score=0.69; 'dietitian nutrition oncology' score=0.67
 Endocrinology Center,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Dept of Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,0.8696,fuzzy match (query='of hematology'): 'internal medicine hematology' score=0.87; 'internal medicine hematology oncology' score=0.87; 'pathology hematology' score=0.87; 'pediatrics pediatric hematology oncology' score=0.87
-IR Program,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Program,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Chirop,111N00000X,0.6667,fuzzy match (query='chirop'): 'chiropractor' score=0.67
 community health - clinic/center,261QC1500X,1.0,exact match on 'community'
 Dentistry dept,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
@@ -5969,7 +5969,7 @@ Registered Nurse Service,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,
 UNKNOWN,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='unknown')
 Occupational-Therapist,225X00000X,1.0,exact match on 'occupational therapist'
 Occupational Therapist Center,225X00000X,1.0,exact match on 'occupational therapist'
-OB/G,JUNK,0.3529,best fuzzy 0.35 below cutoff 0.60 (query='ob g')
+OB/G,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Gerontology - Nurse Practitioner dept,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
 midwife,176B00000X,1.0,exact match on 'midwife'
 MARRIAGE-&-FAMILY-THERAPIST,106H00000X,1.0,exact match on 'marriage family therapist'
@@ -6147,7 +6147,7 @@ Hospice And Palliative Care,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH000
 Speech-Language-Pathologist,235Z00000X,1.0,exact match on 'speech language pathologist'
 Radiology Program,243U00000X|261QR0200X,1.0,exact match on 'radiology'
 PED1ATR1C OPTOMETR1ST,152WP0200X,0.8372,fuzzy match (query='ped1atr1c optometr1st'): 'optometrist pediatrics' score=0.84
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Plastic Surgery Division,208200000X|208600000X,1.0,fuzzy match (query='plastic surgery division'): 'plastic surgery' score=1.00; 'surgery' score=1.00
 Emergency Medicine - USA,207PE0004X,1.0,fuzzy match (query='medicine usa'): 'medicine' score=1.00
 Hematology Service,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
@@ -6213,7 +6213,7 @@ Anesthesiology Division,207L00000X,1.0,fuzzy match (query='anesthesiology divisi
 COMMUNITY HEALTH,261QC1500X,1.0,exact match on 'community'
 Pathology CLINIC,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Radiation Oncology - USA,261QX0200X|261QX0203X,1.0,fuzzy match (query='radiation oncology usa'): 'oncology' score=1.00; 'oncology radiation' score=1.00
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Registered Nurse hospital,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
 Psych,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 EMERGENCY MEDICINE,207P00000X|207PE0004X,1.0,exact match on 'medicine'
@@ -6408,7 +6408,7 @@ Radiation Oncology Service,2085R0001X|261QX0200X|261QX0203X,1.0,fuzzy match (que
 PEDIATRIC OPTOMETRIST Services,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
 Vascular Surgery Center,208600000X|2086S0129X|208G00000X,1.0,fuzzy match (query='vascular surgery'): 'surgery' score=1.00; 'surgery vascular surgery' score=1.00; 'thoracic surgery cardiothoracic vascular surgery' score=1.00
 Dept of Reproductive Endocrinology,163WR1000X|207VE0102X,0.9455,fuzzy match (query='of reproductive endocrinology'): 'obstetrics gynecology reproductive endocrinology' score=0.95; 'nurse reproductive endocrinology infertility' score=0.95
-IR Practice,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Practice,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 PHYSICAL MEDICINE & REHAB Unit,207PE0004X,1.0,fuzzy match (query='medicine rehab'): 'medicine' score=1.00
 SPORTS MEDICINE,204C00000X|207PE0004X|207PS0010X|207QS0010X|207RS0010X,1.0,fuzzy match (query='sports medicine'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00
 Pharmacy Center,183700000X|333600000X,1.0,exact match on 'pharmacy'
@@ -6426,12 +6426,12 @@ Critical Care Medicine hospital,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080
 Orthotics and Prosthetics Center,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 Path,172P00000X|175L00000X|207ZC0006X|246R00000X,0.6154,fuzzy match (query='path'): 'pathology pathology' score=0.62; 'homeopath' score=0.62; 'naprapath' score=0.62; 'pathology' score=0.62
 Psychiatry Service,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Gastroenterology Unit,163WG0100X|207RG0100X|2080P0206X,1.0,fuzzy match (query='gastroenterology'): 'internal medicine gastroenterology' score=1.00; 'pediatrics pediatric gastroenterology' score=1.00; 'nurse gastroenterology' score=1.00
 TAXI Practice,344600000X,1.0,exact match on 'taxi'
 Chiropractic dept,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
 Internal Medicine Division,207PE0004X|207R00000X,1.0,fuzzy match (query='internal medicine division'): 'medicine' score=1.00; 'internal medicine' score=1.00
-IR hospital,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR hospital,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Chiropractic Service,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
 Orthotics and Prosthetics dept,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 GERONTOLOGY - NURSE PRACTITIONER,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
@@ -6539,7 +6539,7 @@ Critical Care Medicine CLINIC,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0
 Chiropractic - USA,111N00000X,0.7143,fuzzy match (query='chiropractic usa'): 'chiropractor' score=0.71
 Radiation Oncology Division,261QX0200X|261QX0203X,1.0,fuzzy match (query='radiation oncology division'): 'oncology' score=1.00; 'oncology radiation' score=1.00
 Nephrology hospital,246ZN0300X,1.0,exact match on 'nephrology'
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Public Health Service,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
 Pain Ma,261QP3300X,1.0,fuzzy match (query='pain ma'): 'pain' score=1.00
 Infectious Disease Practice,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
@@ -6613,7 +6613,7 @@ Dr. Vascular Surgery,208600000X|2086S0129X,1.0,fuzzy match (query='dr vascular s
 Anesthesiology Center,207L00000X,1.0,exact match on 'anesthesiology'
 COMMUNITY HEALTH - CLINIC/CENTER,261QC1500X,1.0,exact match on 'community'
 Occupational Therapist Services,225X00000X,1.0,exact match on 'occupational therapist'
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Gastroenterology Service,163WG0100X|207RG0100X|2080P0206X,1.0,fuzzy match (query='gastroenterology'): 'internal medicine gastroenterology' score=1.00; 'pediatrics pediatric gastroenterology' score=1.00; 'nurse gastroenterology' score=1.00
 CLINICAL LABORATORY,291U00000X,1.0,exact match on 'laboratory'
 Reproductive Endocrinology Service,163WR1000X|207VE0102X,1.0,fuzzy match (query='reproductive endocrinology'): 'obstetrics gynecology reproductive endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
@@ -6714,8 +6714,8 @@ MARRIAGE & FAMILY THERAPIST Unit,106H00000X,1.0,exact match on 'marriage family 
 Midwife dept,176B00000X,1.0,exact match on 'midwife'
 MARRIAGE & FAMILY THERAPIST,106H00000X,1.0,exact match on 'marriage family therapist'
 DENTISTRY,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Emergency Medicine Services,207P00000X|207PE0004X,1.0,exact match on 'medicine'
 PATHOLOGY,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Adult Health Nurse Practitioner Unit,363L00000X|363LA2200X|364SP0809X,1.0,fuzzy match (query='adult nurse'): 'nurse' score=1.00; 'nurse psychiatric mental adult' score=1.00; 'nurse adult' score=1.00
@@ -6758,7 +6758,7 @@ NATUROPATHIC PHYSICIAN,363AM0700X,1.0,fuzzy match (query='naturopathic physician
 Orthotics and Prosthetics Unit,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 Sports Medicine Unit,204C00000X|207PE0004X|207PS0010X|207QS0010X|207RS0010X,1.0,fuzzy match (query='sports medicine'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00
 Dept of PEDIATRICS,208000000X,1.0,fuzzy match (query='of pediatrics'): 'pediatrics' score=1.00
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Pathology,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Public Health Practice,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
@@ -6863,7 +6863,7 @@ Hospice and Palliative Care,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH000
 Pediatric Dentistry,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 Chiropractic,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
 Occupational Therapist Services,225X00000X,1.0,exact match on 'occupational therapist'
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dermatology hospital,207N00000X,1.0,exact match on 'dermatology'
 Dermatology Center,207N00000X,1.0,exact match on 'dermatology'
 General Practice,208D00000X,1.0,exact match on 'general'
@@ -6876,7 +6876,7 @@ Anesthesiology,207L00000X,1.0,exact match on 'anesthesiology'
 Urology,208800000X,1.0,exact match on 'urology'
 Orthotics and Prosthetics Services,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 Midwife,176B00000X,1.0,exact match on 'midwife'
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 dermatology,207N00000X,1.0,exact match on 'dermatology'
 Optician,156FX1800X,1.0,exact match on 'optician'
 Naturopathi,175F00000X,0.9524,fuzzy match (query='naturopathi'): 'naturopath' score=0.95
@@ -6966,7 +6966,7 @@ Clinical Psychology,103TH0100X,0.8182,fuzzy match (query='psychology'): 'psychol
 Dept of FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='of free standing rural'): 'rural' score=1.00
 Emergency-Medical-Technician,JUNK,0.0,blank input
 Endocrinology Program,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query='endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=1.00; 'obstetrics gynecology reproductive endocrinology' score=1.00; 'pediatrics pediatric endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dietitian,133V00000X,1.0,exact match on 'dietitian'
 Reproductive Endocrinology CLINIC,163WR1000X|207VE0102X,1.0,fuzzy match (query='reproductive endocrinology'): 'obstetrics gynecology reproductive endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Dietitian Practice,133V00000X,1.0,exact match on 'dietitian'
@@ -7138,7 +7138,7 @@ Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='h
 Anesthe,207L00000X,0.6667,fuzzy match (query='anesthe'): 'anesthesiology' score=0.67
 Family Medicine Unit,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
 Sports ,204C00000X|207PS0010X|207QS0010X|207RS0010X|207XX0005X,1.0,fuzzy match (query='sports'): 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00; 'orthopaedic surgery sports medicine' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Adult Health Nurse Practitioner dept,363L00000X|363LA2200X|364SP0809X,1.0,fuzzy match (query='adult nurse'): 'nurse' score=1.00; 'nurse psychiatric mental adult' score=1.00; 'nurse adult' score=1.00
 Hematology Service,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
 Pathology,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
@@ -7286,7 +7286,7 @@ RADIOLOGY MOBILE CLINIC/CENTER,261QR0208X,1.0,exact match on 'radiology mobile'
 FREESTANDING(RURALHEALTHCLINIC),JUNK,0.4706,best fuzzy 0.47 below cutoff 0.60 (query='freestanding ruralhealthclinic')
 Dentistry,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
 Dermatology,207N00000X,1.0,exact match on 'dermatology'
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Emergency Medical Technician,JUNK,0.0,blank input
 Urology Division,208800000X,1.0,fuzzy match (query='urology division'): 'urology' score=1.00
 FREE STANDING (RURAL HEALTH CLINIC) Program,261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
@@ -7315,7 +7315,7 @@ Endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query
 Critical Care Medicine,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Sleep Medicine,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
 Occupational Therapist Service,225X00000X,1.0,exact match on 'occupational therapist'
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dept of Clinical Psychology,103TH0100X,0.72,fuzzy match (query='of psychology'): 'psychologist' score=0.72
 Surgical Oncology Center,208600000X,1.0,exact match on 'surgery'
 taxi,344600000X,1.0,exact match on 'taxi'
@@ -7380,7 +7380,7 @@ Registered Nurse,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exac
 Audiology Center,2355A2700X,1.0,exact match on 'audiology'
 Infectious Disease,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
 General Practice,208D00000X,1.0,exact match on 'general'
-IR Services,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Services,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Occupational Therapist,225X00000X,1.0,exact match on 'occupational therapist'
 Pediatric Dentistry hospital,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 PEDIATRIC OPTOMETRIST,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
@@ -7389,7 +7389,7 @@ Surgical Oncology CLINIC,208600000X,1.0,exact match on 'surgery'
 Dr. Endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,0.8966,fuzzy match (query='dr endocrinology'): 'internal medicine endocrinology diabetes metabolism' score=0.90; 'obstetrics gynecology reproductive endocrinology' score=0.90; 'pediatrics pediatric endocrinology' score=0.90; 'nurse reproductive endocrinology infertility' score=0.90
 FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
 Emergency Medicine dept,207P00000X|207PE0004X,1.0,exact match on 'medicine'
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Registered Nurse Program,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
 Anesthesiology CLINIC,207L00000X,1.0,exact match on 'anesthesiology'
 Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
@@ -7466,7 +7466,7 @@ MARRIAGE & FAMILY THERAPIST hospital,106H00000X,1.0,exact match on 'marriage fam
 Anesthesiology,207L00000X,1.0,exact match on 'anesthesiology'
 PEDIATRIC OPTOMETRIST,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
 Anesthesiology dept,207L00000X,1.0,exact match on 'anesthesiology'
-IR Program,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Program,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Clinical Laboratory,291U00000X,1.0,exact match on 'laboratory'
 Behavioral Health Counselor Unit,101Y00000X,1.0,fuzzy match (query='behavioral counselor'): 'counselor' score=1.00
 Radiology,243U00000X|261QR0200X,1.0,exact match on 'radiology'
@@ -7606,7 +7606,7 @@ Dr. Orthopedic Surgery,208600000X|246ZX2200X,1.0,fuzzy match (query='dr orthoped
 Psychiatry dept,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Dermatology Practice,207N00000X,1.0,exact match on 'dermatology'
 Orthopedic Surgery,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
-IR Services,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Services,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 General Practice Division,208D00000X,1.0,fuzzy match (query='general division'): 'general' score=1.00
 Adult Health Nurse Practitioner,363L00000X|363LA2200X|364SP0809X,1.0,fuzzy match (query='adult nurse'): 'nurse' score=1.00; 'nurse psychiatric mental adult' score=1.00; 'nurse adult' score=1.00
 Radiology,243U00000X|261QR0200X,1.0,exact match on 'radiology'
@@ -7752,7 +7752,7 @@ Occupational Therapist Division,225100000X|225X00000X,1.0,fuzzy match (query='oc
 free standing (rural health clinic),261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
 Registered Nurse,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
 PULMONARY MEDICINE CLINIC,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 PULMONARY MEDICINE Program,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
 Audiology Practice,2355A2700X,1.0,exact match on 'audiology'
 Clinical Psychology hospital,103TH0100X,0.8182,fuzzy match (query='psychology'): 'psychologist' score=0.82
@@ -7781,7 +7781,7 @@ Pediatric Dentistry Services,1223P0221X,1.0,fuzzy match (query='pediatric dentis
 Hematology Unit,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
 Neuropsychiatry,2084B0040X,1.0,fuzzy match (query='neuropsychiatry'): 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00
 Dept of Emergency Medicine,207PE0004X,1.0,fuzzy match (query='of medicine'): 'medicine' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Internal Medicine dept,207R00000X,1.0,exact match on 'internal medicine'
 Psychiatry Practice,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Clinical Laboratory,291U00000X,1.0,exact match on 'laboratory'
@@ -7924,7 +7924,7 @@ Surgical Oncology,208600000X,1.0,exact match on 'surgery'
 OB/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 PULMONARY MEDICINE dept,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
 General Practice,208D00000X,1.0,exact match on 'general'
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Infectious Disease,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
 OPTICIAN - USA,156FX1800X,1.0,fuzzy match (query='optician usa'): 'optician' score=1.00
 SPEECH-LANGUAGE PATHOLOGIST,235Z00000X,1.0,exact match on 'speech language pathologist'
@@ -8049,7 +8049,7 @@ Dept of Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,0.8696,fuzzy matc
 Sleep Medicine - USA,207PE0004X,1.0,fuzzy match (query='sleep medicine usa'): 'medicine' score=1.00
 Internal Medicine Center,207R00000X,1.0,exact match on 'internal medicine'
 FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
-Ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+Ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Pediatric Dentistry dept,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 FREE STANDING (RURAL HEALTH CLINIC) CLINIC,261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
 Naturopathic-Physician,363AM0700X,1.0,fuzzy match (query='naturopathic physician'): 'physician' score=1.00
@@ -8107,7 +8107,7 @@ PediatricDentistry,208000000X|2086S0120X,0.7143,fuzzy match (query='pediatricden
 Critical Care Medicine,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Radiation Oncology Services,2085R0001X|261QX0200X|261QX0203X,1.0,fuzzy match (query='radiation oncology'): 'radiology radiation oncology' score=1.00; 'oncology' score=1.00; 'oncology radiation' score=1.00
 critical care medicine,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Medical Genetics,261QG0250X,1.0,exact match on 'genetics'
 COMMUNITY HEALTH - CLINIC/CENTER Service,261QC1500X,1.0,exact match on 'community'
 Dermatology Practice,207N00000X,1.0,exact match on 'dermatology'
@@ -8157,7 +8157,7 @@ PEDIATRICS Division,208000000X,1.0,fuzzy match (query='pediatrics division'): 'p
 Behavioral Health Counselor Unit,101Y00000X,1.0,fuzzy match (query='behavioral counselor'): 'counselor' score=1.00
 Registered Nurse,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
 Neurology Center,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Infectious Disease Program,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
 Emergency-Medical-Technician,JUNK,0.0,blank input
 gastroenterology,163WG0100X|207RG0100X|2080P0206X,1.0,fuzzy match (query='gastroenterology'): 'internal medicine gastroenterology' score=1.00; 'pediatrics pediatric gastroenterology' score=1.00; 'nurse gastroenterology' score=1.00
@@ -8204,7 +8204,7 @@ Nuclear Medicine Program,207U00000X,1.0,exact match on 'nuclear medicine'
 Psychiatry,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Orthotics and Prosthetics,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 Orthopedic Surgery Services,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dermatology,207N00000X,1.0,exact match on 'dermatology'
 optician,156FX1800X,1.0,exact match on 'optician'
 Family Medicine,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
@@ -8319,13 +8319,13 @@ Pharmacy,183700000X|333600000X,1.0,exact match on 'pharmacy'
 PHYSICAL MEDICINE & REHAB Program,207PE0004X,1.0,fuzzy match (query='medicine rehab'): 'medicine' score=1.00
 Clinal Psychology,103TE1000X,0.7317,fuzzy match (query='clinal psychology'): 'psychologist educational' score=0.73
 OPTICIAN hospital,156FX1800X,1.0,exact match on 'optician'
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Speech-Language Pathologist CLINIC,235Z00000X,1.0,exact match on 'speech language pathologist'
 PEDIATRICS - USA,208000000X,1.0,fuzzy match (query='pediatrics usa'): 'pediatrics' score=1.00
 Reproductive Endocrinology - USA,163WR1000X|207VE0102X,0.9286,fuzzy match (query='reproductive endocrinology usa'): 'obstetrics gynecology reproductive endocrinology' score=0.93; 'nurse reproductive endocrinology infertility' score=0.93
 Emergency Medical Technician,JUNK,0.0,blank input
 Midwife - USA,176B00000X,1.0,fuzzy match (query='midwife usa'): 'midwife' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
 Emergency Medical Technician Service,JUNK,0.0,blank input
 Infectious Disease hospital,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
@@ -8415,7 +8415,7 @@ Pathology,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Addiction Medicine hospital,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Cardiothora,246W00000X,0.6667,fuzzy match (query='cardiothora'): 'cardiology' score=0.67
 Occupational-Therapist,225X00000X,1.0,exact match on 'occupational therapist'
-IR Practice,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Practice,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 General Practice,208D00000X,1.0,exact match on 'general'
 Addiction Medicine Unit,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 general practice,208D00000X,1.0,exact match on 'general'
@@ -8443,7 +8443,7 @@ Audiology CLINIC,2355A2700X,1.0,exact match on 'audiology'
 Surgical Oncology,208600000X,1.0,exact match on 'surgery'
 Dentistry,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
 Occupational Therapist Unit,225X00000X,1.0,exact match on 'occupational therapist'
-IR Program,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Program,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 General Practice,208D00000X,1.0,exact match on 'general'
 Addiction Medicine dept,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Infectious Disease Program,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
@@ -8456,7 +8456,7 @@ Audiology Program,2355A2700X,1.0,exact match on 'audiology'
 Sports Medicine Division,207PE0004X|207PS0010X,1.0,fuzzy match (query='sports medicine division'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00
 Addiction Medicine Division,207PE0004X,1.0,fuzzy match (query='addiction medicine division'): 'medicine' score=1.00
 Geriatric Medicine,207PE0004X|207QG0300X|207RG0300X,1.0,fuzzy match (query='geriatric medicine'): 'medicine' score=1.00; 'family medicine geriatric medicine' score=1.00; 'internal medicine geriatric medicine' score=1.00
-0B/GYN,JUNK,0.4286,best fuzzy 0.43 below cutoff 0.60 (query='0b gyn')
+0B/GYN,207V00000X,1.0,exact match on 'obstetrics gynecology'
 FREE STANDING (RU,JUNK,0.5333,best fuzzy 0.53 below cutoff 0.60 (query='free standing ru')
 Chiropractic,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
 Sleep Medicine,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
@@ -8471,7 +8471,7 @@ Dentistry Services,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pedi
 Emergency Medicine Service,207P00000X|207PE0004X,1.0,exact match on 'medicine'
 OB/GYN Center,207V00000X,1.0,exact match on 'obstetrics gynecology'
 Radiation Oncology,2085R0001X|261QX0200X|261QX0203X,1.0,fuzzy match (query='radiation oncology'): 'radiology radiation oncology' score=1.00; 'oncology' score=1.00; 'oncology radiation' score=1.00
-IR Center,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Center,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dept of Emergency Medical Technician,207XS0117X|2082S0105X|2086S0105X|251T00000X|305S00000X,1.0,fuzzy match (query='of'): 'orthopaedic surgery orthopaedic surgery of the spine' score=1.00; 'plastic surgery surgery of the hand' score=1.00; 'surgery surgery of the hand' score=1.00; 'of all inclusive for the elderly pace provider organization' score=1.00; 'point of' score=1.00
 Derma,207N00000X,0.625,fuzzy match (query='derma'): 'dermatology' score=0.62
 Occupational Therapist Division,225100000X|225X00000X,1.0,fuzzy match (query='occupational therapist division'): 'occupational therapist' score=1.00; 'therapist' score=1.00
@@ -8537,7 +8537,7 @@ Neurology Service,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuz
 Family Medicine,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
 Emergency Medicine Division,207PE0004X,1.0,fuzzy match (query='medicine division'): 'medicine' score=1.00
 Emergency Medicine hospital,207P00000X|207PE0004X,1.0,exact match on 'medicine'
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Pathology Practice,246Q00000X|246QM0706X|246R00000X,1.0,exact match on 'pathology'
 Dept of Psychiatry,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,0.8696,fuzzy match (query='of psychiatry'): 'psychiatry neurology addiction medicine' score=0.87; 'psychiatry neurology addiction psychiatry' score=0.87; 'psychiatry neurology behavioral neurology neuropsychiatry' score=0.87; 'psychiatry neurology brain injury medicine' score=0.87; 'psychiatry neurology child adolescent psychiatry' score=0.87
 Anesthesiology Services,207L00000X,1.0,exact match on 'anesthesiology'
@@ -8739,7 +8739,7 @@ Geriatric Medicine Center,207PE0004X|207QG0300X|207RG0300X,1.0,fuzzy match (quer
 IP,JUNK,0.4,best fuzzy 0.40 below cutoff 0.60 (query='ip')
 Hematology,207RH0000X|207RH0003X|2080P0207X|246QH0000X,1.0,fuzzy match (query='hematology'): 'internal medicine hematology' score=1.00; 'internal medicine hematology oncology' score=1.00; 'pathology hematology' score=1.00; 'pediatrics pediatric hematology oncology' score=1.00
 Gastroenterology dept,163WG0100X|207RG0100X|2080P0206X,1.0,fuzzy match (query='gastroenterology'): 'internal medicine gastroenterology' score=1.00; 'pediatrics pediatric gastroenterology' score=1.00; 'nurse gastroenterology' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Orthopedic Surgery Services,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
 Dept of Hospice and Palliative Care,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH0002X,0.9231,fuzzy match (query='of hospice palliative'): 'anesthesiology hospice palliative medicine' score=0.92; 'medicine hospice palliative medicine' score=0.92; 'family medicine hospice palliative medicine' score=0.92; 'internal medicine hospice palliative medicine' score=0.92; 'obstetrics gynecology hospice palliative medicine' score=0.92
 Registered Nurse Unit,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
@@ -8889,7 +8889,7 @@ Critical Care Medicine - USA,207PE0004X,1.0,fuzzy match (query='critical medicin
 Naturopathic Physician Practice,363AM0700X,1.0,fuzzy match (query='naturopathic physician'): 'physician' score=1.00
 Pharmacy,183700000X|333600000X,1.0,exact match on 'pharmacy'
 Registered Nurse Practice,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exact match on 'nurse'
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Orthotics-and-Prosthetics,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
 Audiology,2355A2700X,1.0,exact match on 'audiology'
 Reproductive Endocrinology Unit,163WR1000X|207VE0102X,1.0,fuzzy match (query='reproductive endocrinology'): 'obstetrics gynecology reproductive endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
@@ -9003,7 +9003,7 @@ Nephrology Center,246ZN0300X,1.0,exact match on 'nephrology'
 Sleep Medicine,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
 PULMONARY MED1C1NE,207RP1001X|225B00000X|2278P1004X|2278P1005X|2278P1006X,0.6667,fuzzy match (query='pulmonary med1c1ne'): 'internal medicine pulmonary disease' score=0.67; 'pulmonary function' score=0.67; 'respiratory therapist certified pulmonary diagnostics' score=0.67; 'respiratory therapist certified pulmonary function' score=0.67; 'respiratory therapist certified pulmonary rehabilitation' score=0.67
 Addiction Medicine,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 ONCOLOGY,261QX0200X,1.0,exact match on 'oncology'
 Oncology dept,261QX0200X,1.0,exact match on 'oncology'
 Clinical Laboratory hospital,291U00000X,1.0,exact match on 'laboratory'
@@ -9324,7 +9324,7 @@ Endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,1.0,fuzzy match (query
 Adult Health Nurse Practitioner Division,363L00000X|363LA2200X,1.0,fuzzy match (query='adult nurse division'): 'nurse' score=1.00; 'nurse adult' score=1.00
 Ophthalmology,207W00000X,1.0,exact match on 'ophthalmology'
 Radiology dept,243U00000X|261QR0200X,1.0,exact match on 'radiology'
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Ophthalmology CLINIC,207W00000X,1.0,exact match on 'ophthalmology'
 Hospice and Palliative Care Services,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH0002X,1.0,fuzzy match (query='hospice palliative'): 'anesthesiology hospice palliative medicine' score=1.00; 'medicine hospice palliative medicine' score=1.00; 'family medicine hospice palliative medicine' score=1.00; 'internal medicine hospice palliative medicine' score=1.00; 'obstetrics gynecology hospice palliative medicine' score=1.00
 Dept of Urology,208800000X,1.0,fuzzy match (query='of urology'): 'urology' score=1.00
@@ -9348,7 +9348,7 @@ Oncology,261QX0200X,1.0,exact match on 'oncology'
 Ophthalmology,207W00000X,1.0,exact match on 'ophthalmology'
 FREE STANDING (RURAL HEALTH CLINIC),261QR1300X,1.0,fuzzy match (query='free standing rural'): 'rural' score=1.00
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
-IR dept,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR dept,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Addiction Medicine,207LA0401X|207PE0004X|207QA0401X|207RA0401X|2083A0300X,1.0,fuzzy match (query='addiction medicine'): 'anesthesiology addiction medicine' score=1.00; 'medicine' score=1.00; 'family medicine addiction medicine' score=1.00; 'internal medicine addiction medicine' score=1.00; 'preventive medicine addiction medicine' score=1.00
 Audiology dept,2355A2700X,1.0,exact match on 'audiology'
 Infectious Disease Program,207RI0200X,1.0,fuzzy match (query='infectious disease'): 'internal medicine infectious disease' score=1.00
@@ -9362,7 +9362,7 @@ Gerontology - Nurse Practitioner Center,363L00000X|363LG0600X,1.0,fuzzy match (q
 TAXI Center,344600000X,1.0,exact match on 'taxi'
 Dietitian,133V00000X,1.0,exact match on 'dietitian'
 Neurops,363L00000X,0.6667,fuzzy match (query='neurops'): 'nurse' score=0.67
-IR Service,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Service,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Surgical Oncology dept,208600000X,1.0,exact match on 'surgery'
 Sports Medicine dept,204C00000X|207PE0004X|207PS0010X|207QS0010X|207RS0010X,1.0,fuzzy match (query='sports medicine'): 'medicine' score=1.00; 'medicine sports medicine' score=1.00; 'family medicine sports medicine' score=1.00; 'internal medicine sports medicine' score=1.00; 'neuromusculoskeletal medicine sports medicine' score=1.00
 Sleep Medicine dept,207PE0004X|207QS1201X|207RS0012X|207YS0012X|2080S0012X,1.0,fuzzy match (query='sleep medicine'): 'medicine' score=1.00; 'family medicine sleep medicine' score=1.00; 'internal medicine sleep medicine' score=1.00; 'otolaryngology sleep medicine' score=1.00; 'pediatrics sleep medicine' score=1.00
@@ -9502,7 +9502,7 @@ Hospice and Palliative Care,207LH0002X|207PH0002X|207QH0002X|207RH0002X|207VH000
 Neurology Unit,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 family medicine,207PE0004X|207Q00000X|207QA0000X|207QA0401X|207QA0505X,1.0,fuzzy match (query='family medicine'): 'medicine' score=1.00; 'family medicine osteopathic manipulative treatment' score=1.00; 'family medicine addiction medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'family medicine adult medicine' score=1.00
 InfectiousDisease,JUNK,0.5625,best fuzzy 0.56 below cutoff 0.60 (query='infectiousdisease')
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Dermatology Division,207N00000X,1.0,fuzzy match (query='dermatology division'): 'dermatology' score=1.00
 PEDIATRIC 0PT0METRIST,152WP0200X,0.8837,fuzzy match (query='pediatric 0pt0metrist'): 'optometrist pediatrics' score=0.88
 Clinical Psychology,103TH0100X,0.8182,fuzzy match (query='psychology'): 'psychologist' score=0.82
@@ -9538,7 +9538,7 @@ UROLOGY,208800000X,1.0,exact match on 'urology'
 Vascular Surgery,208600000X|2086S0129X|208G00000X,1.0,fuzzy match (query='vascular surgery'): 'surgery' score=1.00; 'surgery vascular surgery' score=1.00; 'thoracic surgery cardiothoracic vascular surgery' score=1.00
 Nuclear Medicine,207U00000X,1.0,exact match on 'nuclear medicine'
 Naturopathic Physician dept,363AM0700X,1.0,fuzzy match (query='naturopathic physician'): 'physician' score=1.00
-IR CLINIC,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR CLINIC,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Psychiatry Practice,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Speech-Language Pathologist Practice,235Z00000X,1.0,exact match on 'speech language pathologist'
 Orthotics and Prosthetics Program,335E00000X,0.8163,fuzzy match (query='orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.82
@@ -9552,7 +9552,7 @@ PHYSICAL-MEDICINE-&-REHAB,207PE0004X,1.0,fuzzy match (query='medicine rehab'): '
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
 Plastic Surgery Center,208200000X,1.0,exact match on 'plastic surgery'
 PEDIATRIC OPTOMETRIST Division,152W00000X,1.0,fuzzy match (query='pediatric optometrist division'): 'optometrist' score=1.00
-ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Pain Management,163WP0000X|261QP3300X,1.0,fuzzy match (query='pain management'): 'nurse pain management' score=1.00; 'pain' score=1.00
 Psychiatry,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='psychiatry'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
 Dept of Orthotics and Prosthetics,335E00000X,0.7692,fuzzy match (query='of orthotics prosthetics'): 'prosthetic orthotic supplier' score=0.77
@@ -9604,7 +9604,7 @@ Nuclear Medicine Unit,207U00000X,1.0,exact match on 'nuclear medicine'
 Pediatric Optometrist,152W00000X|152WP0200X,1.0,fuzzy match (query='pediatric optometrist'): 'optometrist' score=1.00; 'optometrist pediatrics' score=0.98
 Urology,208800000X,1.0,exact match on 'urology'
 Internal Medicine,207R00000X,1.0,exact match on 'internal medicine'
-Ir,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+Ir,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Emergency Medicine - USA,207PE0004X,1.0,fuzzy match (query='medicine usa'): 'medicine' score=1.00
 Occupational Therapist,225X00000X,1.0,exact match on 'occupational therapist'
 general practice,208D00000X,1.0,exact match on 'general'
@@ -9718,10 +9718,10 @@ PHYSICAL MEDICINE & REHAB Program,207PE0004X,1.0,fuzzy match (query='medicine re
 Clinical Laboratory,291U00000X,1.0,exact match on 'laboratory'
 speech-language pathologist,235Z00000X,1.0,exact match on 'speech language pathologist'
 taxi,344600000X,1.0,exact match on 'taxi'
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Oncology Services,261QX0200X,1.0,exact match on 'oncology'
 Orthopedic Surgery Services,207X00000X|208600000X|246ZX2200X,1.0,fuzzy match (query='orthopedic surgery'): 'surgery' score=1.00; 'orthopedic' score=1.00; 'orthopaedic surgery' score=0.97
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Gerontology - Nurse Practitioner Program,363L00000X|363LG0600X,1.0,fuzzy match (query='gerontology nurse'): 'nurse' score=1.00; 'nurse gerontology' score=1.00
 Pediatric Dentistry,1223P0221X,1.0,fuzzy match (query='pediatric dentistry'): 'dentist pediatric dentistry' score=1.00
 TAXI,344600000X,1.0,exact match on 'taxi'
@@ -9802,7 +9802,7 @@ MIDWIFE,176B00000X,1.0,exact match on 'midwife'
 Critical Care Medicine dept,207LC0200X|207PE0004X|207RC0200X|207VC0200X|2080P0203X,1.0,fuzzy match (query='critical medicine'): 'anesthesiology critical medicine' score=1.00; 'medicine' score=1.00; 'internal medicine critical medicine' score=1.00; 'obstetrics gynecology critical medicine' score=1.00; 'pediatrics pediatric critical medicine' score=1.00
 Neurops,363L00000X,0.6667,fuzzy match (query='neurops'): 'nurse' score=0.67
 Dept of Neuropsychiatry,2084B0040X,0.9091,fuzzy match (query='of neuropsychiatry'): 'psychiatry neurology behavioral neurology neuropsychiatry' score=0.91
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Addiction Medicine Division,207PE0004X,1.0,fuzzy match (query='addiction medicine division'): 'medicine' score=1.00
 Reproductive Endocrinology,163WR1000X|207VE0102X,1.0,fuzzy match (query='reproductive endocrinology'): 'obstetrics gynecology reproductive endocrinology' score=1.00; 'nurse reproductive endocrinology infertility' score=1.00
 Behavioral Health Counselor,101Y00000X,1.0,fuzzy match (query='behavioral counselor'): 'counselor' score=1.00
@@ -9814,7 +9814,7 @@ Nuclear Medicine Unit,207U00000X,1.0,exact match on 'nuclear medicine'
 Emergency Medicine Division,207PE0004X,1.0,fuzzy match (query='medicine division'): 'medicine' score=1.00
 Vascular Surgery Division,208600000X|2086S0129X,1.0,fuzzy match (query='vascular surgery division'): 'surgery' score=1.00; 'surgery vascular surgery' score=1.00
 Neurology,2084A0401X|2084B0040X|2084P0301X|2084P0802X|2084P0804X,1.0,fuzzy match (query='neurology'): 'psychiatry neurology addiction medicine' score=1.00; 'psychiatry neurology addiction psychiatry' score=1.00; 'psychiatry neurology behavioral neurology neuropsychiatry' score=1.00; 'psychiatry neurology brain injury medicine' score=1.00; 'psychiatry neurology child adolescent psychiatry' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Behavioral Health Counselor - USA,101Y00000X,1.0,fuzzy match (query='behavioral counselor usa'): 'counselor' score=1.00
 Naturopathic Physician,363AM0700X,1.0,fuzzy match (query='naturopathic physician'): 'physician' score=1.00
 PHYSICAL MEDICINE & REHAB Program,207PE0004X,1.0,fuzzy match (query='medicine rehab'): 'medicine' score=1.00
@@ -9857,7 +9857,7 @@ Dept of Endocrinology,163WR1000X|207RE0101X|207VE0102X|2080P0205X,0.8966,fuzzy m
 Urology,208800000X,1.0,exact match on 'urology'
 Radiology,243U00000X|261QR0200X,1.0,exact match on 'radiology'
 Pharmacy Center,183700000X|333600000X,1.0,exact match on 'pharmacy'
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Chiropractic Center,111N00000X,0.8333,fuzzy match (query='chiropractic'): 'chiropractor' score=0.83
 Speech-Language Pathologist Service,235Z00000X,1.0,exact match on 'speech language pathologist'
 MARR1AGE & FAM1LY THERAP1ST,106H00000X,0.88,fuzzy match (query='marr1age fam1ly therap1st'): 'marriage family therapist' score=0.88
@@ -9981,7 +9981,7 @@ Midwife,176B00000X,1.0,exact match on 'midwife'
 TAXI,344600000X,1.0,exact match on 'taxi'
 Public Health,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
 Behavioral Health Counselor Center,101Y00000X,1.0,fuzzy match (query='behavioral counselor'): 'counselor' score=1.00
-IR,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Pharmacy dept,183700000X|333600000X,1.0,exact match on 'pharmacy'
 Dentistry,1223P0221X,1.0,fuzzy match (query='dentistry'): 'dentist pediatric dentistry' score=1.00
 Public Health,1223D0001X|2083P0901X|213EP0504X|251K00000X|364SC1501X,1.0,fuzzy match (query='public'): 'preventive medicine public general preventive medicine' score=1.00; 'dentist dental public' score=1.00; 'nurse community public' score=1.00; 'podiatrist public medicine' score=1.00; 'public or welfare' score=1.00
@@ -10030,7 +10030,7 @@ Hematology Division,207N00000X|207RH0000X|207RH0003X|2080P0207X|246QH0000X,0.689
 Gastroen,JUNK,0.5333,best fuzzy 0.53 below cutoff 0.60 (query='gastroen')
 PULMONARY MEDICINE Practice,207PE0004X|207RP1001X,1.0,fuzzy match (query='pulmonary medicine'): 'medicine' score=1.00; 'internal medicine pulmonary disease' score=1.00
 ReproductiveEndocrinology,JUNK,0.5532,best fuzzy 0.55 below cutoff 0.60 (query='reproductiveendocrinology')
-OB/G,JUNK,0.3529,best fuzzy 0.35 below cutoff 0.60 (query='ob g')
+OB/G,207V00000X,1.0,exact match on 'obstetrics gynecology'
 PHYSICAL MEDICINE & REHAB CLINIC,207PE0004X,1.0,fuzzy match (query='medicine rehab'): 'medicine' score=1.00
 Dr. Chiropractic,111N00000X,0.8148,fuzzy match (query='dr chiropractic'): 'chiropractor' score=0.81
 Pharmacy,183700000X|333600000X,1.0,exact match on 'pharmacy'
@@ -10046,6 +10046,6 @@ REGISTERED NURSE,163W00000X|163WE0003X|363L00000X|364S00000X|364SE0003X,1.0,exac
 Dermatology hospital,207N00000X,1.0,exact match on 'dermatology'
 Plastic Surgery Service,208200000X,1.0,exact match on 'plastic surgery'
 Neuropsychiatry - USA,2084B0040X,0.8824,fuzzy match (query='neuropsychiatry usa'): 'psychiatry neurology behavioral neurology neuropsychiatry' score=0.88
-IR Practice,JUNK,0.5,best fuzzy 0.50 below cutoff 0.60 (query='ir')
+IR Practice,2085R0204X|261QR0200X,1.0,fuzzy match (query='interventional radiology'): 'radiology vascular interventional radiology' score=1.00; 'radiology' score=1.00
 Midwife Center,176B00000X,1.0,exact match on 'midwife'
 Midwife Services,176B00000X,1.0,exact match on 'midwife'
