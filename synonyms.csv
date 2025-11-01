@@ -3,6 +3,9 @@ ENT,otolaryngology
 ENT Specialist,otolaryngology
 OBGYN,obstetrics and gynecology
 OB/GYN,obstetrics and gynecology
+0B/GYN,obstetrics and gynecology
+0B/G,obstetrics and gynecology
+OB/G,obstetrics and gynecology
 Gyn,gynecology
 Cardio,cardiology
 Cardiology Dept,cardiology
@@ -139,5 +142,6 @@ Endodontist,endodontics
 General Dentist,dentistry
 Veterinary,veterinary medicine
 Vet,veterinary medicine
-IR and IR Unit,interventional radiology
+IR ,interventional radiology
+IR Unit,interventional radiology
 Diet, dietary
