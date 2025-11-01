@@ -2,14 +2,29 @@
 import argparse, pandas as pd, re
 from typing import List, Tuple, Dict
 from rapidfuzz import fuzz, process
+import json
 
 RE_NON_ALNUM = re.compile(r"[^0-9a-z ]+")
 
+def load_generic_words(path="generic_terms.json"):
+    try:
+        with open(path, "r") as f:
+            words = json.load(f)
+        return set(w.lower().strip() for w in words if w.strip())
+    except Exception:
+        return set()
+
+GENERIC_WORDS = load_generic_words()
+
 def normalize_text(s: str) -> str:
-    if s is None: return ""
-    s = s.lower().strip().replace("&"," and ").replace("/"," ").replace("-"," ")
+    if s is None:
+        return ""
+    s = s.lower().strip()
+    s = s.replace("&"," and ").replace("/"," ").replace("-"," ")
     s = RE_NON_ALNUM.sub(" ", s)
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    tokens = [t for t in s.split() if t not in GENERIC_WORDS]
+    return " ".join(tokens)
 
 def tokenize(s: str) -> List[str]:
     return [t for t in s.split() if t]
@@ -66,20 +81,38 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
             ids = index_by_norm[e]
             out = sorted({codes[i] for i in ids if codes[i]})
             return ("|".join(out) if out else "JUNK"), 1.0, f"exact match on '{e}'"
+        # ------------- FUZZY MATCH over all expansions -------------
     mapping = {candidates[i]: i for i in range(len(candidates))}
-    res = process.extract(exps[0], mapping.keys(), scorer=fuzz.token_set_ratio, limit=5)
-    if not res:
+
+    best_f = 0.0
+    best_res = None
+    best_exp = None
+    for exp in exps:                              # ← loop over all expansions
+        res = process.extract(exp, mapping.keys(), scorer=fuzz.token_set_ratio, limit=5)
+        if res:
+            top_cand, top_score, _ = res[0]
+            f = top_score / 100.0
+            if f > best_f:
+                best_f, best_res, best_exp = f, res, exp
+
+    if best_res is None:
         return "JUNK", 0.0, "no candidates"
-    top_cand, top_score, _ = res[0]
-    f = round(top_score/100.0, 4)
+
+    f = round(best_f, 4)
+    res = best_res
+
     if f < fuzzy_cutoff:
-        return "JUNK", f, f"top fuzzy {f:.2f} below cutoff {fuzzy_cutoff:.2f}"
+        return "JUNK", f, f"best fuzzy {f:.2f} below cutoff {fuzzy_cutoff:.2f} (query='{best_exp}')"
+
+    top_score = res[0][1]
     near = [r for r in res if (r[1]/100.0) >= fuzzy_cutoff and (top_score - r[1]) <= 3]
-    matched = sorted({codes[mapping[c]] for c,_,_ in near if codes[mapping[c]]})
+    matched = sorted({codes[mapping[c]] for c, _, _ in near if codes[mapping[c]]})
     if not matched:
         return "JUNK", f, "fuzzy above cutoff but no codes"
-    explain = "fuzzy match: " + "; ".join([f"'{c}' score={r/100:.2f}" for c,r,_ in near])
+
+    explain = f"fuzzy match (query='{best_exp}'): " + "; ".join([f"'{c}' score={r/100:.2f}" for c, r, _ in near])
     return "|".join(matched), f, explain
+
 
 def main():
     p = argparse.ArgumentParser(description="NUCC specialty standardizer with Label flag")
