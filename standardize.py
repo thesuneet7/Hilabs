@@ -6,11 +6,15 @@ from rapidfuzz import fuzz, process
 RE_NON_ALNUM = re.compile(r"[^0-9a-z ]+")
 NUCC_CODE_PATTERN = re.compile(r"\b[A-Z0-9]{10}\b", re.IGNORECASE)
 
-def extract_nucc_codes(text: str):
+def extract_nucc_codes(text: str, valid_codes: set) -> list:
+    """Extract only true NUCC codes (10-char alphanumeric strings that exist in valid_codes)."""
     if not isinstance(text, str):
         return []
+    # find all possible 10-char alphanum substrings
     matches = NUCC_CODE_PATTERN.findall(text.upper())
-    return [m for m in matches if any(c.isdigit() for c in m) and m[-1].isalpha()]
+    # keep only real NUCC codes
+    real_codes = [m for m in matches if m in valid_codes]
+    return real_codes
 
 def load_generic_words(path="generic_terms.json"):
     try:
@@ -26,6 +30,13 @@ def normalize_text(s: str) -> str:
     if s is None:
         return ""
     s = s.lower().strip()
+    # --- fix digit-letter confusions ---
+    # 1 -> i, 0 -> o at start or middle of alphabetic words
+    s = re.sub(r'\b1(?=[a-z])', 'i', s)        # e.g., 1p -> ip
+    s = re.sub(r'\b0(?=[a-z])', 'o', s)        # e.g., 0rthopedic -> orthopedic
+    s = re.sub(r'(?<=[a-z])1(?=[a-z])', 'i', s)  # e.g., ped1atrics -> pediatrics
+    s = re.sub(r'(?<=[a-z])0(?=[a-z])', 'o', s)  # e.g., orth0pedic -> orthopedic
+
     s = s.replace("&"," and ").replace("/"," ").replace("-"," ")
     s = RE_NON_ALNUM.sub(" ", s)
     s = re.sub(r"\s+", " ", s).strip()
@@ -69,10 +80,23 @@ def build_nucc_index(nucc_df: pd.DataFrame) -> Tuple[Dict[str, List[int]], List[
 
 def expand_via_synonyms(text: str, synonyms: Dict[str, List[str]]) -> List[str]:
     norm = normalize_text(text)
-    exps = [norm]
+    expansions = [norm]
+
+    # full-phrase synonym
     if norm in synonyms:
-        exps = list(dict.fromkeys(exps + synonyms[norm]))
-    return [e for e in exps if e]
+        expansions += synonyms[norm]
+
+    # token-level synonym expansion (replace tokens that are keys)
+    tokens = norm.split()
+    for i, tok in enumerate(tokens):
+        if tok in synonyms:
+            for exp in synonyms[tok]:
+                new_tokens = tokens.copy()
+                new_tokens[i] = exp
+                expansions.append(" ".join(new_tokens))
+
+    # deduplicate
+    return list(dict.fromkeys(e for e in expansions if e))
 
 # --- dictionary-based segmentation (Code 2 feature) ---
 def load_token_dict(path="nucc_dict.json"):
@@ -138,17 +162,22 @@ def has_emergency_medical_technician(raw: str) -> bool:
     return all(word in raw for word in ["emergency", "medical", "technician"])
 
 # --- classifier that composes both extras cleanly ---
-def classify_row(raw: str, synonyms: Dict[str, List[str]],
+def classify_row(raw: str,
+                 synonyms: Dict[str, List[str]],
                  index_by_norm: Dict[str, List[int]],
-                 candidates: List[str], codes: List[str],
-                 token_dict=None, fuzzy_cutoff=0.60) -> Tuple[str, float, str, bool]:
-    # 1) direct NUCC codes
-    direct_codes = extract_nucc_codes(raw)
+                 candidates: List[str],
+                 codes: List[str],
+                 valid_codes: set,
+                 token_dict=None,
+                 fuzzy_cutoff=0.60) -> Tuple[str, float, str]:
+
+    # 1️⃣ direct NUCC code check (with validation)
+    direct_codes = extract_nucc_codes(raw, valid_codes)
     if direct_codes:
         codes_str = "|".join(sorted(set(c.upper() for c in direct_codes)))
-        return codes_str, 1.0, "direct NUCC code detected in input", False
+        return codes_str, 1.0, "direct NUCC code detected in input"
 
-    # 2) spacing rescue (only prepares the query text; normalization happens later)
+    # 2️⃣ spacing rescue (dictionary segmentation)
     query_text = raw
     used_spacing = False
     if token_dict:
@@ -159,13 +188,15 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
                 query_text = seg
                 used_spacing = True
 
-    # 3) now run the normal pipeline on query_text
+    # 3️⃣ normalize (with 1→i and 0→o fix)
     rn = normalize_text(query_text)
     if rn == "":
-        return "JUNK", 0.0, "blank input", used_spacing
+        return "JUNK", 0.0, "blank input"
 
+    # 4️⃣ synonym expansion
     exps = expand_via_synonyms(query_text, synonyms)
 
+    # 5️⃣ exact match
     for e in exps:
         if e in index_by_norm:
             ids = index_by_norm[e]
@@ -173,8 +204,9 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
             expl = f"exact match on '{e}'"
             if used_spacing:
                 expl += " + spacing rescue"
-            return ("|".join(out) if out else "JUNK"), 1.0, expl, False
+            return ("|".join(out) if out else "JUNK"), 1.0, expl
 
+    # 6️⃣ fuzzy matching
     mapping = {candidates[i]: i for i in range(len(candidates))}
     best_f, best_res, best_exp = 0.0, None, None
     for exp in exps:
@@ -188,13 +220,13 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
     if best_res is None:
         expl = "no candidates"
         if used_spacing: expl += " + spacing tried"
-        return "JUNK", 0.0, expl, False
+        return "JUNK", 0.0, expl
 
     f = round(best_f, 4)
     if f < fuzzy_cutoff:
         expl = f"best fuzzy {f:.2f} below cutoff {fuzzy_cutoff:.2f} (query='{best_exp}')"
         if used_spacing: expl += " + spacing tried"
-        return "JUNK", f, expl, False
+        return "JUNK", f, expl
 
     top_score = best_res[0][1]
     near = [r for r in best_res if (r[1]/100.0) >= fuzzy_cutoff and (top_score - r[1]) <= 3]
@@ -202,37 +234,46 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
     if not matched:
         expl = "fuzzy above cutoff but no codes"
         if used_spacing: expl += " + spacing tried"
-        return "JUNK", f, expl, False
+        return "JUNK", f, expl
 
     explain = f"fuzzy match (query='{best_exp}'): " + "; ".join([f"'{c}' score={r/100:.2f}" for c, r, _ in near])
     if used_spacing:
         explain += " + spacing rescue"
-    return "|".join(matched), f, explain, False
+
+    return "|".join(matched), f, explain
+
 
 def main():
-    p = argparse.ArgumentParser(description="NUCC standardizer with spacing rescue + clinic/center append")
+    p = argparse.ArgumentParser(description="NUCC standardizer with spacing rescue + validated NUCC code detection")
     p.add_argument("--nucc", required=True)
     p.add_argument("--input", required=True)
     p.add_argument("--synonyms", required=False, default=None)
     p.add_argument("--out", required=True)
     args = p.parse_args()
 
+    # --- load base files ---
     nucc_df = pd.read_csv(args.nucc, dtype=str).fillna("")
     in_df = pd.read_csv(args.input, dtype=str).fillna("")
     synonyms = load_synonyms(args.synonyms) if args.synonyms else {}
     index_by_norm, candidates, codes = build_nucc_index(nucc_df)
     token_dict = load_token_dict("nucc_dict.json")
 
+    # --- build valid NUCC code set for filtering ---
+    valid_codes = set(str(c).upper().strip() for c in nucc_df["Code"].dropna() if len(str(c).strip()) == 10)
+
+    # --- pick input column ---
     if in_df.shape[1] == 1:
         col = in_df.columns[0]
     else:
         pref = [c for c in in_df.columns if c.lower() in ("raw_specialty","specialty","input","raw")]
         col = pref[0] if pref else in_df.columns[0]
 
+    # --- process rows ---
     rows = []
     for raw in in_df[col].astype(str).tolist():
-        nucc_codes, label, explain, _ = classify_row(
-            raw, synonyms, index_by_norm, candidates, codes, token_dict=token_dict, fuzzy_cutoff=0.60
+        nucc_codes, label, explain = classify_row(
+            raw, synonyms, index_by_norm, candidates, codes,
+            valid_codes=valid_codes, token_dict=token_dict, fuzzy_cutoff=0.60
         )
 
         # 1. Append clinic/center code if applicable
@@ -248,7 +289,7 @@ def main():
             nucc_codes = append_code_preserve_order(nucc_codes, "146N00000X")
             explain += " + mandatory emergency/medical/technician codes appended"
 
-            label=1
+            label = 1  # Forcibly overwrite Label to 1 when mandatory codes are added
 
         rows.append({
             "raw_specialty": raw,
