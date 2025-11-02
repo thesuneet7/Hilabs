@@ -7,17 +7,11 @@ WORKDIR /app
 # Copy the requirements.txt into the container
 COPY requirements.txt /app/
 
-# Install the dependencies listed in requirements.txt
+# Install the dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the project files into the container (if you have any)
-# COPY . /app/
+# Copy the rest of the project files into the container
+COPY . /app/
 
-# Set the entrypoint to run your app (if needed)
-# ENTRYPOINT ["python", "your_main_script.py"]
-
-# Expose the port (if your app runs on a port)
-# EXPOSE 5000
-
-# Optional: Command to run on container start (e.g., testing your setup)
-CMD ["python", "--version"]
+# Default command to run when the container starts
+CMD ["python3", "standardize.py", "--nucc", "nucc_taxonomy_master.csv", "--input", "input_specialties.csv", "--synonyms", "synonyms.csv", "--out", "output.csv"]
