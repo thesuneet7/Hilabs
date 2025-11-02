@@ -1,8 +1,8 @@
 {
   "code2tokens": {
     "193200000X": [
-      "specialty",
-      "multi"
+      "multi",
+      "specialty"
     ],
     "193400000X": [
       "specialty"
@@ -17,38 +17,38 @@
     ],
     "207KI0005X": [
       "laboratory",
-      "allergy",
-      "immunology"
+      "immunology",
+      "allergy"
     ],
     "207L00000X": [
       "anesthesiology"
     ],
     "207LA0401X": [
-      "addiction",
-      "anesthesiology"
+      "anesthesiology",
+      "addiction"
     ],
     "207LC0200X": [
       "anesthesiology",
       "critical"
     ],
     "207LH0002X": [
+      "anesthesiology",
       "hospice",
-      "palliative",
-      "anesthesiology"
+      "palliative"
     ],
     "207LP2900X": [
-      "pain",
-      "anesthesiology"
+      "anesthesiology",
+      "pain"
     ],
     "207LP3000X": [
-      "pediatric",
-      "anesthesiology"
+      "anesthesiology",
+      "pediatric"
     ],
     "207LP4000X": [
-      "nutrition",
+      "anesthesiology",
       "physician",
-      "specialist",
-      "anesthesiology"
+      "nutrition",
+      "specialist"
     ],
     "208U00000X": [],
     "208C00000X": [
@@ -59,8 +59,8 @@
     ],
     "207NI0002X": [
       "dermatology",
-      "laboratory",
-      "immunology"
+      "immunology",
+      "laboratory"
     ],
     "207ND0900X": [
       "dermatology",
@@ -85,30 +85,30 @@
       "emergency"
     ],
     "207PH0002X": [
+      "emergency",
       "hospice",
-      "palliative",
-      "emergency"
+      "palliative"
     ],
     "207PT0002X": [
-      "toxicology",
-      "emergency"
+      "emergency",
+      "toxicology"
     ],
     "207PP0204X": [
-      "pediatric",
-      "emergency"
+      "emergency",
+      "pediatric"
     ],
     "207PS0010X": [
-      "sports",
-      "emergency"
+      "emergency",
+      "sports"
     ],
     "207PE0005X": [
-      "undersea",
       "emergency",
-      "hyperbaric"
+      "hyperbaric",
+      "undersea"
     ],
     "207Q00000X": [
-      "family",
-      "treatment"
+      "treatment",
+      "family"
     ],
     "207QA0401X": [
       "addiction",
@@ -132,18 +132,18 @@
       "family"
     ],
     "207QB0002X": [
-      "family",
-      "obesity"
+      "obesity",
+      "family"
     ],
     "207QP0002X": [
-      "nutrition",
       "physician",
+      "nutrition",
       "specialist",
       "family"
     ],
     "207QS1201X": [
-      "family",
-      "sleep"
+      "sleep",
+      "family"
     ],
     "207QS0010X": [
       "sports",
@@ -154,42 +154,42 @@
     ],
     "208M00000X": [],
     "202C00000X": [
-      "examiner",
-      "independent"
+      "independent",
+      "examiner"
     ],
     "202D00000X": [],
     "207R00000X": [
       "internal"
     ],
     "207RA0401X": [
-      "addiction",
-      "internal"
+      "internal",
+      "addiction"
     ],
     "207RA0000X": [
-      "adolescent",
-      "internal"
+      "internal",
+      "adolescent"
     ],
     "207RA0002X": [
-      "adult",
-      "heart",
       "internal",
-      "disease"
+      "disease",
+      "adult",
+      "heart"
     ],
     "207RA0001X": [
       "internal",
-      "advanced",
-      "cardiology",
       "heart",
-      "transplant"
+      "cardiology",
+      "transplant",
+      "advanced"
     ],
     "207RA0201X": [
-      "immunology",
       "internal",
+      "immunology",
       "allergy"
     ],
     "207RC0000X": [
-      "cardiovascular",
       "internal",
+      "cardiovascular",
       "disease"
     ],
     "207RI0001X": [
@@ -199,25 +199,25 @@
     ],
     "207RC0001X": [
       "internal",
-      "electrophysiology",
-      "cardiac"
+      "cardiac",
+      "electrophysiology"
     ],
     "207RC0200X": [
       "internal",
       "critical"
     ],
     "207RE0101X": [
-      "endocrinology",
+      "internal",
       "diabetes",
-      "internal"
+      "endocrinology"
     ],
     "207RG0100X": [
       "internal",
       "gastroenterology"
     ],
     "207RG0300X": [
-      "geriatric",
-      "internal"
+      "internal",
+      "geriatric"
     ],
     "207RH0000X": [
       "internal",
@@ -233,30 +233,30 @@
       "hepatology"
     ],
     "207RH0002X": [
+      "internal",
       "hospice",
-      "palliative",
-      "internal"
+      "palliative"
     ],
     "207RH0005X": [
-      "specialist",
-      "internal"
+      "internal",
+      "specialist"
     ],
     "207RI0200X": [
       "internal",
-      "infectious",
-      "disease"
+      "disease",
+      "infectious"
     ],
     "207RI0011X": [
-      "cardiology",
       "internal",
+      "cardiology",
       "interventional"
     ],
     "207RM1200X": [
-      "internal",
-      "magnetic",
-      "mri",
       "imaging",
-      "resonance"
+      "mri",
+      "internal",
+      "resonance",
+      "magnetic"
     ],
     "207RX0202X": [
       "internal",
@@ -271,9 +271,9 @@
       "obesity"
     ],
     "207RP1002X": [
-      "nutrition",
-      "physician",
       "internal",
+      "physician",
+      "nutrition",
       "specialist"
     ],
     "207RP1001X": [
@@ -282,20 +282,20 @@
       "disease"
     ],
     "207RR0500X": [
-      "rheumatology",
-      "internal"
+      "internal",
+      "rheumatology"
     ],
     "207RS0012X": [
-      "internal",
-      "sleep"
-    ],
-    "207RS0010X": [
-      "sports",
+      "sleep",
       "internal"
     ],
-    "207RT0003X": [
-      "transplant",
+    "207RS0010X": [
       "internal",
+      "sports"
+    ],
+    "207RT0003X": [
+      "internal",
+      "transplant",
       "hepatology"
     ],
     "209800000X": [
@@ -321,8 +321,8 @@
     ],
     "207SM0001X": [
       "genetics",
-      "pathology",
       "molecular",
+      "pathology",
       "genetic"
     ],
     "207SG0205X": [
@@ -349,9 +349,9 @@
       "cardiology"
     ],
     "207UN0902X": [
+      "imaging",
       "nuclear",
-      "therapy",
-      "imaging"
+      "therapy"
     ],
     "207V00000X": [
       "gynecology",
@@ -360,8 +360,8 @@
     "207VC0300X": [
       "gynecology",
       "obstetrics",
-      "family",
-      "planning"
+      "planning",
+      "family"
     ],
     "207VC0200X": [
       "gynecology",
@@ -371,10 +371,10 @@
     "207VF0040X": [
       "obstetrics",
       "reconstructive",
-      "urogynecology",
+      "gynecology",
       "surgery",
       "pelvic",
-      "gynecology"
+      "urogynecology"
     ],
     "207VX0201X": [
       "gynecology",
@@ -388,8 +388,8 @@
     "207VH0002X": [
       "gynecology",
       "hospice",
-      "palliative",
-      "obstetrics"
+      "obstetrics",
+      "palliative"
     ],
     "207VM0101X": [
       "gynecology",
@@ -398,26 +398,26 @@
     ],
     "207VB0002X": [
       "gynecology",
-      "obstetrics",
-      "obesity"
+      "obesity",
+      "obstetrics"
     ],
     "207VX0000X": [
       "gynecology",
       "obstetrics"
     ],
     "207VE0102X": [
-      "endocrinology",
       "gynecology",
+      "obstetrics",
       "reproductive",
-      "obstetrics"
+      "endocrinology"
     ],
     "207W00000X": [
       "ophthalmology"
     ],
     "207WX0120X": [
       "ophthalmology",
-      "specialist",
-      "diseases"
+      "diseases",
+      "specialist"
     ],
     "207WX0009X": [
       "ophthalmology",
@@ -443,13 +443,13 @@
       "specialist"
     ],
     "207WX0108X": [
-      "ophthalmology",
-      "disease"
+      "disease",
+      "ophthalmology"
     ],
     "204E00000X": [
-      "maxillofacial",
       "surgery",
-      "oral"
+      "oral",
+      "maxillofacial"
     ],
     "207X00000X": [
       "orthopaedic",
@@ -457,15 +457,15 @@
     ],
     "207XS0114X": [
       "orthopaedic",
+      "reconstructive",
       "adult",
-      "surgery",
-      "reconstructive"
+      "surgery"
     ],
     "207XX0004X": [
       "orthopaedic",
-      "surgery",
       "ankle",
-      "foot"
+      "foot",
+      "surgery"
     ],
     "207XS0106X": [
       "orthopaedic",
@@ -482,8 +482,8 @@
       "surgery"
     ],
     "207XP3100X": [
-      "pediatric",
       "orthopaedic",
+      "pediatric",
       "surgery"
     ],
     "207XX0005X": [
@@ -495,20 +495,20 @@
       "otolaryngology"
     ],
     "207YS0123X": [
-      "facial",
       "surgery",
-      "otolaryngology",
-      "plastic"
+      "facial",
+      "plastic",
+      "otolaryngology"
     ],
     "207YX0602X": [
-      "otolaryngology",
-      "allergy"
+      "allergy",
+      "otolaryngology"
     ],
     "207YX0905X": [
-      "facial",
       "surgery",
-      "otolaryngology",
-      "plastic"
+      "facial",
+      "plastic",
+      "otolaryngology"
     ],
     "207YX0901X": [
       "otolaryngology"
@@ -518,16 +518,16 @@
       "otolaryngology"
     ],
     "207YX0007X": [
-      "within",
+      "head",
       "otolaryngology",
       "surgery",
       "plastic",
-      "head",
-      "neck"
+      "neck",
+      "within"
     ],
     "207YS0012X": [
-      "otolaryngology",
-      "sleep"
+      "sleep",
+      "otolaryngology"
     ],
     "208VP0014X": [
       "pain",
@@ -537,17 +537,17 @@
       "pain"
     ],
     "207ZP0101X": [
-      "pathology",
-      "anatomic"
+      "anatomic",
+      "pathology"
     ],
     "207ZP0102X": [
-      "pathology",
-      "anatomic"
+      "anatomic",
+      "pathology"
     ],
     "207ZB0001X": [
       "pathology",
-      "banking",
-      "blood"
+      "blood",
+      "banking"
     ],
     "207ZP0104X": [
       "pathology"
@@ -567,8 +567,8 @@
       "pathology"
     ],
     "207ZD0900X": [
-      "pathology",
-      "dermatopathology"
+      "dermatopathology",
+      "pathology"
     ],
     "207ZF0201X": [
       "pathology",
@@ -586,16 +586,16 @@
       "microbiology"
     ],
     "207ZP0007X": [
-      "pathology",
       "molecular",
+      "pathology",
       "genetic"
     ],
     "207ZN0500X": [
       "pathology"
     ],
     "207ZP0213X": [
-      "pediatric",
-      "pathology"
+      "pathology",
+      "pediatric"
     ],
     "208000000X": [
       "pediatrics"
@@ -605,48 +605,48 @@
       "pediatrics"
     ],
     "2080C0008X": [
-      "abuse",
       "pediatrics",
+      "abuse",
       "child"
     ],
     "2080I0007X": [
       "laboratory",
-      "pediatrics",
-      "immunology"
+      "immunology",
+      "pediatrics"
     ],
     "2080P0006X": [
       "developmental",
-      "pediatrics",
-      "behavioral"
+      "behavioral",
+      "pediatrics"
     ],
     "2080H0002X": [
       "hospice",
-      "pediatrics",
-      "palliative"
+      "palliative",
+      "pediatrics"
     ],
     "2080T0002X": [
       "toxicology",
       "pediatrics"
     ],
     "2080N0001X": [
-      "pediatrics",
       "perinatal",
-      "neonatal"
+      "neonatal",
+      "pediatrics"
     ],
     "2080P0008X": [
       "disabilities",
-      "pediatrics",
-      "neurodevelopmental"
+      "neurodevelopmental",
+      "pediatrics"
     ],
     "2080B0002X": [
-      "pediatrics",
-      "obesity"
+      "obesity",
+      "pediatrics"
     ],
     "2080P0201X": [
       "pediatric",
       "immunology",
-      "pediatrics",
-      "allergy"
+      "allergy",
+      "pediatrics"
     ],
     "2080P0202X": [
       "pediatric",
@@ -655,40 +655,40 @@
     ],
     "2080P0203X": [
       "pediatric",
-      "pediatrics",
-      "critical"
+      "critical",
+      "pediatrics"
     ],
     "2080P0204X": [
+      "emergency",
       "pediatric",
-      "pediatrics",
-      "emergency"
+      "pediatrics"
     ],
     "2080P0205X": [
       "pediatric",
-      "pediatrics",
-      "endocrinology"
+      "endocrinology",
+      "pediatrics"
     ],
     "2080P0206X": [
       "pediatric",
-      "pediatrics",
-      "gastroenterology"
+      "gastroenterology",
+      "pediatrics"
     ],
     "2080P0207X": [
       "pediatric",
-      "pediatrics",
       "hematology",
-      "oncology"
+      "oncology",
+      "pediatrics"
     ],
     "2080P0208X": [
-      "pediatric",
       "pediatrics",
+      "diseases",
       "infectious",
-      "diseases"
+      "pediatric"
     ],
     "2080P0210X": [
+      "nephrology",
       "pediatric",
-      "pediatrics",
-      "nephrology"
+      "pediatrics"
     ],
     "2080P0214X": [
       "pediatric",
@@ -702,18 +702,18 @@
     "2080T0004X": [
       "pediatric",
       "transplant",
-      "pediatrics",
-      "hepatology"
+      "hepatology",
+      "pediatrics"
     ],
     "2080P1004X": [
-      "nutrition",
       "physician",
-      "pediatrics",
-      "specialist"
+      "nutrition",
+      "specialist",
+      "pediatrics"
     ],
     "2080S0012X": [
-      "pediatrics",
-      "sleep"
+      "sleep",
+      "pediatrics"
     ],
     "2080S0010X": [
       "sports",
@@ -725,25 +725,25 @@
       "rehabilitation"
     ],
     "2081P0301X": [
-      "rehabilitation",
-      "physical",
       "brain",
-      "injury"
+      "injury",
+      "physical",
+      "rehabilitation"
     ],
     "2081H0002X": [
       "hospice",
-      "rehabilitation",
+      "physical",
       "palliative",
-      "physical"
+      "rehabilitation"
     ],
     "2081N0008X": [
-      "rehabilitation",
+      "neuromuscular",
       "physical",
-      "neuromuscular"
+      "rehabilitation"
     ],
     "2081P2900X": [
-      "physical",
       "pain",
+      "physical",
       "rehabilitation"
     ],
     "2081P0010X": [
@@ -752,8 +752,8 @@
       "rehabilitation"
     ],
     "2081P0004X": [
-      "physical",
       "rehabilitation",
+      "physical",
       "injury"
     ],
     "2081S0010X": [
@@ -762,24 +762,24 @@
       "rehabilitation"
     ],
     "208200000X": [
-      "plastic",
-      "surgery"
+      "surgery",
+      "plastic"
     ],
     "2082S0099X": [
-      "within",
+      "head",
       "surgery",
       "plastic",
-      "head",
-      "neck"
+      "neck",
+      "within"
     ],
     "2082S0105X": [
-      "plastic",
       "surgery",
+      "plastic",
       "hand"
     ],
     "2083A0300X": [
-      "addiction",
-      "preventive"
+      "preventive",
+      "addiction"
     ],
     "2083A0100X": [
       "preventive"
@@ -793,22 +793,22 @@
       "preventive"
     ],
     "2083B0002X": [
-      "preventive",
-      "obesity"
+      "obesity",
+      "preventive"
     ],
     "2083X0100X": [
-      "occupational",
-      "preventive"
+      "preventive",
+      "occupational"
     ],
     "2083P0500X": [
       "environmental",
-      "occupational",
-      "preventive"
+      "preventive",
+      "occupational"
     ],
     "2083P0901X": [
       "public",
-      "general",
-      "preventive"
+      "preventive",
+      "general"
     ],
     "2083S0010X": [
       "sports",
@@ -816,8 +816,8 @@
     ],
     "2083P0011X": [
       "undersea",
-      "preventive",
-      "hyperbaric"
+      "hyperbaric",
+      "preventive"
     ],
     "2084A0401X": [
       "neurology",
@@ -830,87 +830,87 @@
       "addiction"
     ],
     "2084B0040X": [
-      "neurology",
       "psychiatry",
+      "neurology",
       "behavioral"
     ],
     "2084P0301X": [
+      "brain",
       "neurology",
       "psychiatry",
-      "brain",
       "injury"
     ],
     "2084P0804X": [
-      "neurology",
       "psychiatry",
-      "child",
-      "adolescent"
+      "neurology",
+      "adolescent",
+      "child"
     ],
     "2084N0600X": [
       "neurology",
       "psychiatry"
     ],
     "2084D0003X": [
-      "neurology",
+      "neuroimaging",
       "psychiatry",
-      "diagnostic",
-      "neuroimaging"
+      "neurology",
+      "diagnostic"
     ],
     "2084E0001X": [
-      "neurology",
-      "psychiatry",
-      "epilepsy"
-    ],
-    "2084F0202X": [
-      "neurology",
-      "psychiatry",
-      "forensic"
-    ],
-    "2084P0805X": [
-      "geriatric",
+      "epilepsy",
       "neurology",
       "psychiatry"
     ],
-    "2084H0002X": [
+    "2084F0202X": [
+      "forensic",
+      "neurology",
+      "psychiatry"
+    ],
+    "2084P0805X": [
       "neurology",
       "psychiatry",
-      "palliative",
-      "hospice"
+      "geriatric"
+    ],
+    "2084H0002X": [
+      "hospice",
+      "neurology",
+      "psychiatry",
+      "palliative"
     ],
     "2084A2900X": [
       "neurology",
       "psychiatry"
     ],
     "2084P0005X": [
-      "neurology",
-      "psychiatry",
       "disabilities",
-      "neurodevelopmental"
+      "neurodevelopmental",
+      "neurology",
+      "psychiatry"
     ],
     "2084N0400X": [
       "neurology",
       "psychiatry"
     ],
     "2084N0402X": [
+      "child",
       "neurology",
       "psychiatry",
-      "special",
-      "child"
+      "special"
     ],
     "2084N0008X": [
+      "neuromuscular",
       "neurology",
-      "psychiatry",
-      "neuromuscular"
+      "psychiatry"
     ],
     "2084B0002X": [
+      "obesity",
       "neurology",
-      "psychiatry",
-      "obesity"
+      "psychiatry"
     ],
     "2084P2900X": [
+      "pain",
       "neurology",
-      "psychiatry",
-      "pain"
+      "psychiatry"
     ],
     "2084P0800X": [
       "neurology",
@@ -921,57 +921,57 @@
       "psychiatry"
     ],
     "2084S0012X": [
+      "sleep",
       "neurology",
-      "psychiatry",
-      "sleep"
+      "psychiatry"
     ],
     "2084S0010X": [
+      "sports",
       "neurology",
-      "psychiatry",
-      "sports"
+      "psychiatry"
     ],
     "2084V0102X": [
+      "vascular",
       "neurology",
-      "psychiatry",
-      "vascular"
+      "psychiatry"
     ],
     "2085B0100X": [
-      "imaging",
-      "radiology"
+      "radiology",
+      "imaging"
     ],
     "2085D0003X": [
+      "radiology",
       "diagnostic",
-      "neuroimaging",
-      "radiology"
+      "neuroimaging"
     ],
     "2085R0202X": [
-      "diagnostic",
-      "radiology"
+      "radiology",
+      "diagnostic"
     ],
     "2085U0001X": [
-      "diagnostic",
-      "radiology"
+      "radiology",
+      "diagnostic"
     ],
     "2085H0002X": [
+      "radiology",
       "hospice",
-      "palliative",
-      "radiology"
+      "palliative"
     ],
     "2085N0700X": [
       "radiology"
     ],
     "2085N0904X": [
-      "nuclear",
-      "radiology"
+      "radiology",
+      "nuclear"
     ],
     "2085P0229X": [
-      "pediatric",
-      "radiology"
+      "radiology",
+      "pediatric"
     ],
     "2085R0001X": [
       "radiology",
-      "oncology",
-      "radiation"
+      "radiation",
+      "oncology"
     ],
     "2085R0205X": [
       "radiology"
@@ -980,31 +980,31 @@
       "radiology"
     ],
     "2085R0204X": [
-      "interventional",
+      "radiology",
       "vascular",
-      "radiology"
+      "interventional"
     ],
     "208600000X": [
       "surgery"
     ],
     "2086H0002X": [
+      "surgery",
       "hospice",
-      "palliative",
-      "surgery"
+      "palliative"
     ],
     "2086S0120X": [
-      "pediatric",
-      "surgery"
+      "surgery",
+      "pediatric"
     ],
     "2086P0122X": [
-      "nutrition",
-      "physician",
       "surgery",
+      "physician",
+      "nutrition",
       "specialist"
     ],
     "2086S0122X": [
-      "plastic",
       "surgery",
+      "plastic",
       "reconstructive"
     ],
     "2086S0105X": [
@@ -1012,18 +1012,18 @@
       "hand"
     ],
     "2086S0102X": [
-      "surgical",
       "surgery",
+      "surgical",
       "critical"
     ],
     "2086X0206X": [
-      "surgical",
       "surgery",
+      "surgical",
       "oncology"
     ],
     "2086S0127X": [
-      "trauma",
-      "surgery"
+      "surgery",
+      "trauma"
     ],
     "2086S0129X": [
       "surgery",
@@ -1034,18 +1034,18 @@
       "vascular"
     ],
     "204F00000X": [
-      "transplant",
-      "surgery"
+      "surgery",
+      "transplant"
     ],
     "208800000X": [
       "urology"
     ],
     "2088F0040X": [
       "reconstructive",
-      "urogynecology",
+      "urology",
       "surgery",
       "pelvic",
-      "urology"
+      "urogynecology"
     ],
     "2088P0231X": [
       "pediatric",
@@ -1057,8 +1057,8 @@
       "assistant"
     ],
     "106S00000X": [
-      "technician",
-      "behavior"
+      "behavior",
+      "technician"
     ],
     "103K00000X": [
       "analyst",
@@ -1075,10 +1075,10 @@
     ],
     "101YA0400X": [
       "substance",
-      "disorder",
-      "use",
       "counselor",
-      "addiction"
+      "addiction",
+      "use",
+      "disorder"
     ],
     "101YM0800X": [
       "mental",
@@ -1111,15 +1111,15 @@
     ],
     "103TA0400X": [
       "substance",
-      "disorder",
-      "use",
       "psychologist",
+      "use",
+      "disorder",
       "addiction"
     ],
     "103TA0700X": [
-      "psychologist",
+      "development",
       "adult",
-      "development"
+      "psychologist"
     ],
     "103TC0700X": [
       "psychologist"
@@ -1136,25 +1136,25 @@
       "psychologist"
     ],
     "103TE1000X": [
-      "psychologist",
-      "educational"
+      "educational",
+      "psychologist"
     ],
     "103TE1100X": [
-      "psychologist",
       "sports",
-      "exercise"
+      "exercise",
+      "psychologist"
     ],
     "103TF0000X": [
       "psychologist",
       "family"
     ],
     "103TF0200X": [
-      "psychologist",
-      "forensic"
+      "forensic",
+      "psychologist"
     ],
     "103TP2701X": [
-      "psychologist",
-      "psychotherapy"
+      "psychotherapy",
+      "psychologist"
     ],
     "103TH0004X": [
       "psychologist"
@@ -1166,10 +1166,10 @@
       "psychologist"
     ],
     "103TM1800X": [
-      "psychologist",
-      "developmental",
+      "intellectual",
       "disabilities",
-      "intellectual"
+      "developmental",
+      "psychologist"
     ],
     "103TP0016X": [
       "psychologist"
@@ -1178,56 +1178,56 @@
       "psychologist"
     ],
     "103TP2700X": [
-      "psychologist",
-      "psychotherapy"
+      "psychotherapy",
+      "psychologist"
     ],
     "103TR0400X": [
       "psychologist",
       "rehabilitation"
     ],
     "103TS0200X": [
-      "psychologist",
-      "school"
+      "school",
+      "psychologist"
     ],
     "103TW0100X": [
-      "psychologist",
-      "women"
+      "women",
+      "psychologist"
     ],
     "104100000X": [
-      "worker",
-      "social"
+      "social",
+      "worker"
     ],
     "1041C0700X": [
-      "worker",
-      "social"
+      "social",
+      "worker"
     ],
     "1041S0200X": [
-      "worker",
       "school",
-      "social"
+      "social",
+      "worker"
     ],
     "111N00000X": [
       "chiropractor"
     ],
     "111NI0013X": [
-      "chiropractor",
+      "independent",
       "examiner",
-      "independent"
+      "chiropractor"
     ],
     "111NI0900X": [
       "chiropractor"
     ],
     "111NN0400X": [
-      "neurology",
-      "chiropractor"
+      "chiropractor",
+      "neurology"
     ],
     "111NN1001X": [
       "nutrition",
       "chiropractor"
     ],
     "111NX0100X": [
-      "occupational",
-      "chiropractor"
+      "chiropractor",
+      "occupational"
     ],
     "111NX0800X": [
       "orthopedic",
@@ -1238,12 +1238,12 @@
       "chiropractor"
     ],
     "111NR0200X": [
-      "chiropractor",
-      "radiology"
+      "radiology",
+      "chiropractor"
     ],
     "111NR0400X": [
-      "rehabilitation",
-      "chiropractor"
+      "chiropractor",
+      "rehabilitation"
     ],
     "111NS0005X": [
       "sports",
@@ -1254,71 +1254,71 @@
       "chiropractor"
     ],
     "125K00000X": [
+      "dental",
       "therapist",
-      "advanced",
-      "dental"
+      "advanced"
     ],
     "126800000X": [
-      "assistant",
-      "dental"
+      "dental",
+      "assistant"
     ],
     "124Q00000X": [
       "dental"
     ],
     "126900000X": [
-      "technician",
       "laboratory",
-      "dental"
+      "dental",
+      "technician"
     ],
     "125J00000X": [
-      "therapist",
-      "dental"
+      "dental",
+      "therapist"
     ],
     "122300000X": [
       "dentist"
     ],
     "1223D0004X": [
-      "dentist",
       "anesthesiology",
-      "dental"
+      "dental",
+      "dentist"
     ],
     "1223D0001X": [
+      "dental",
       "public",
-      "dentist",
-      "dental"
+      "dentist"
     ],
     "1223E0200X": [
       "dentist"
     ],
     "1223G0001X": [
-      "dentist",
-      "general"
+      "general",
+      "dentist"
     ],
     "1223P0106X": [
       "pathology",
-      "dentist",
+      "oral",
       "maxillofacial",
-      "oral"
+      "dentist"
     ],
     "1223X0008X": [
+      "radiology",
       "oral",
-      "dentist",
       "maxillofacial",
-      "radiology"
+      "dentist"
     ],
     "1223S0112X": [
-      "dentist",
-      "maxillofacial",
       "surgery",
-      "oral"
+      "oral",
+      "maxillofacial",
+      "dentist"
     ],
     "125Q00000X": [
-      "dentist",
-      "oral"
+      "oral",
+      "dentist"
     ],
     "1223X2210X": [
-      "dentist",
-      "pain"
+      "pain",
+      "dentist"
     ],
     "1223X0400X": [
       "dentist"
@@ -1342,44 +1342,44 @@
       "registered"
     ],
     "133V00000X": [
-      "dietitian",
-      "registered"
+      "registered",
+      "dietitian"
     ],
     "133VN1101X": [
-      "dietitian",
       "registered",
-      "nutrition"
+      "nutrition",
+      "dietitian"
     ],
     "133VN1006X": [
-      "dietitian",
       "registered",
-      "nutrition"
+      "nutrition",
+      "dietitian"
     ],
     "133VN1201X": [
-      "registered",
       "obesity",
       "dietitian",
       "management",
-      "nutrition"
+      "nutrition",
+      "registered"
     ],
     "133VN1301X": [
-      "dietitian",
-      "registered",
       "nutrition",
-      "oncology"
+      "registered",
+      "oncology",
+      "dietitian"
     ],
     "133VN1004X": [
-      "dietitian",
+      "pediatric",
       "registered",
       "nutrition",
-      "pediatric"
+      "dietitian"
     ],
     "133VN1401X": [
-      "registered",
-      "dietitian",
       "critical",
+      "dietitian",
       "pediatric",
-      "nutrition"
+      "nutrition",
+      "registered"
     ],
     "133VN1005X": [
       "dietitian",
@@ -1388,55 +1388,55 @@
       "renal"
     ],
     "133VN1501X": [
-      "dietitian",
+      "sports",
       "registered",
       "nutrition",
-      "sports"
+      "dietitian"
     ],
     "133N00000X": [
       "nutritionist"
     ],
     "133NN1002X": [
       "nutritionist",
-      "nutrition",
-      "education"
+      "education",
+      "nutrition"
     ],
     "146N00000X": [
-      "technician",
-      "emergency"
+      "emergency",
+      "technician"
     ],
     "146M00000X": [
+      "emergency",
       "technician",
-      "intermediate",
-      "emergency"
+      "intermediate"
     ],
     "146L00000X": [
-      "technician",
-      "emergency"
+      "emergency",
+      "technician"
     ],
     "146D00000X": [
-      "attendant",
-      "response",
+      "emergency",
       "personal",
-      "emergency"
+      "response",
+      "attendant"
     ],
     "152W00000X": [
       "optometrist"
     ],
     "152WC0802X": [
       "management",
-      "optometrist",
-      "contact"
+      "contact",
+      "optometrist"
     ],
     "152WL0500X": [
-      "optometrist",
       "vision",
       "low",
+      "optometrist",
       "rehabilitation"
     ],
     "152WX0102X": [
-      "optometrist",
       "vision",
+      "optometrist",
       "occupational"
     ],
     "152WP0200X": [
@@ -1444,69 +1444,69 @@
       "pediatrics"
     ],
     "152WS0006X": [
-      "optometrist",
       "vision",
-      "sports"
+      "sports",
+      "optometrist"
     ],
     "152WV0400X": [
-      "optometrist",
       "vision",
-      "therapy"
+      "therapy",
+      "optometrist"
     ],
     "156F00000X": [
-      "technician",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "156FC0800X": [
-      "technician",
-      "contact",
       "lens",
-      "technologist"
+      "contact",
+      "technologist",
+      "technician"
     ],
     "156FC0801X": [
+      "fitter",
       "contact",
-      "lens",
-      "technologist",
       "technician",
-      "fitter"
+      "lens",
+      "technologist"
     ],
     "156FX1700X": [
-      "technician",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "156FX1100X": [
-      "technician",
       "ophthalmic",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "156FX1101X": [
-      "technician",
-      "ophthalmic",
+      "assistant",
       "technologist",
-      "assistant"
+      "ophthalmic",
+      "technician"
     ],
     "156FX1800X": [
-      "technician",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "156FX1201X": [
-      "technician",
       "optometric",
+      "assistant",
       "technologist",
-      "assistant"
+      "technician"
     ],
     "156FX1202X": [
-      "technician",
       "optometric",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "156FX1900X": [
-      "technician",
-      "technologist"
+      "technologist",
+      "technician"
     ],
     "164W00000X": [
-      "nurse",
-      "licensed"
+      "licensed",
+      "nurse"
     ],
     "167G00000X": [
       "technician",
@@ -1514,51 +1514,51 @@
       "psychiatric"
     ],
     "164X00000X": [
-      "nurse",
-      "licensed"
+      "licensed",
+      "nurse"
     ],
     "163W00000X": [
       "nurse",
       "registered"
     ],
     "163WA0400X": [
-      "registered",
       "substance",
-      "disorder",
-      "use",
       "nurse",
-      "addiction"
+      "use",
+      "disorder",
+      "addiction",
+      "registered"
     ],
     "163WA2000X": [
+      "administrator",
       "nurse",
-      "registered",
-      "administrator"
+      "registered"
     ],
     "163WP2201X": [
       "nurse",
-      "registered",
-      "ambulatory"
+      "ambulatory",
+      "registered"
     ],
     "163WC3500X": [
-      "nurse",
-      "registered",
       "rehabilitation",
-      "cardiac"
+      "cardiac",
+      "nurse",
+      "registered"
     ],
     "163WC0400X": [
+      "management",
       "nurse",
-      "registered",
       "case",
-      "management"
+      "registered"
     ],
     "163WC1400X": [
       "nurse",
       "registered"
     ],
     "163WC1500X": [
+      "community",
       "nurse",
-      "registered",
-      "community"
+      "registered"
     ],
     "163WC2100X": [
       "nurse",
@@ -1566,251 +1566,251 @@
     ],
     "163WC1600X": [
       "nurse",
-      "registered",
+      "education",
       "development",
-      "education"
+      "registered"
     ],
     "163WC0200X": [
       "nurse",
-      "registered",
-      "critical"
+      "critical",
+      "registered"
     ],
     "163WD0400X": [
+      "educator",
       "nurse",
-      "registered",
       "diabetes",
-      "educator"
+      "registered"
     ],
     "163WD1100X": [
       "nurse",
-      "registered",
-      "dialysis"
+      "dialysis",
+      "registered"
     ],
     "163WE0003X": [
+      "emergency",
       "nurse",
-      "registered",
-      "emergency"
+      "registered"
     ],
     "163WE0900X": [
+      "therapy",
       "nurse",
-      "registered",
-      "therapy"
+      "registered"
     ],
     "163WF0300X": [
       "nurse",
       "registered"
     ],
     "163WG0100X": [
+      "gastroenterology",
       "nurse",
-      "registered",
-      "gastroenterology"
+      "registered"
     ],
     "163WG0000X": [
       "nurse",
-      "registered",
-      "general"
+      "general",
+      "registered"
     ],
     "163WG0600X": [
+      "gerontology",
       "nurse",
-      "registered",
-      "gerontology"
+      "registered"
     ],
     "163WH0500X": [
       "nurse",
       "registered"
     ],
     "163WH0200X": [
+      "home",
       "nurse",
-      "registered",
-      "home"
+      "registered"
     ],
     "163WH1000X": [
+      "hospice",
       "nurse",
-      "registered",
-      "hospice"
+      "registered"
     ],
     "163WI0600X": [
       "nurse",
       "registered"
     ],
     "163WI0500X": [
-      "nurse",
-      "registered",
       "therapy",
-      "infusion"
+      "nurse",
+      "infusion",
+      "registered"
     ],
     "163WL0100X": [
       "nurse",
-      "registered",
+      "consultant",
       "lactation",
-      "consultant"
+      "registered"
     ],
     "163WM0102X": [
+      "maternal",
       "nurse",
-      "registered",
-      "maternal"
+      "registered"
     ],
     "163WM0705X": [
+      "surgical",
       "nurse",
-      "registered",
-      "surgical"
+      "registered"
     ],
     "163WN0002X": [
       "nurse",
-      "registered",
-      "neonatal"
+      "neonatal",
+      "registered"
     ],
     "163WN0003X": [
-      "registered",
-      "neonatal",
-      "nurse",
       "risk",
-      "low"
+      "neonatal",
+      "low",
+      "nurse",
+      "registered"
     ],
     "163WN0300X": [
+      "nephrology",
       "nurse",
-      "registered",
-      "nephrology"
+      "registered"
     ],
     "163WN0800X": [
+      "neuroscience",
       "nurse",
-      "registered",
-      "neuroscience"
+      "registered"
     ],
     "163WM1400X": [
-      "nurse",
-      "registered",
       "therapist",
-      "massage"
+      "massage",
+      "nurse",
+      "registered"
     ],
     "163WN1003X": [
+      "support",
       "nurse",
-      "registered",
       "nutrition",
-      "support"
+      "registered"
     ],
     "163WX0002X": [
-      "nurse",
-      "registered",
+      "risk",
       "obstetric",
-      "risk"
+      "nurse",
+      "registered"
     ],
     "163WX0003X": [
-      "nurse",
-      "registered",
       "obstetric",
-      "inpatient"
+      "nurse",
+      "inpatient",
+      "registered"
     ],
     "163WX0106X": [
       "nurse",
-      "registered",
-      "occupational"
+      "occupational",
+      "registered"
     ],
     "163WX0200X": [
       "nurse",
-      "registered",
-      "oncology"
+      "oncology",
+      "registered"
     ],
     "163WX1100X": [
+      "ophthalmic",
       "nurse",
-      "registered",
-      "ophthalmic"
+      "registered"
     ],
     "163WX0800X": [
       "nurse",
-      "registered",
-      "orthopedic"
+      "orthopedic",
+      "registered"
     ],
     "163WX1500X": [
       "nurse",
       "registered"
     ],
     "163WX0601X": [
+      "neck",
       "nurse",
-      "registered",
       "head",
-      "neck"
+      "registered"
     ],
     "163WP0000X": [
-      "nurse",
-      "registered",
       "pain",
-      "management"
+      "management",
+      "nurse",
+      "registered"
     ],
     "163WP0218X": [
-      "nurse",
-      "registered",
       "pediatric",
-      "oncology"
+      "nurse",
+      "oncology",
+      "registered"
     ],
     "163WP0200X": [
+      "pediatrics",
       "nurse",
-      "registered",
-      "pediatrics"
+      "registered"
     ],
     "163WP1700X": [
+      "perinatal",
       "nurse",
-      "registered",
-      "perinatal"
+      "registered"
     ],
     "163WS0121X": [
-      "nurse",
-      "registered",
       "surgery",
-      "plastic"
+      "plastic",
+      "nurse",
+      "registered"
     ],
     "163WP0808X": [
-      "nurse",
-      "registered",
-      "psychiatric",
-      "mental"
-    ],
-    "163WP0809X": [
-      "registered",
       "mental",
       "nurse",
+      "psychiatric",
+      "registered"
+    ],
+    "163WP0809X": [
       "adult",
+      "mental",
+      "nurse",
+      "registered",
       "psychiatric"
     ],
     "163WP0807X": [
-      "registered",
       "adolescent",
-      "child",
       "mental",
       "nurse",
-      "psychiatric"
+      "registered",
+      "psychiatric",
+      "child"
     ],
     "163WR0006X": [
+      "assistant",
       "nurse",
-      "registered",
-      "assistant"
+      "registered"
     ],
     "163WR0400X": [
+      "rehabilitation",
       "nurse",
-      "registered",
-      "rehabilitation"
+      "registered"
     ],
     "163WR1000X": [
+      "reproductive",
       "nurse",
-      "registered",
       "endocrinology",
-      "reproductive"
+      "registered"
     ],
     "163WS0200X": [
+      "school",
       "nurse",
-      "registered",
-      "school"
+      "registered"
     ],
     "163WU0100X": [
+      "urology",
       "nurse",
-      "registered",
-      "urology"
+      "registered"
     ],
     "163WW0101X": [
+      "ambulatory",
       "nurse",
-      "registered",
       "women",
-      "ambulatory"
+      "registered"
     ],
     "163WW0000X": [
       "nurse",
@@ -1823,19 +1823,19 @@
       "provider"
     ],
     "373H00000X": [
+      "training",
       "day",
-      "specialist",
-      "training"
+      "specialist"
     ],
     "374J00000X": [],
     "374U00000X": [
-      "home",
-      "aide"
+      "aide",
+      "home"
     ],
     "376J00000X": [],
     "376K00000X": [
-      "nurse",
-      "aide"
+      "aide",
+      "nurse"
     ],
     "376G00000X": [
       "home",
@@ -1844,21 +1844,21 @@
     ],
     "374T00000X": [
       "nonmedical",
-      "nursing",
-      "religious"
+      "religious",
+      "nursing"
     ],
     "374K00000X": [
-      "practitioner",
       "nonmedical",
+      "practitioner",
       "religious"
     ],
     "374700000X": [
       "technician"
     ],
     "3747A0650X": [
+      "provider",
       "technician",
-      "attendant",
-      "provider"
+      "attendant"
     ],
     "3747P1801X": [
       "technician",
@@ -1872,29 +1872,29 @@
     ],
     "174V00000X": [],
     "172V00000X": [
-      "worker",
-      "community"
+      "community",
+      "worker"
     ],
     "171W00000X": [
       "contractor"
     ],
     "171WH0202X": [
-      "home",
+      "modifications",
       "contractor",
-      "modifications"
+      "home"
     ],
     "171WV0202X": [
       "vehicle",
-      "contractor",
-      "modifications"
+      "modifications",
+      "contractor"
     ],
     "172A00000X": [],
     "176P00000X": [
       "director"
     ],
     "170300000X": [
-      "genetic",
-      "counselor"
+      "counselor",
+      "genetic"
     ],
     "171400000X": [],
     "174H00000X": [
@@ -1904,8 +1904,8 @@
     "171R00000X": [],
     "174N00000X": [
       "non",
-      "lactation",
-      "consultant"
+      "consultant",
+      "lactation"
     ],
     "175M00000X": [
       "midwife"
@@ -1918,20 +1918,20 @@
       "midwife"
     ],
     "171000000X": [
-      "military",
-      "provider"
+      "provider",
+      "military"
     ],
     "1710I1002X": [
+      "independent",
       "military",
-      "provider",
       "duty",
-      "independent"
+      "provider"
     ],
     "1710I1003X": [
+      "independent",
       "military",
-      "provider",
       "duty",
-      "independent"
+      "provider"
     ],
     "172P00000X": [],
     "175F00000X": [],
@@ -1946,9 +1946,9 @@
     ],
     "173C00000X": [],
     "173F00000X": [
+      "sleep",
       "specialist",
-      "phd",
-      "sleep"
+      "phd"
     ],
     "174400000X": [
       "specialist"
@@ -1959,8 +1959,8 @@
     ],
     "1744P3200X": [
       "management",
-      "specialist",
-      "case"
+      "case",
+      "specialist"
     ],
     "1744R1103X": [
       "research",
@@ -1981,12 +1981,12 @@
       "pharmacist"
     ],
     "1835P2201X": [
-      "ambulatory",
-      "pharmacist"
+      "pharmacist",
+      "ambulatory"
     ],
     "1835C0206X": [
-      "cardiology",
-      "pharmacist"
+      "pharmacist",
+      "cardiology"
     ],
     "1835C0207X": [
       "pharmacist"
@@ -2000,51 +2000,51 @@
       "emergency"
     ],
     "1835G0000X": [
-      "general",
-      "pharmacist"
+      "pharmacist",
+      "general"
     ],
     "1835G0303X": [
-      "geriatric",
-      "pharmacist"
+      "pharmacist",
+      "geriatric"
     ],
     "1835I0206X": [
       "pharmacist",
-      "infectious",
-      "diseases"
+      "diseases",
+      "infectious"
     ],
     "1835N0905X": [
-      "nuclear",
-      "pharmacist"
+      "pharmacist",
+      "nuclear"
     ],
     "1835N1003X": [
-      "nutrition",
+      "pharmacist",
       "support",
-      "pharmacist"
+      "nutrition"
     ],
     "1835X0200X": [
       "pharmacist",
       "oncology"
     ],
     "1835P0200X": [
-      "pediatrics",
-      "pharmacist"
+      "pharmacist",
+      "pediatrics"
     ],
     "1835P0018X": [
-      "specialist",
       "pharmacist",
-      "pharmacy"
+      "pharmacy",
+      "specialist"
     ],
     "1835P1200X": [
       "pharmacist"
     ],
     "1835P1300X": [
-      "psychiatric",
-      "pharmacist"
+      "pharmacist",
+      "psychiatric"
     ],
     "1835S0206X": [
-      "organ",
+      "pharmacist",
       "transplant",
-      "pharmacist"
+      "organ"
     ],
     "183700000X": [
       "technician",
@@ -2062,35 +2062,35 @@
       "specialist"
     ],
     "364SA2100X": [
-      "nurse",
       "acute",
+      "nurse",
       "specialist"
     ],
     "364SA2200X": [
       "nurse",
-      "specialist",
-      "adult"
+      "adult",
+      "specialist"
     ],
     "364SC2300X": [
       "nurse",
-      "chronic",
-      "specialist"
+      "specialist",
+      "chronic"
     ],
     "364SC1501X": [
-      "nurse",
-      "specialist",
       "community",
-      "public"
+      "public",
+      "nurse",
+      "specialist"
     ],
     "364SC0200X": [
       "nurse",
-      "specialist",
-      "critical"
+      "critical",
+      "specialist"
     ],
     "364SE0003X": [
+      "emergency",
       "nurse",
-      "specialist",
-      "emergency"
+      "specialist"
     ],
     "364SE1400X": [
       "nurse",
@@ -2102,9 +2102,9 @@
       "family"
     ],
     "364SG0600X": [
+      "gerontology",
       "nurse",
-      "specialist",
-      "gerontology"
+      "specialist"
     ],
     "364SH1100X": [
       "nurse",
@@ -2112,8 +2112,8 @@
     ],
     "364SH0200X": [
       "nurse",
-      "home",
-      "specialist"
+      "specialist",
+      "home"
     ],
     "364SI0800X": [
       "nurse",
@@ -2121,15 +2121,15 @@
       "specialist"
     ],
     "364SL0600X": [
-      "nurse",
-      "specialist",
+      "term",
       "long",
-      "term"
+      "nurse",
+      "specialist"
     ],
     "364SM0705X": [
+      "surgical",
       "nurse",
-      "specialist",
-      "surgical"
+      "specialist"
     ],
     "364SN0000X": [
       "nurse",
@@ -2137,9 +2137,9 @@
       "neonatal"
     ],
     "364SN0800X": [
+      "neuroscience",
       "nurse",
-      "specialist",
-      "neuroscience"
+      "specialist"
     ],
     "364SX0106X": [
       "nurse",
@@ -2148,14 +2148,14 @@
     ],
     "364SX0200X": [
       "nurse",
-      "specialist",
-      "oncology"
+      "oncology",
+      "specialist"
     ],
     "364SX0204X": [
       "nurse",
+      "oncology",
       "specialist",
-      "pediatrics",
-      "oncology"
+      "pediatrics"
     ],
     "364SP0200X": [
       "nurse",
@@ -2163,61 +2163,61 @@
       "pediatrics"
     ],
     "364SP1700X": [
+      "perinatal",
       "nurse",
-      "specialist",
-      "perinatal"
+      "specialist"
     ],
     "364SP2800X": [
       "nurse",
       "specialist"
     ],
     "364SP0808X": [
-      "nurse",
-      "specialist",
-      "psychiatric",
-      "mental"
-    ],
-    "364SP0809X": [
       "mental",
       "nurse",
       "specialist",
+      "psychiatric"
+    ],
+    "364SP0809X": [
       "adult",
+      "mental",
+      "nurse",
+      "specialist",
       "psychiatric"
     ],
     "364SP0807X": [
       "adolescent",
-      "child",
+      "mental",
+      "nurse",
+      "specialist",
+      "psychiatric",
+      "child"
+    ],
+    "364SP0810X": [
+      "family",
+      "mental",
+      "nurse",
+      "specialist",
+      "psychiatric",
+      "child"
+    ],
+    "364SP0811X": [
       "mental",
       "nurse",
       "specialist",
       "psychiatric"
     ],
-    "364SP0810X": [
-      "child",
-      "mental",
-      "nurse",
-      "specialist",
-      "psychiatric",
-      "family"
-    ],
-    "364SP0811X": [
-      "nurse",
-      "specialist",
-      "psychiatric",
-      "mental"
-    ],
     "364SP0812X": [
+      "community",
       "mental",
       "nurse",
       "specialist",
-      "community",
       "psychiatric"
     ],
     "364SP0813X": [
+      "mental",
       "nurse",
       "specialist",
-      "psychiatric",
-      "mental"
+      "psychiatric"
     ],
     "364SR0400X": [
       "nurse",
@@ -2225,8 +2225,8 @@
       "rehabilitation"
     ],
     "364SS0200X": [
-      "nurse",
       "school",
+      "nurse",
       "specialist"
     ],
     "364ST0500X": [
@@ -2235,158 +2235,158 @@
     ],
     "364SW0102X": [
       "nurse",
-      "specialist",
-      "women"
+      "women",
+      "specialist"
     ],
     "367500000X": [
+      "certified",
       "nurse",
-      "registered",
-      "certified"
+      "registered"
     ],
     "363L00000X": [
-      "nurse",
-      "practitioner"
+      "practitioner",
+      "nurse"
     ],
     "363LA2100X": [
-      "nurse",
       "acute",
-      "practitioner"
+      "practitioner",
+      "nurse"
     ],
     "363LA2200X": [
+      "practitioner",
       "nurse",
-      "adult",
-      "practitioner"
+      "adult"
     ],
     "363LC1500X": [
-      "nurse",
       "community",
-      "practitioner"
+      "practitioner",
+      "nurse"
     ],
     "363LC0200X": [
-      "nurse",
       "practitioner",
+      "nurse",
       "critical"
     ],
     "363LF0000X": [
-      "nurse",
       "practitioner",
+      "nurse",
       "family"
     ],
     "363LG0600X": [
-      "nurse",
       "gerontology",
-      "practitioner"
+      "practitioner",
+      "nurse"
     ],
     "363LN0000X": [
-      "nurse",
       "practitioner",
+      "nurse",
       "neonatal"
     ],
     "363LN0005X": [
-      "nurse",
       "practitioner",
+      "nurse",
       "critical",
       "neonatal"
     ],
     "363LX0001X": [
-      "nurse",
+      "gynecology",
       "obstetrics",
       "practitioner",
-      "gynecology"
+      "nurse"
     ],
     "363LX0106X": [
-      "nurse",
       "practitioner",
+      "nurse",
       "occupational"
     ],
     "363LP0200X": [
+      "practitioner",
       "nurse",
-      "pediatrics",
-      "practitioner"
+      "pediatrics"
     ],
     "363LP0222X": [
-      "nurse",
-      "pediatrics",
       "practitioner",
-      "critical"
+      "nurse",
+      "critical",
+      "pediatrics"
     ],
     "363LP1700X": [
-      "nurse",
+      "perinatal",
       "practitioner",
-      "perinatal"
+      "nurse"
     ],
     "363LP2300X": [
-      "nurse",
+      "primary",
       "practitioner",
-      "primary"
+      "nurse"
     ],
     "363LP0808X": [
-      "nurse",
+      "mental",
       "practitioner",
-      "psychiatric",
-      "mental"
+      "nurse",
+      "psychiatric"
     ],
     "363LS0200X": [
-      "nurse",
+      "practitioner",
       "school",
-      "practitioner"
+      "nurse"
     ],
     "363LW0102X": [
+      "practitioner",
       "nurse",
-      "women",
-      "practitioner"
+      "women"
     ],
     "363A00000X": [
-      "physician",
-      "assistant"
+      "assistant",
+      "physician"
     ],
     "363AM0700X": [
-      "physician",
-      "assistant"
+      "assistant",
+      "physician"
     ],
     "363AS0400X": [
-      "surgical",
+      "assistant",
       "physician",
-      "assistant"
+      "surgical"
     ],
     "211D00000X": [
-      "podiatric",
-      "assistant"
+      "assistant",
+      "podiatric"
     ],
     "213E00000X": [
       "podiatrist"
     ],
     "213ES0103X": [
-      "podiatrist",
       "surgery",
       "ankle",
-      "foot"
+      "foot",
+      "podiatrist"
     ],
     "213ES0131X": [
-      "podiatrist",
       "surgery",
-      "foot"
+      "foot",
+      "podiatrist"
     ],
     "213EG0000X": [
-      "podiatrist",
-      "general"
+      "general",
+      "podiatrist"
     ],
     "213EP1101X": [
+      "primary",
       "podiatrist",
-      "podiatric",
-      "primary"
+      "podiatric"
     ],
     "213EP0504X": [
-      "podiatrist",
-      "public"
+      "public",
+      "podiatrist"
     ],
     "213ER0200X": [
-      "podiatrist",
-      "radiology"
+      "radiology",
+      "podiatrist"
     ],
     "213ES0000X": [
-      "podiatrist",
-      "sports"
+      "sports",
+      "podiatrist"
     ],
     "229N00000X": [],
     "221700000X": [
@@ -2400,13 +2400,13 @@
       "therapist"
     ],
     "222Q00000X": [
-      "developmental",
-      "therapist"
+      "therapist",
+      "developmental"
     ],
     "226300000X": [],
     "225700000X": [
-      "therapist",
-      "massage"
+      "massage",
+      "therapist"
     ],
     "224900000X": [
       "fitter"
@@ -2419,34 +2419,34 @@
       "occupational"
     ],
     "225XR0403X": [
-      "therapist",
       "mobility",
-      "community",
       "driving",
-      "occupational"
+      "community",
+      "occupational",
+      "therapist"
     ],
     "225XE0001X": [
+      "environmental",
       "therapist",
       "modification",
-      "occupational",
-      "environmental"
+      "occupational"
     ],
     "225XE1200X": [
       "therapist",
-      "occupational",
-      "ergonomics"
+      "ergonomics",
+      "occupational"
     ],
     "225XF0002X": [
       "feeding",
-      "therapist",
-      "eating",
       "swallowing",
-      "occupational"
+      "occupational",
+      "therapist",
+      "eating"
     ],
     "225XG0600X": [
+      "gerontology",
       "therapist",
-      "occupational",
-      "gerontology"
+      "occupational"
     ],
     "225XH1200X": [
       "therapist",
@@ -2454,21 +2454,21 @@
       "hand"
     ],
     "225XH1300X": [
-      "human",
       "therapist",
-      "occupational",
-      "factors"
+      "human",
+      "factors",
+      "occupational"
     ],
     "225XL0004X": [
-      "occupational",
       "vision",
-      "low",
-      "therapist"
-    ],
-    "225XM0800X": [
       "therapist",
       "occupational",
-      "mental"
+      "low"
+    ],
+    "225XM0800X": [
+      "mental",
+      "therapist",
+      "occupational"
     ],
     "225XN1300X": [
       "therapist",
@@ -2476,49 +2476,49 @@
     ],
     "225XP0200X": [
       "therapist",
-      "pediatrics",
-      "occupational"
+      "occupational",
+      "pediatrics"
     ],
     "225XP0019X": [
       "therapist",
-      "physical",
       "occupational",
+      "physical",
       "rehabilitation"
     ],
     "224Z00000X": [
-      "occupational",
       "assistant",
-      "therapy"
+      "therapy",
+      "occupational"
     ],
     "224ZR0403X": [
-      "assistant",
-      "mobility",
-      "community",
       "therapy",
+      "mobility",
       "driving",
-      "occupational"
+      "community",
+      "occupational",
+      "assistant"
     ],
     "224ZE0001X": [
-      "assistant",
-      "environmental",
-      "modification",
       "therapy",
-      "occupational"
+      "occupational",
+      "environmental",
+      "assistant",
+      "modification"
     ],
     "224ZF0002X": [
-      "assistant",
       "feeding",
-      "eating",
       "therapy",
       "swallowing",
-      "occupational"
+      "occupational",
+      "eating",
+      "assistant"
     ],
     "224ZL0004X": [
-      "assistant",
       "therapy",
       "vision",
+      "occupational",
       "low",
-      "occupational"
+      "assistant"
     ],
     "225000000X": [
       "orthotic",
@@ -2536,13 +2536,13 @@
     ],
     "2251E1300X": [
       "therapist",
-      "physical",
-      "electrophysiology"
+      "electrophysiology",
+      "physical"
     ],
     "2251E1200X": [
       "therapist",
-      "physical",
-      "ergonomics"
+      "ergonomics",
+      "physical"
     ],
     "2251G0304X": [
       "therapist",
@@ -2554,20 +2554,20 @@
       "hand"
     ],
     "2251H1300X": [
-      "human",
       "therapist",
-      "physical",
-      "factors"
+      "human",
+      "factors",
+      "physical"
     ],
     "2251N0400X": [
-      "neurology",
       "therapist",
+      "neurology",
       "physical"
     ],
     "2251X0800X": [
       "therapist",
-      "physical",
-      "orthopedic"
+      "orthopedic",
+      "physical"
     ],
     "2251P0200X": [
       "therapist",
@@ -2576,19 +2576,19 @@
     ],
     "2251S0007X": [
       "therapist",
-      "physical",
-      "sports"
+      "sports",
+      "physical"
     ],
     "225200000X": [
-      "physical",
+      "assistant",
       "therapy",
-      "assistant"
+      "physical"
     ],
     "224P00000X": [],
     "225B00000X": [
+      "pulmonary",
       "function",
-      "technologist",
-      "pulmonary"
+      "technologist"
     ],
     "225800000X": [
       "therapist"
@@ -2598,603 +2598,603 @@
       "assistant"
     ],
     "225C00000X": [
-      "rehabilitation",
-      "counselor"
+      "counselor",
+      "rehabilitation"
     ],
     "225CA2400X": [
-      "rehabilitation",
-      "technology",
-      "counselor",
+      "assistive",
       "practitioner",
-      "assistive"
+      "counselor",
+      "technology",
+      "rehabilitation"
     ],
     "225CA2500X": [
-      "rehabilitation",
-      "technology",
-      "counselor",
       "assistive",
-      "supplier"
+      "supplier",
+      "counselor",
+      "technology",
+      "rehabilitation"
     ],
     "225CX0006X": [
       "mobility",
-      "rehabilitation",
       "counselor",
       "provider",
-      "training"
+      "training",
+      "rehabilitation"
     ],
     "225400000X": [
       "practitioner",
       "rehabilitation"
     ],
     "227800000X": [
-      "certified",
       "therapist",
+      "certified",
       "respiratory"
     ],
     "2278C0205X": [
-      "certified",
       "therapist",
-      "critical",
-      "respiratory"
+      "certified",
+      "respiratory",
+      "critical"
     ],
     "2278E1000X": [
-      "certified",
-      "therapist",
       "educational",
+      "therapist",
+      "certified",
       "respiratory"
     ],
     "2278E0002X": [
-      "certified",
-      "therapist",
       "emergency",
+      "therapist",
+      "certified",
       "respiratory"
     ],
     "2278G1100X": [
-      "certified",
       "therapist",
+      "certified",
       "respiratory",
       "general"
     ],
     "2278G0305X": [
-      "certified",
       "therapist",
-      "geriatric",
-      "respiratory"
+      "certified",
+      "respiratory",
+      "geriatric"
     ],
     "2278H0200X": [
-      "certified",
-      "home",
       "therapist",
-      "respiratory"
+      "certified",
+      "respiratory",
+      "home"
     ],
     "2278P3900X": [
-      "certified",
-      "neonatal",
+      "pediatrics",
       "respiratory",
+      "neonatal",
       "therapist",
-      "pediatrics"
+      "certified"
     ],
     "2278P3800X": [
-      "certified",
+      "hospice",
       "respiratory",
-      "therapist",
       "palliative",
-      "hospice"
+      "therapist",
+      "certified"
     ],
     "2278P4000X": [
-      "certified",
-      "patient",
+      "transport",
       "respiratory",
       "therapist",
-      "transport"
+      "certified",
+      "patient"
     ],
     "2278P1004X": [
-      "certified",
+      "pulmonary",
+      "diagnostics",
       "respiratory",
       "therapist",
-      "diagnostics",
-      "pulmonary"
+      "certified"
     ],
     "2278P1006X": [
-      "certified",
-      "technologist",
+      "pulmonary",
       "respiratory",
       "therapist",
-      "pulmonary",
-      "function"
+      "certified",
+      "function",
+      "technologist"
     ],
     "2278P1005X": [
-      "certified",
+      "pulmonary",
       "respiratory",
       "therapist",
-      "rehabilitation",
-      "pulmonary"
+      "certified",
+      "rehabilitation"
     ],
     "2278S1500X": [
-      "certified",
+      "snf",
       "respiratory",
       "therapist",
-      "subacute",
-      "snf"
+      "certified",
+      "subacute"
     ],
     "227900000X": [
-      "registered",
       "therapist",
-      "respiratory"
+      "respiratory",
+      "registered"
     ],
     "2279C0205X": [
-      "registered",
       "therapist",
+      "respiratory",
       "critical",
-      "respiratory"
+      "registered"
     ],
     "2279E1000X": [
-      "registered",
-      "therapist",
       "educational",
-      "respiratory"
+      "therapist",
+      "respiratory",
+      "registered"
     ],
     "2279E0002X": [
-      "registered",
-      "therapist",
       "emergency",
-      "respiratory"
+      "therapist",
+      "respiratory",
+      "registered"
     ],
     "2279G1100X": [
-      "registered",
       "therapist",
       "respiratory",
-      "general"
+      "general",
+      "registered"
     ],
     "2279G0305X": [
-      "geriatric",
-      "registered",
       "therapist",
-      "respiratory"
+      "respiratory",
+      "geriatric",
+      "registered"
     ],
     "2279H0200X": [
-      "registered",
       "therapist",
-      "home",
-      "respiratory"
+      "respiratory",
+      "registered",
+      "home"
     ],
     "2279P3900X": [
-      "registered",
-      "neonatal",
+      "pediatrics",
       "respiratory",
+      "neonatal",
       "therapist",
-      "pediatrics"
+      "registered"
     ],
     "2279P3800X": [
-      "registered",
+      "hospice",
       "respiratory",
-      "therapist",
       "palliative",
-      "hospice"
+      "therapist",
+      "registered"
     ],
     "2279P4000X": [
-      "registered",
-      "patient",
+      "transport",
       "respiratory",
       "therapist",
-      "transport"
+      "patient",
+      "registered"
     ],
     "2279P1004X": [
-      "registered",
+      "pulmonary",
+      "diagnostics",
       "respiratory",
       "therapist",
-      "diagnostics",
-      "pulmonary"
+      "registered"
     ],
     "2279P1006X": [
-      "registered",
-      "technologist",
+      "pulmonary",
       "respiratory",
       "therapist",
-      "pulmonary",
-      "function"
+      "function",
+      "technologist",
+      "registered"
     ],
     "2279P1005X": [
-      "registered",
+      "pulmonary",
       "respiratory",
       "therapist",
-      "rehabilitation",
-      "pulmonary"
+      "registered",
+      "rehabilitation"
     ],
     "2279S1500X": [
-      "registered",
+      "snf",
       "respiratory",
       "therapist",
       "subacute",
-      "snf"
+      "registered"
     ],
     "225500000X": [
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "2255A2300X": [
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "2255R0406X": [
-      "specialist",
       "technologist",
+      "specialist",
       "rehabilitation"
     ],
     "231H00000X": [
       "audiologist"
     ],
     "231HA2400X": [
+      "technology",
       "practitioner",
-      "assistive",
       "audiologist",
-      "technology"
+      "assistive"
     ],
     "231HA2500X": [
-      "assistive",
+      "technology",
       "supplier",
       "audiologist",
-      "technology"
+      "assistive"
     ],
     "237600000X": [
+      "fitter",
       "audiologist",
       "aid",
-      "hearing",
-      "fitter"
+      "hearing"
     ],
     "237700000X": [
       "specialist",
       "hearing"
     ],
     "235500000X": [
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "2355A2700X": [
-      "specialist",
+      "assistant",
       "technologist",
-      "assistant"
+      "specialist"
     ],
     "2355S0801X": [
-      "technologist",
-      "assistant",
-      "specialist",
       "language",
-      "speech"
+      "speech",
+      "assistant",
+      "technologist",
+      "specialist"
     ],
     "235Z00000X": [
       "speech",
       "language"
     ],
     "390200000X": [
-      "program",
       "student",
-      "training",
-      "education"
+      "program",
+      "education",
+      "training"
     ],
     "242T00000X": [],
     "247100000X": [
-      "technologist",
-      "radiologic"
+      "radiologic",
+      "technologist"
     ],
     "2471B0102X": [
-      "technologist",
-      "radiologic"
+      "radiologic",
+      "technologist"
     ],
     "2471C1106X": [
-      "technologist",
+      "cardiac",
       "radiologic",
-      "interventional",
       "technology",
-      "cardiac"
+      "interventional",
+      "technologist"
     ],
     "2471C1101X": [
-      "technologist",
+      "radiologic",
       "cardiovascular",
-      "interventional",
       "technology",
-      "radiologic"
+      "interventional",
+      "technologist"
     ],
     "2471C3401X": [
-      "technologist",
-      "radiologic"
+      "radiologic",
+      "technologist"
     ],
     "2471M1202X": [
-      "technologist",
-      "magnetic",
-      "radiologic",
       "imaging",
-      "resonance"
+      "radiologic",
+      "resonance",
+      "magnetic",
+      "technologist"
     ],
     "2471M2300X": [
-      "mammography",
+      "radiologic",
       "technologist",
-      "radiologic"
+      "mammography"
     ],
     "2471N0900X": [
-      "nuclear",
       "technologist",
+      "technology",
       "radiologic",
-      "technology"
+      "nuclear"
     ],
     "2471Q0001X": [
-      "management",
+      "radiologic",
       "technologist",
-      "radiologic"
+      "management"
     ],
     "2471R0002X": [
       "radiologic",
-      "therapy",
       "technologist",
-      "radiation"
+      "radiation",
+      "therapy"
     ],
     "2471C3402X": [
-      "technologist",
-      "radiologic"
+      "radiologic",
+      "technologist"
     ],
     "2471S1302X": [
-      "sonography",
+      "radiologic",
       "technologist",
-      "radiologic"
+      "sonography"
     ],
     "2471V0105X": [
-      "sonography",
-      "technologist",
       "radiologic",
+      "technologist",
+      "sonography",
       "vascular"
     ],
     "2471V0106X": [
       "technologist",
       "radiologic",
-      "interventional",
       "technology",
+      "interventional",
       "vascular"
     ],
     "243U00000X": [
+      "radiology",
       "practitioner",
-      "assistant",
-      "radiology"
+      "assistant"
     ],
     "246X00000X": [
-      "specialist",
-      "technologist",
-      "cardiovascular"
-    ],
-    "246XC2901X": [
-      "specialist",
-      "technologist",
-      "cardiovascular"
-    ],
-    "246XS1301X": [
-      "sonography",
-      "specialist",
-      "technologist",
-      "cardiovascular"
-    ],
-    "246XC2903X": [
-      "specialist",
-      "technologist",
       "cardiovascular",
-      "vascular"
-    ],
-    "246Y00000X": [
-      "specialist",
-      "technologist",
-      "information"
-    ],
-    "246YC3301X": [
-      "technologist",
-      "based",
-      "information",
-      "specialist",
-      "coding"
-    ],
-    "246YC3302X": [
-      "technologist",
-      "based",
-      "information",
-      "specialist",
-      "physician",
-      "coding"
-    ],
-    "246YR1600X": [
-      "registered",
-      "technologist",
-      "information",
-      "record",
-      "specialist",
-      "administrator"
-    ],
-    "246Z00000X": [
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZA2600X": [
-      "art",
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZB0500X": [
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZB0301X": [
-      "biomedical",
-      "technologist",
-      "specialist",
-      "other",
-      "engineering"
-    ],
-    "246ZB0302X": [
-      "biomedical",
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZB0600X": [
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZE0500X": [
-      "specialist",
-      "other",
-      "eeg",
-      "technologist"
-    ],
-    "246ZE0600X": [
-      "specialist",
-      "technologist",
-      "other"
-    ],
-    "246ZG1000X": [
-      "specialist",
-      "technologist",
-      "other",
-      "phd"
-    ],
-    "246ZG0701X": [
-      "graphics",
-      "other",
       "technologist",
       "specialist"
     ],
-    "246ZI1000X": [
+    "246XC2901X": [
+      "cardiovascular",
+      "technologist",
+      "specialist"
+    ],
+    "246XS1301X": [
+      "cardiovascular",
+      "technologist",
+      "sonography",
+      "specialist"
+    ],
+    "246XC2903X": [
+      "cardiovascular",
+      "technologist",
       "specialist",
+      "vascular"
+    ],
+    "246Y00000X": [
+      "technologist",
+      "specialist",
+      "information"
+    ],
+    "246YC3301X": [
+      "information",
+      "coding",
+      "based",
+      "technologist",
+      "specialist"
+    ],
+    "246YC3302X": [
+      "physician",
+      "information",
+      "coding",
+      "based",
+      "technologist",
+      "specialist"
+    ],
+    "246YR1600X": [
+      "administrator",
+      "record",
+      "information",
+      "technologist",
+      "registered",
+      "specialist"
+    ],
+    "246Z00000X": [
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZA2600X": [
+      "art",
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZB0500X": [
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZB0301X": [
+      "engineering",
+      "specialist",
+      "biomedical",
       "technologist",
       "other"
+    ],
+    "246ZB0302X": [
+      "other",
+      "biomedical",
+      "technologist",
+      "specialist"
+    ],
+    "246ZB0600X": [
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZE0500X": [
+      "eeg",
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZE0600X": [
+      "technologist",
+      "other",
+      "specialist"
+    ],
+    "246ZG1000X": [
+      "other",
+      "technologist",
+      "specialist",
+      "phd"
+    ],
+    "246ZG0701X": [
+      "other",
+      "technologist",
+      "specialist",
+      "graphics"
+    ],
+    "246ZI1000X": [
+      "technologist",
+      "other",
+      "specialist"
     ],
     "246ZN0300X": [
       "nephrology",
-      "specialist",
       "technologist",
-      "other"
+      "other",
+      "specialist"
     ],
     "246ZX2200X": [
       "orthopedic",
-      "technologist",
-      "assistant",
       "specialist",
+      "assistant",
+      "technologist",
       "other"
     ],
     "246ZC0007X": [
-      "technologist",
-      "assistant",
-      "specialist",
+      "surgical",
       "other",
-      "surgical"
+      "assistant",
+      "technologist",
+      "specialist"
     ],
     "246ZS0410X": [
       "surgical",
-      "specialist",
       "technologist",
-      "other"
+      "other",
+      "specialist"
     ],
     "246Q00000X": [
       "pathology",
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "246QB0000X": [
+      "pathology",
       "technologist",
       "blood",
-      "pathology",
       "specialist",
       "banking"
     ],
     "246QC1000X": [
       "pathology",
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "246QC2700X": [
       "pathology",
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "246QH0401X": [
-      "practitioner",
+      "technologist",
       "pathology",
-      "specialist",
-      "technologist"
+      "practitioner",
+      "specialist"
     ],
     "246QH0000X": [
       "pathology",
-      "specialist",
+      "technologist",
       "hematology",
-      "technologist"
+      "specialist"
     ],
     "246QH0600X": [
-      "pathology",
-      "specialist",
       "histology",
-      "technologist"
+      "pathology",
+      "technologist",
+      "specialist"
     ],
     "246QI0000X": [
       "pathology",
-      "specialist",
       "technologist",
+      "specialist",
       "immunology"
     ],
     "246QL0900X": [
-      "technologist",
-      "management",
+      "laboratory",
       "pathology",
-      "specialist",
-      "laboratory"
+      "management",
+      "technologist",
+      "specialist"
     ],
     "246QL0901X": [
-      "technologist",
-      "management",
+      "laboratory",
       "pathology",
-      "specialist",
-      "laboratory"
+      "management",
+      "technologist",
+      "specialist"
     ],
     "246QM0706X": [
       "pathology",
-      "specialist",
-      "technologist"
+      "technologist",
+      "specialist"
     ],
     "246QM0900X": [
       "pathology",
-      "specialist",
       "technologist",
+      "specialist",
       "microbiology"
     ],
     "246W00000X": [
-      "technician",
-      "cardiology"
+      "cardiology",
+      "technician"
     ],
     "247000000X": [
       "technician",
       "information"
     ],
     "2470A2800X": [
-      "technician",
-      "record",
+      "information",
       "assistant",
-      "information"
+      "technician",
+      "record"
     ],
     "247200000X": [
       "technician",
       "other"
     ],
     "2472B0301X": [
-      "technician",
+      "other",
       "biomedical",
-      "engineering",
-      "other"
+      "technician",
+      "engineering"
     ],
     "2472D0500X": [
       "technician",
       "other"
     ],
     "2472E0500X": [
-      "technician",
       "eeg",
+      "technician",
       "other"
     ],
     "2472R0900X": [
@@ -3208,30 +3208,30 @@
       "other"
     ],
     "246R00000X": [
-      "technician",
-      "pathology"
+      "pathology",
+      "technician"
     ],
     "247ZC0005X": [
-      "technician",
-      "pathology",
-      "director",
-      "non",
+      "physician",
       "laboratory",
-      "physician"
+      "pathology",
+      "non",
+      "technician",
+      "director"
     ],
     "246RH0600X": [
-      "technician",
+      "histology",
       "pathology",
-      "histology"
+      "technician"
     ],
     "246RM2200X": [
-      "technician",
+      "laboratory",
       "pathology",
-      "laboratory"
+      "technician"
     ],
     "246RP1900X": [
-      "technician",
-      "pathology"
+      "pathology",
+      "technician"
     ],
     "251B00000X": [
       "management",
@@ -3242,12 +3242,12 @@
       "behavioral"
     ],
     "251C00000X": [
-      "day",
-      "training"
+      "training",
+      "day"
     ],
     "252Y00000X": [
-      "agency",
-      "provider"
+      "provider",
+      "agency"
     ],
     "253J00000X": [
       "agency"
@@ -3256,8 +3256,8 @@
       "home"
     ],
     "251F00000X": [
-      "home",
-      "infusion"
+      "infusion",
+      "home"
     ],
     "251G00000X": [
       "hospice",
@@ -3268,17 +3268,17 @@
       "home"
     ],
     "251300000X": [
-      "agency",
       "local",
-      "education"
+      "education",
+      "agency"
     ],
     "251J00000X": [
       "nursing"
     ],
     "251T00000X": [
-      "organization",
       "provider",
-      "program"
+      "program",
+      "organization"
     ],
     "251K00000X": [
       "public"
@@ -3287,27 +3287,27 @@
     "251V00000X": [],
     "261Q00000X": [],
     "261QM0855X": [
-      "adolescent",
+      "mental",
       "children",
-      "mental"
+      "adolescent"
     ],
     "261QA0600X": [
-      "day",
-      "adult"
+      "adult",
+      "day"
     ],
     "261QM0850X": [
-      "adult",
-      "mental"
+      "mental",
+      "adult"
     ],
     "261QA0005X": [
+      "family",
       "facility",
       "ambulatory",
-      "family",
       "planning"
     ],
     "261QA0006X": [
-      "facility",
-      "ambulatory"
+      "ambulatory",
+      "facility"
     ],
     "261QA1903X": [
       "surgical",
@@ -3321,8 +3321,8 @@
     ],
     "261QC1800X": [],
     "261QC0050X": [
-      "access",
-      "critical"
+      "critical",
+      "access"
     ],
     "261QD0000X": [
       "dental"
@@ -3335,16 +3335,16 @@
       "emergency"
     ],
     "261QE0700X": [
-      "renal",
+      "disease",
       "treatment",
-      "disease"
+      "renal"
     ],
     "261QE0800X": [],
     "261QF0050X": [
-      "non",
-      "planning",
+      "family",
       "surgical",
-      "family"
+      "non",
+      "planning"
     ],
     "261QF0400X": [],
     "261QG0250X": [
@@ -3362,52 +3362,52 @@
     "261QL0400X": [],
     "261QM1200X": [
       "magnetic",
-      "imaging",
+      "resonance",
       "mri",
-      "resonance"
+      "imaging"
     ],
     "261QM2500X": [
       "specialty"
     ],
     "261QM3000X": [
-      "day",
-      "children"
+      "children",
+      "day"
     ],
     "261QM0801X": [
-      "community",
-      "mental"
+      "mental",
+      "community"
     ],
     "261QM2800X": [],
     "261QM1000X": [],
     "261QM1103X": [
-      "transportable",
-      "military",
-      "ambulatory",
       "operational",
-      "procedure"
+      "transportable",
+      "procedure",
+      "military",
+      "ambulatory"
     ],
     "261QM1101X": [
       "guard",
-      "military",
-      "ambulatory",
+      "coast",
       "procedure",
-      "coast"
+      "military",
+      "ambulatory"
     ],
     "261QM1102X": [
-      "transportable",
       "military",
       "operational",
+      "transportable",
       "outpatient"
     ],
     "261QM1100X": [
       "military",
       "guard",
-      "outpatient",
-      "coast"
+      "coast",
+      "outpatient"
     ],
     "261QM1300X": [
-      "specialty",
-      "multi"
+      "multi",
+      "specialty"
     ],
     "261QX0100X": [
       "occupational"
@@ -3423,16 +3423,16 @@
       "surgery"
     ],
     "261QS0112X": [
-      "maxillofacial",
       "surgery",
-      "oral"
+      "oral",
+      "maxillofacial"
     ],
     "261QP3300X": [
       "pain"
     ],
     "261QP2000X": [
-      "physical",
-      "therapy"
+      "therapy",
+      "physical"
     ],
     "261QP1100X": [
       "podiatric"
@@ -3445,32 +3445,32 @@
       "public"
     ],
     "261QP0905X": [
-      "public",
-      "local"
+      "local",
+      "public"
     ],
     "261QR0200X": [
       "radiology"
     ],
     "261QR0206X": [
-      "mammography",
-      "radiology"
+      "radiology",
+      "mammography"
     ],
     "261QR0208X": [
-      "mobile",
-      "radiology"
+      "radiology",
+      "mobile"
     ],
     "261QR0207X": [
+      "radiology",
       "mobile",
-      "mammography",
-      "radiology"
+      "mammography"
     ],
     "261QR0800X": [],
     "261QR0400X": [
       "rehabilitation"
     ],
     "261QR0404X": [
-      "rehabilitation",
-      "cardiac"
+      "cardiac",
+      "rehabilitation"
     ],
     "261QR0401X": [
       "facility",
@@ -3478,10 +3478,10 @@
       "rehabilitation"
     ],
     "261QR0405X": [
-      "disorder",
-      "rehabilitation",
+      "use",
       "substance",
-      "use"
+      "disorder",
+      "rehabilitation"
     ],
     "261QR1100X": [
       "research"
@@ -3490,9 +3490,9 @@
       "rural"
     ],
     "261QS1200X": [
-      "disorder",
+      "sleep",
       "diagnostic",
-      "sleep"
+      "disorder"
     ],
     "261QS1000X": [
       "student"
@@ -3510,23 +3510,23 @@
       "rehabilitation"
     ],
     "276400000X": [
-      "disorder",
-      "rehabilitation",
+      "use",
       "substance",
-      "use"
+      "disorder",
+      "rehabilitation"
     ],
     "287300000X": [
-      "science",
-      "christian"
+      "christian",
+      "science"
     ],
     "281P00000X": [
-      "chronic",
-      "disease"
+      "disease",
+      "chronic"
     ],
     "281PC2000X": [
-      "chronic",
       "children",
-      "disease"
+      "disease",
+      "chronic"
     ],
     "282N00000X": [
       "acute",
@@ -3534,14 +3534,14 @@
     ],
     "282NC2000X": [
       "acute",
-      "general",
-      "children"
+      "children",
+      "general"
     ],
     "282NC0060X": [
       "acute",
-      "general",
       "access",
-      "critical"
+      "critical",
+      "general"
     ],
     "282NR1301X": [
       "acute",
@@ -3550,31 +3550,31 @@
     ],
     "282NW0100X": [
       "acute",
-      "general",
-      "women"
+      "women",
+      "general"
     ],
     "282E00000X": [
-      "long",
-      "term"
+      "term",
+      "long"
     ],
     "286500000X": [
       "military"
     ],
     "2865C1500X": [
-      "military",
-      "community"
+      "community",
+      "military"
     ],
     "2865M2000X": [
-      "military",
       "acute",
+      "military",
       "general"
     ],
     "2865X1600X": [
-      "transportable",
       "acute",
+      "operational",
+      "transportable",
       "military",
-      "general",
-      "operational"
+      "general"
     ],
     "283Q00000X": [
       "psychiatric"
@@ -3601,8 +3601,8 @@
       "dental"
     ],
     "291900000X": [
-      "military",
-      "laboratory"
+      "laboratory",
+      "military"
     ],
     "293D00000X": [
       "laboratory"
@@ -3622,52 +3622,52 @@
     "311500000X": [],
     "310400000X": [
       "assisted",
-      "facility",
-      "living"
+      "living",
+      "facility"
     ],
     "3104A0630X": [
-      "assisted",
-      "facility",
       "living",
-      "behavioral"
+      "assisted",
+      "behavioral",
+      "facility"
     ],
     "3104A0625X": [
-      "illness",
-      "living",
-      "assisted",
       "mental",
+      "illness",
+      "assisted",
+      "living",
       "facility"
     ],
     "317400000X": [
-      "science",
       "christian",
+      "science",
       "facility"
     ],
     "311Z00000X": [
-      "facility",
-      "custodial"
+      "custodial",
+      "facility"
     ],
     "311ZA0620X": [
       "facility",
-      "home",
       "adult",
-      "custodial"
+      "custodial",
+      "home"
     ],
     "315D00000X": [
       "hospice",
       "inpatient"
     ],
     "315P00000X": [
-      "facility",
-      "disabilities",
       "intellectual",
-      "intermediate"
+      "disabilities",
+      "intermediate",
+      "facility"
     ],
     "310500000X": [
-      "facility",
+      "mental",
       "illness",
       "intermediate",
-      "mental"
+      "facility"
     ],
     "313M00000X": [
       "facility",
@@ -3675,79 +3675,79 @@
       "intermediate"
     ],
     "314000000X": [
-      "facility",
+      "skilled",
       "nursing",
-      "skilled"
+      "facility"
     ],
     "3140N1450X": [
-      "facility",
-      "nursing",
       "pediatric",
-      "skilled"
+      "skilled",
+      "nursing",
+      "facility"
     ],
     "177F00000X": [],
     "174200000X": [
       "meals"
     ],
     "320800000X": [
+      "community",
+      "mental",
       "illness",
       "based",
-      "treatment",
       "residential",
-      "mental",
-      "facility",
-      "community"
+      "treatment",
+      "facility"
     ],
     "320900000X": [
-      "based",
-      "treatment",
-      "residential",
+      "community",
       "developmental",
       "intellectual",
-      "facility",
+      "based",
+      "residential",
       "disabilities",
-      "community"
+      "treatment",
+      "facility"
     ],
     "323P00000X": [
-      "facility",
       "psychiatric",
       "treatment",
-      "residential"
+      "residential",
+      "facility"
     ],
     "322D00000X": [
-      "facility",
       "children",
       "treatment",
-      "residential"
+      "residential",
+      "facility"
     ],
     "320600000X": [
-      "treatment",
-      "residential",
       "developmental",
+      "disabilities",
+      "residential",
       "intellectual",
-      "facility",
-      "disabilities"
+      "treatment",
+      "facility"
     ],
     "320700000X": [
-      "treatment",
       "residential",
-      "facility",
       "disabilities",
+      "facility",
+      "treatment",
       "physical"
     ],
     "324500000X": [
       "abuse",
-      "facility",
+      "rehabilitation",
       "substance",
-      "rehabilitation"
+      "facility"
     ],
     "3245S0500X": [
-      "abuse",
       "substance",
-      "treatment",
-      "rehabilitation",
+      "children",
+      "abuse",
       "facility",
-      "children"
+      "treatment",
+      "rehabilitation"
     ],
     "385H00000X": [
       "respite"
@@ -3756,17 +3756,17 @@
       "respite"
     ],
     "385HR2055X": [
-      "illness",
+      "mental",
       "respite",
-      "child",
-      "mental"
+      "illness",
+      "child"
     ],
     "385HR2060X": [
-      "respite",
-      "child",
       "developmental",
+      "disabilities",
+      "respite",
       "intellectual",
-      "disabilities"
+      "child"
     ],
     "385HR2065X": [
       "respite",
@@ -3783,41 +3783,41 @@
     ],
     "332B00000X": [
       "supplies",
-      "durable",
-      "equipment"
+      "equipment",
+      "durable"
     ],
     "332BC3200X": [
       "supplies",
-      "durable",
-      "equipment"
+      "equipment",
+      "durable"
     ],
     "332BD1200X": [
       "supplies",
-      "durable",
+      "equipment",
       "dialysis",
-      "equipment"
+      "durable"
     ],
     "332BN1400X": [
-      "nursing",
-      "supplies",
-      "facility",
       "durable",
-      "equipment"
+      "supplies",
+      "equipment",
+      "nursing",
+      "facility"
     ],
     "332BX2000X": [
       "supplies",
-      "durable",
-      "equipment"
+      "equipment",
+      "durable"
     ],
     "332BP3500X": [
       "supplies",
+      "equipment",
       "nutrition",
-      "durable",
-      "equipment"
+      "durable"
     ],
     "333300000X": [
-      "response",
-      "emergency"
+      "emergency",
+      "response"
     ],
     "332G00000X": [
       "bank"
@@ -3826,9 +3826,9 @@
       "supplier"
     ],
     "332S00000X": [
+      "equipment",
       "aid",
-      "hearing",
-      "equipment"
+      "hearing"
     ],
     "332U00000X": [
       "meals",
@@ -3843,8 +3843,8 @@
     "332000000X": [
       "military",
       "guard",
-      "coast",
-      "pharmacy"
+      "pharmacy",
+      "coast"
     ],
     "332900000X": [
       "non",
@@ -3868,25 +3868,25 @@
       "pharmacy"
     ],
     "3336H0001X": [
-      "home",
-      "pharmacy",
       "therapy",
-      "infusion"
+      "pharmacy",
+      "infusion",
+      "home"
     ],
     "3336I0012X": [
       "pharmacy"
     ],
     "3336L0003X": [
-      "long",
       "term",
+      "long",
       "pharmacy"
     ],
     "3336M0002X": [
       "pharmacy"
     ],
     "3336M0003X": [
-      "pharmacy",
-      "organization"
+      "organization",
+      "pharmacy"
     ],
     "3336N0007X": [
       "nuclear",
@@ -3897,10 +3897,10 @@
       "pharmacy"
     ],
     "335V00000X": [
-      "diagnostic",
+      "imaging",
       "supplier",
       "other",
-      "imaging"
+      "diagnostic"
     ],
     "335E00000X": [
       "orthotic",
@@ -3913,54 +3913,54 @@
       "ambulance"
     ],
     "3416A0800X": [
-      "transport",
+      "ambulance",
       "air",
-      "ambulance"
+      "transport"
     ],
     "3416L0300X": [
-      "transport",
-      "ambulance"
+      "ambulance",
+      "transport"
     ],
     "3416S0300X": [
-      "transport",
+      "ambulance",
       "water",
-      "ambulance"
+      "transport"
     ],
     "347B00000X": [],
     "341800000X": [
       "military",
+      "transport",
       "guard",
-      "coast",
-      "transport"
+      "coast"
     ],
     "3418M1120X": [
-      "guard",
-      "military",
-      "air",
       "ambulance",
+      "guard",
       "transport",
-      "coast"
+      "coast",
+      "military",
+      "air"
     ],
     "3418M1110X": [
-      "guard",
-      "military",
       "ambulance",
+      "guard",
       "transport",
-      "coast"
+      "coast",
+      "military"
     ],
     "3418M1130X": [
-      "guard",
-      "military",
-      "water",
       "ambulance",
+      "guard",
       "transport",
-      "coast"
+      "coast",
+      "military",
+      "water"
     ],
     "343900000X": [
-      "non",
+      "emergency",
       "transport",
-      "van",
-      "emergency"
+      "non",
+      "van"
     ],
     "347C00000X": [
       "vehicle"
@@ -3990,8 +3990,8 @@
       "allergy immunology"
     ],
     "207KI0005X": [
-      "laboratory immunology",
-      "allergy immunology"
+      "allergy immunology",
+      "laboratory immunology"
     ],
     "207L00000X": [],
     "207LA0401X": [],
@@ -4002,8 +4002,8 @@
     "207LP2900X": [],
     "207LP3000X": [],
     "207LP4000X": [
-      "physician nutrition",
-      "nutrition specialist"
+      "nutrition specialist",
+      "physician nutrition"
     ],
     "208U00000X": [],
     "208C00000X": [],
@@ -4037,8 +4037,8 @@
     ],
     "207QB0002X": [],
     "207QP0002X": [
-      "physician nutrition",
-      "nutrition specialist"
+      "nutrition specialist",
+      "physician nutrition"
     ],
     "207QS1201X": [],
     "207QS0010X": [],
@@ -4081,15 +4081,15 @@
     "207RI0011X": [],
     "207RM1200X": [
       "imaging mri",
-      "resonance imaging",
-      "magnetic resonance"
+      "magnetic resonance",
+      "resonance imaging"
     ],
     "207RX0202X": [],
     "207RN0300X": [],
     "207RB0002X": [],
     "207RP1002X": [
-      "physician nutrition",
-      "nutrition specialist"
+      "nutrition specialist",
+      "physician nutrition"
     ],
     "207RP1001X": [],
     "207RR0500X": [],
@@ -4115,9 +4115,9 @@
       "biochemical genetics"
     ],
     "207SM0001X": [
-      "genetics molecular",
       "molecular genetic",
-      "genetic pathology"
+      "genetic pathology",
+      "genetics molecular"
     ],
     "207SG0205X": [
       "genetics genetics"
@@ -4145,9 +4145,9 @@
     ],
     "207VF0040X": [
       "obstetrics gynecology",
+      "urogynecology reconstructive",
       "reconstructive pelvic",
-      "pelvic surgery",
-      "urogynecology reconstructive"
+      "pelvic surgery"
     ],
     "207VX0201X": [
       "obstetrics gynecology"
@@ -4195,12 +4195,12 @@
     ],
     "207XX0004X": [
       "ankle surgery",
-      "foot ankle",
-      "orthopaedic surgery"
+      "orthopaedic surgery",
+      "foot ankle"
     ],
     "207XS0106X": [
-      "orthopaedic surgery",
-      "surgery hand"
+      "surgery hand",
+      "orthopaedic surgery"
     ],
     "207XS0117X": [
       "orthopaedic surgery",
@@ -4219,23 +4219,23 @@
     ],
     "207Y00000X": [],
     "207YS0123X": [
-      "otolaryngology facial",
       "plastic surgery",
-      "facial plastic"
+      "facial plastic",
+      "otolaryngology facial"
     ],
     "207YX0602X": [],
     "207YX0905X": [
-      "otolaryngology facial",
       "plastic surgery",
-      "facial plastic"
+      "facial plastic",
+      "otolaryngology facial"
     ],
     "207YX0901X": [],
     "207YP0228X": [],
     "207YX0007X": [
-      "head neck",
-      "surgery within",
       "plastic surgery",
-      "within head"
+      "within head",
+      "surgery within",
+      "head neck"
     ],
     "207YS0012X": [],
     "208VP0014X": [],
@@ -4246,12 +4246,12 @@
     ],
     "207ZP0102X": [
       "pathology anatomic",
-      "pathology pathology",
-      "anatomic pathology"
+      "anatomic pathology",
+      "pathology pathology"
     ],
     "207ZB0001X": [
-      "blood banking",
-      "pathology blood"
+      "pathology blood",
+      "blood banking"
     ],
     "207ZP0104X": [],
     "207ZC0008X": [],
@@ -4259,8 +4259,8 @@
       "pathology pathology"
     ],
     "207ZP0105X": [
-      "pathology pathology",
-      "pathology laboratory"
+      "pathology laboratory",
+      "pathology pathology"
     ],
     "207ZC0500X": [],
     "207ZD0900X": [],
@@ -4273,8 +4273,8 @@
       "pathology microbiology"
     ],
     "207ZP0007X": [
-      "genetic pathology",
-      "molecular genetic"
+      "molecular genetic",
+      "genetic pathology"
     ],
     "207ZN0500X": [],
     "207ZP0213X": [],
@@ -4316,8 +4316,8 @@
       "pediatrics pediatric"
     ],
     "2080P0207X": [
-      "hematology oncology",
-      "pediatrics pediatric"
+      "pediatrics pediatric",
+      "hematology oncology"
     ],
     "2080P0208X": [
       "pediatrics pediatric",
@@ -4337,8 +4337,8 @@
       "transplant hepatology"
     ],
     "2080P1004X": [
-      "physician nutrition",
-      "nutrition specialist"
+      "nutrition specialist",
+      "physician nutrition"
     ],
     "2080S0012X": [],
     "2080S0010X": [],
@@ -4347,12 +4347,12 @@
       "physical rehabilitation"
     ],
     "2081P0301X": [
-      "physical rehabilitation",
-      "brain injury"
+      "brain injury",
+      "physical rehabilitation"
     ],
     "2081H0002X": [
-      "physical rehabilitation",
-      "hospice palliative"
+      "hospice palliative",
+      "physical rehabilitation"
     ],
     "2081N0008X": [
       "physical rehabilitation"
@@ -4373,16 +4373,16 @@
       "plastic surgery"
     ],
     "2082S0099X": [
-      "surgery within",
-      "surgery plastic",
       "plastic surgery",
-      "head neck",
-      "within head"
+      "surgery plastic",
+      "within head",
+      "surgery within",
+      "head neck"
     ],
     "2082S0105X": [
-      "surgery surgery",
       "plastic surgery",
-      "surgery hand"
+      "surgery hand",
+      "surgery surgery"
     ],
     "2083A0300X": [],
     "2083A0100X": [],
@@ -4412,8 +4412,8 @@
       "psychiatry neurology"
     ],
     "2084P0301X": [
-      "psychiatry neurology",
-      "brain injury"
+      "brain injury",
+      "psychiatry neurology"
     ],
     "2084P0804X": [
       "psychiatry neurology",
@@ -4436,8 +4436,8 @@
       "psychiatry neurology"
     ],
     "2084H0002X": [
-      "psychiatry neurology",
-      "hospice palliative"
+      "hospice palliative",
+      "psychiatry neurology"
     ],
     "2084A2900X": [
       "psychiatry neurology"
@@ -4509,17 +4509,17 @@
       "surgery pediatric"
     ],
     "2086P0122X": [
-      "physician nutrition",
-      "nutrition specialist"
+      "nutrition specialist",
+      "physician nutrition"
     ],
     "2086S0122X": [
+      "surgery plastic",
       "reconstructive surgery",
-      "plastic reconstructive",
-      "surgery plastic"
+      "plastic reconstructive"
     ],
     "2086S0105X": [
-      "surgery surgery",
-      "surgery hand"
+      "surgery hand",
+      "surgery surgery"
     ],
     "2086S0102X": [
       "surgery surgical"
@@ -4537,9 +4537,9 @@
     "204F00000X": [],
     "208800000X": [],
     "2088F0040X": [
+      "urogynecology reconstructive",
       "reconstructive pelvic",
-      "pelvic surgery",
-      "urogynecology reconstructive"
+      "pelvic surgery"
     ],
     "2088P0231X": [],
     "106E00000X": [
@@ -4589,8 +4589,8 @@
     "103TH0100X": [],
     "103TM1700X": [],
     "103TM1800X": [
-      "developmental disabilities",
-      "intellectual developmental"
+      "intellectual developmental",
+      "developmental disabilities"
     ],
     "103TP0016X": [],
     "103TP0814X": [],
@@ -4679,8 +4679,8 @@
       "registered nutrition"
     ],
     "133VN1201X": [
-      "registered nutrition",
-      "dietitian registered"
+      "dietitian registered",
+      "registered nutrition"
     ],
     "133VN1301X": [
       "dietitian registered",
@@ -4688,14 +4688,14 @@
     ],
     "133VN1004X": [
       "dietitian registered",
-      "registered nutrition",
-      "nutrition pediatric"
+      "nutrition pediatric",
+      "registered nutrition"
     ],
     "133VN1401X": [
       "dietitian registered",
-      "registered nutrition",
+      "pediatric critical",
       "nutrition pediatric",
-      "pediatric critical"
+      "registered nutrition"
     ],
     "133VN1005X": [
       "dietitian registered",
@@ -4732,13 +4732,13 @@
       "technician technologist"
     ],
     "156FC0800X": [
-      "technologist contact",
       "contact lens",
+      "technologist contact",
       "technician technologist"
     ],
     "156FC0801X": [
-      "technologist contact",
       "contact lens",
+      "technologist contact",
       "technician technologist"
     ],
     "156FX1700X": [
@@ -4774,9 +4774,9 @@
     ],
     "163WA0400X": [
       "addiction substance",
+      "registered nurse",
       "substance use",
-      "use disorder",
-      "registered nurse"
+      "use disorder"
     ],
     "163WA2000X": [
       "registered nurse"
@@ -4788,8 +4788,8 @@
       "registered nurse"
     ],
     "163WC0400X": [
-      "case management",
-      "registered nurse"
+      "registered nurse",
+      "case management"
     ],
     "163WC1400X": [
       "registered nurse"
@@ -4847,8 +4847,8 @@
       "registered nurse"
     ],
     "163WL0100X": [
-      "lactation consultant",
-      "registered nurse"
+      "registered nurse",
+      "lactation consultant"
     ],
     "163WM0102X": [
       "registered nurse"
@@ -4871,20 +4871,20 @@
       "registered nurse"
     ],
     "163WM1400X": [
-      "massage therapist",
-      "registered nurse"
+      "registered nurse",
+      "massage therapist"
     ],
     "163WN1003X": [
       "nutrition support",
       "registered nurse"
     ],
     "163WX0002X": [
-      "nurse obstetric",
-      "registered nurse"
+      "registered nurse",
+      "nurse obstetric"
     ],
     "163WX0003X": [
-      "nurse obstetric",
-      "registered nurse"
+      "registered nurse",
+      "nurse obstetric"
     ],
     "163WX0106X": [
       "registered nurse"
@@ -4902,8 +4902,8 @@
       "registered nurse"
     ],
     "163WX0601X": [
-      "head neck",
-      "registered nurse"
+      "registered nurse",
+      "head neck"
     ],
     "163WP0000X": [
       "registered nurse"
@@ -4928,16 +4928,16 @@
     ],
     "163WP0809X": [
       "registered nurse",
-      "mental adult",
       "nurse psychiatric",
+      "mental adult",
       "psychiatric mental"
     ],
     "163WP0807X": [
       "mental child",
+      "registered nurse",
       "nurse psychiatric",
       "psychiatric mental",
-      "child adolescent",
-      "registered nurse"
+      "child adolescent"
     ],
     "163WR0006X": [
       "registered nurse"
@@ -4946,8 +4946,8 @@
       "registered nurse"
     ],
     "163WR1000X": [
-      "reproductive endocrinology",
-      "registered nurse"
+      "registered nurse",
+      "reproductive endocrinology"
     ],
     "163WS0200X": [
       "registered nurse"
@@ -5005,14 +5005,14 @@
       "military provider"
     ],
     "1710I1002X": [
+      "provider independent",
       "military provider",
-      "independent duty",
-      "provider independent"
+      "independent duty"
     ],
     "1710I1003X": [
+      "provider independent",
       "military provider",
-      "independent duty",
-      "provider independent"
+      "independent duty"
     ],
     "172P00000X": [],
     "175F00000X": [],
@@ -5145,10 +5145,10 @@
     ],
     "364SP0807X": [
       "mental child",
+      "nurse specialist",
       "psychiatric mental",
       "specialist psychiatric",
-      "child adolescent",
-      "nurse specialist"
+      "child adolescent"
     ],
     "364SP0810X": [
       "mental child",
@@ -5206,12 +5206,12 @@
       "nurse practitioner"
     ],
     "363LN0000X": [
-      "nurse practitioner",
-      "practitioner neonatal"
+      "practitioner neonatal",
+      "nurse practitioner"
     ],
     "363LN0005X": [
-      "nurse practitioner",
-      "practitioner neonatal"
+      "practitioner neonatal",
+      "nurse practitioner"
     ],
     "363LX0001X": [
       "obstetrics gynecology",
@@ -5235,8 +5235,8 @@
       "nurse practitioner"
     ],
     "363LP0808X": [
-      "nurse practitioner",
-      "psychiatric mental"
+      "psychiatric mental",
+      "nurse practitioner"
     ],
     "363LS0200X": [
       "nurse practitioner"
@@ -5296,21 +5296,21 @@
       "occupational therapist"
     ],
     "225XF0002X": [
+      "feeding eating",
       "eating swallowing",
-      "occupational therapist",
-      "feeding eating"
+      "occupational therapist"
     ],
     "225XG0600X": [
       "occupational therapist"
     ],
     "225XH1200X": [
-      "therapist hand",
-      "occupational therapist"
+      "occupational therapist",
+      "therapist hand"
     ],
     "225XH1300X": [
       "therapist human",
-      "human factors",
-      "occupational therapist"
+      "occupational therapist",
+      "human factors"
     ],
     "225XL0004X": [
       "low vision",
@@ -5331,30 +5331,30 @@
       "occupational therapist"
     ],
     "224Z00000X": [
-      "occupational therapy",
-      "therapy assistant"
+      "therapy assistant",
+      "occupational therapy"
     ],
     "224ZR0403X": [
       "community mobility",
-      "driving community",
+      "therapy assistant",
       "occupational therapy",
-      "therapy assistant"
+      "driving community"
     ],
     "224ZE0001X": [
-      "occupational therapy",
+      "therapy assistant",
       "environmental modification",
-      "therapy assistant"
+      "occupational therapy"
     ],
     "224ZF0002X": [
       "feeding eating",
-      "occupational therapy",
+      "therapy assistant",
       "eating swallowing",
-      "therapy assistant"
+      "occupational therapy"
     ],
     "224ZL0004X": [
       "low vision",
-      "occupational therapy",
-      "therapy assistant"
+      "therapy assistant",
+      "occupational therapy"
     ],
     "225000000X": [],
     "222Z00000X": [],
@@ -5369,20 +5369,20 @@
       "physical therapist"
     ],
     "2251E1200X": [
-      "therapist ergonomics",
-      "physical therapist"
+      "physical therapist",
+      "therapist ergonomics"
     ],
     "2251G0304X": [
       "physical therapist"
     ],
     "2251H1200X": [
-      "therapist hand",
-      "physical therapist"
+      "physical therapist",
+      "therapist hand"
     ],
     "2251H1300X": [
+      "physical therapist",
       "therapist human",
-      "human factors",
-      "physical therapist"
+      "human factors"
     ],
     "2251N0400X": [
       "physical therapist"
@@ -5391,8 +5391,8 @@
       "physical therapist"
     ],
     "2251P0200X": [
-      "therapist pediatrics",
-      "physical therapist"
+      "physical therapist",
+      "therapist pediatrics"
     ],
     "2251S0007X": [
       "physical therapist"
@@ -5403,8 +5403,8 @@
     ],
     "224P00000X": [],
     "225B00000X": [
-      "pulmonary function",
-      "function technologist"
+      "function technologist",
+      "pulmonary function"
     ],
     "225800000X": [],
     "226000000X": [],
@@ -5413,15 +5413,15 @@
     ],
     "225CA2400X": [
       "rehabilitation counselor",
-      "technology practitioner",
       "assistive technology",
-      "counselor assistive"
+      "counselor assistive",
+      "technology practitioner"
     ],
     "225CA2500X": [
       "rehabilitation counselor",
       "technology supplier",
-      "counselor assistive",
-      "assistive technology"
+      "assistive technology",
+      "counselor assistive"
     ],
     "225CX0006X": [
       "rehabilitation counselor"
@@ -5461,33 +5461,33 @@
       "therapist certified"
     ],
     "2278P3800X": [
-      "palliative hospice",
       "respiratory therapist",
+      "palliative hospice",
       "therapist certified"
     ],
     "2278P4000X": [
-      "patient transport",
       "respiratory therapist",
+      "patient transport",
       "therapist certified"
     ],
     "2278P1004X": [
-      "therapist certified",
-      "certified pulmonary",
       "respiratory therapist",
-      "pulmonary diagnostics"
+      "pulmonary diagnostics",
+      "therapist certified",
+      "certified pulmonary"
     ],
     "2278P1006X": [
-      "pulmonary function",
       "respiratory therapist",
+      "pulmonary function",
       "therapist certified",
       "function technologist",
       "certified pulmonary"
     ],
     "2278P1005X": [
-      "certified pulmonary",
       "respiratory therapist",
       "pulmonary rehabilitation",
-      "therapist certified"
+      "therapist certified",
+      "certified pulmonary"
     ],
     "2278S1500X": [
       "respiratory therapist",
@@ -5524,42 +5524,42 @@
     ],
     "2279P3900X": [
       "respiratory therapist",
-      "neonatal pediatrics",
-      "therapist registered"
+      "therapist registered",
+      "neonatal pediatrics"
     ],
     "2279P3800X": [
-      "palliative hospice",
       "respiratory therapist",
-      "therapist registered"
+      "therapist registered",
+      "palliative hospice"
     ],
     "2279P4000X": [
-      "patient transport",
       "respiratory therapist",
-      "therapist registered"
+      "therapist registered",
+      "patient transport"
     ],
     "2279P1004X": [
-      "registered pulmonary",
-      "pulmonary diagnostics",
       "respiratory therapist",
-      "therapist registered"
+      "pulmonary diagnostics",
+      "therapist registered",
+      "registered pulmonary"
     ],
     "2279P1006X": [
-      "registered pulmonary",
-      "pulmonary function",
       "respiratory therapist",
-      "function technologist",
-      "therapist registered"
+      "pulmonary function",
+      "therapist registered",
+      "registered pulmonary",
+      "function technologist"
     ],
     "2279P1005X": [
-      "registered pulmonary",
       "respiratory therapist",
       "pulmonary rehabilitation",
-      "therapist registered"
+      "therapist registered",
+      "registered pulmonary"
     ],
     "2279S1500X": [
       "respiratory therapist",
-      "snf subacute",
-      "therapist registered"
+      "therapist registered",
+      "snf subacute"
     ],
     "225500000X": [
       "specialist technologist"
@@ -5572,14 +5572,14 @@
     ],
     "231H00000X": [],
     "231HA2400X": [
-      "audiologist assistive",
       "technology practitioner",
-      "assistive technology"
+      "assistive technology",
+      "audiologist assistive"
     ],
     "231HA2500X": [
       "technology supplier",
-      "audiologist assistive",
-      "assistive technology"
+      "assistive technology",
+      "audiologist assistive"
     ],
     "237600000X": [
       "hearing aid"
@@ -5612,16 +5612,16 @@
     ],
     "2471C1101X": [
       "radiologic technologist",
-      "interventional technology",
-      "technologist cardiovascular"
+      "technologist cardiovascular",
+      "interventional technology"
     ],
     "2471C3401X": [
       "radiologic technologist"
     ],
     "2471M1202X": [
-      "resonance imaging",
       "radiologic technologist",
-      "magnetic resonance"
+      "magnetic resonance",
+      "resonance imaging"
     ],
     "2471M2300X": [
       "radiologic technologist"
@@ -5642,51 +5642,51 @@
       "radiologic technologist"
     ],
     "2471V0105X": [
-      "technologist vascular",
-      "radiologic technologist"
+      "radiologic technologist",
+      "technologist vascular"
     ],
     "2471V0106X": [
-      "technologist vascular",
-      "interventional technology",
       "radiologic technologist",
-      "vascular interventional"
+      "vascular interventional",
+      "technologist vascular",
+      "interventional technology"
     ],
     "243U00000X": [],
     "246X00000X": [
-      "specialist technologist",
-      "technologist cardiovascular"
+      "technologist cardiovascular",
+      "specialist technologist"
     ],
     "246XC2901X": [
-      "specialist technologist",
-      "technologist cardiovascular"
+      "technologist cardiovascular",
+      "specialist technologist"
     ],
     "246XS1301X": [
-      "specialist technologist",
-      "technologist cardiovascular"
+      "technologist cardiovascular",
+      "specialist technologist"
     ],
     "246XC2903X": [
-      "specialist technologist",
-      "technologist cardiovascular"
+      "technologist cardiovascular",
+      "specialist technologist"
     ],
     "246Y00000X": [
-      "technologist information",
-      "specialist technologist"
+      "specialist technologist",
+      "technologist information"
     ],
     "246YC3301X": [
       "technologist information",
       "coding specialist",
-      "information coding",
-      "specialist technologist"
+      "specialist technologist",
+      "information coding"
     ],
     "246YC3302X": [
       "technologist information",
       "coding specialist",
-      "information coding",
-      "specialist technologist"
+      "specialist technologist",
+      "information coding"
     ],
     "246YR1600X": [
-      "technologist information",
-      "specialist technologist"
+      "specialist technologist",
+      "technologist information"
     ],
     "246Z00000X": [
       "technologist other",
@@ -5701,15 +5701,15 @@
       "specialist technologist"
     ],
     "246ZB0301X": [
-      "other biomedical",
-      "technologist other",
       "biomedical engineering",
-      "specialist technologist"
+      "technologist other",
+      "specialist technologist",
+      "other biomedical"
     ],
     "246ZB0302X": [
-      "other biomedical",
       "technologist other",
-      "specialist technologist"
+      "specialist technologist",
+      "other biomedical"
     ],
     "246ZB0600X": [
       "technologist other",
@@ -5717,8 +5717,8 @@
     ],
     "246ZE0500X": [
       "technologist other",
-      "other eeg",
-      "specialist technologist"
+      "specialist technologist",
+      "other eeg"
     ],
     "246ZE0600X": [
       "technologist other",
@@ -5745,24 +5745,24 @@
       "specialist technologist"
     ],
     "246ZC0007X": [
-      "other surgical",
       "technologist other",
-      "specialist technologist"
+      "specialist technologist",
+      "other surgical"
     ],
     "246ZS0410X": [
-      "other surgical",
       "technologist other",
-      "specialist technologist"
+      "specialist technologist",
+      "other surgical"
     ],
     "246Q00000X": [
       "technologist pathology",
       "specialist technologist"
     ],
     "246QB0000X": [
+      "pathology blood",
       "blood banking",
       "technologist pathology",
-      "specialist technologist",
-      "pathology blood"
+      "specialist technologist"
     ],
     "246QC1000X": [
       "technologist pathology",
@@ -5777,9 +5777,9 @@
       "specialist technologist"
     ],
     "246QH0000X": [
-      "technologist pathology",
+      "pathology hematology",
       "specialist technologist",
-      "pathology hematology"
+      "technologist pathology"
     ],
     "246QH0600X": [
       "pathology histology",
@@ -5791,16 +5791,16 @@
       "specialist technologist"
     ],
     "246QL0900X": [
-      "specialist technologist",
       "laboratory management",
-      "technologist pathology",
-      "pathology laboratory"
+      "pathology laboratory",
+      "specialist technologist",
+      "technologist pathology"
     ],
     "246QL0901X": [
-      "specialist technologist",
       "laboratory management",
-      "technologist pathology",
-      "pathology laboratory"
+      "pathology laboratory",
+      "specialist technologist",
+      "technologist pathology"
     ],
     "246QM0706X": [
       "technologist pathology",
@@ -5808,8 +5808,8 @@
     ],
     "246QM0900X": [
       "pathology microbiology",
-      "technologist pathology",
-      "specialist technologist"
+      "specialist technologist",
+      "technologist pathology"
     ],
     "246W00000X": [],
     "247000000X": [
@@ -5822,16 +5822,16 @@
       "technician other"
     ],
     "2472B0301X": [
-      "other biomedical",
       "biomedical engineering",
-      "technician other"
+      "technician other",
+      "other biomedical"
     ],
     "2472D0500X": [
       "technician other"
     ],
     "2472E0500X": [
-      "other eeg",
-      "technician other"
+      "technician other",
+      "other eeg"
     ],
     "2472R0900X": [
       "technician other"
@@ -5847,8 +5847,8 @@
       "pathology laboratory"
     ],
     "246RH0600X": [
-      "technician pathology",
-      "pathology histology"
+      "pathology histology",
+      "technician pathology"
     ],
     "246RM2200X": [
       "technician pathology",
@@ -5919,8 +5919,8 @@
     "261QL0400X": [],
     "261QM1200X": [
       "imaging mri",
-      "resonance imaging",
-      "magnetic resonance"
+      "magnetic resonance",
+      "resonance imaging"
     ],
     "261QM2500X": [],
     "261QM3000X": [],
@@ -5932,16 +5932,16 @@
       "ambulatory procedure"
     ],
     "261QM1101X": [
-      "coast guard",
       "military coast",
+      "coast guard",
       "ambulatory procedure"
     ],
     "261QM1102X": [
       "operational transportable"
     ],
     "261QM1100X": [
-      "coast guard",
-      "military coast"
+      "military coast",
+      "coast guard"
     ],
     "261QM1300X": [
       "multi specialty"
@@ -5978,8 +5978,8 @@
       "rehabilitation facility"
     ],
     "261QR0405X": [
-      "substance use",
       "rehabilitation substance",
+      "substance use",
       "use disorder"
     ],
     "261QR1100X": [],
@@ -5993,8 +5993,8 @@
     "273R00000X": [],
     "273Y00000X": [],
     "276400000X": [
-      "substance use",
       "rehabilitation substance",
+      "substance use",
       "use disorder"
     ],
     "287300000X": [
@@ -6013,8 +6013,8 @@
       "general acute"
     ],
     "282NC0060X": [
-      "critical access",
-      "general acute"
+      "general acute",
+      "critical access"
     ],
     "282NR1301X": [
       "general acute"
@@ -6028,13 +6028,13 @@
     "286500000X": [],
     "2865C1500X": [],
     "2865M2000X": [
-      "military military",
       "military general",
+      "military military",
       "general acute"
     ],
     "2865X1600X": [
-      "operational transportable",
       "military general",
+      "operational transportable",
       "military military",
       "general acute"
     ],
@@ -6065,15 +6065,15 @@
       "living facility"
     ],
     "3104A0630X": [
-      "living facility",
-      "facility assisted",
-      "assisted living"
-    ],
-    "3104A0625X": [
-      "living facility",
       "facility assisted",
       "assisted living",
-      "mental illness"
+      "living facility"
+    ],
+    "3104A0625X": [
+      "mental illness",
+      "assisted living",
+      "facility assisted",
+      "living facility"
     ],
     "317400000X": [
       "christian science"
@@ -6091,12 +6091,12 @@
     ],
     "310500000X": [
       "intermediate facility",
-      "facility mental",
-      "mental illness"
+      "mental illness",
+      "facility mental"
     ],
     "313M00000X": [
-      "nursing facility",
-      "intermediate facility"
+      "intermediate facility",
+      "nursing facility"
     ],
     "314000000X": [
       "skilled nursing",
@@ -6109,21 +6109,21 @@
     "177F00000X": [],
     "174200000X": [],
     "320800000X": [
+      "mental illness",
       "residential treatment",
       "treatment facility",
-      "community based",
-      "based residential",
       "facility mental",
-      "mental illness"
+      "community based",
+      "based residential"
     ],
     "320900000X": [
-      "intellectual developmental",
       "residential treatment",
-      "developmental disabilities",
       "treatment facility",
+      "intellectual developmental",
+      "facility intellectual",
       "community based",
-      "based residential",
-      "facility intellectual"
+      "developmental disabilities",
+      "based residential"
     ],
     "323P00000X": [
       "residential treatment",
@@ -6134,40 +6134,40 @@
       "treatment facility"
     ],
     "320600000X": [
-      "intellectual developmental",
-      "treatment facility",
-      "developmental disabilities",
       "residential treatment",
-      "facility intellectual"
+      "treatment facility",
+      "intellectual developmental",
+      "facility intellectual",
+      "developmental disabilities"
     ],
     "320700000X": [
-      "physical disabilities",
       "residential treatment",
-      "treatment facility"
+      "treatment facility",
+      "physical disabilities"
     ],
     "324500000X": [
       "rehabilitation facility",
-      "substance abuse",
-      "abuse rehabilitation"
+      "abuse rehabilitation",
+      "substance abuse"
     ],
     "3245S0500X": [
       "rehabilitation facility",
-      "substance abuse",
-      "abuse rehabilitation"
+      "abuse rehabilitation",
+      "substance abuse"
     ],
     "385H00000X": [],
     "385HR2050X": [
       "respite respite"
     ],
     "385HR2055X": [
-      "respite respite",
-      "mental illness"
+      "mental illness",
+      "respite respite"
     ],
     "385HR2060X": [
-      "developmental disabilities",
-      "disabilities child",
       "respite respite",
-      "intellectual developmental"
+      "disabilities child",
+      "intellectual developmental",
+      "developmental disabilities"
     ],
     "385HR2065X": [
       "disabilities child",
@@ -6177,29 +6177,29 @@
     "331L00000X": [],
     "332100000X": [],
     "332B00000X": [
-      "equipment supplies",
-      "durable equipment"
+      "durable equipment",
+      "equipment supplies"
     ],
     "332BC3200X": [
-      "equipment supplies",
-      "durable equipment"
+      "durable equipment",
+      "equipment supplies"
     ],
     "332BD1200X": [
-      "equipment supplies",
-      "durable equipment"
+      "durable equipment",
+      "equipment supplies"
     ],
     "332BN1400X": [
-      "equipment supplies",
       "durable equipment",
+      "equipment supplies",
       "nursing facility"
     ],
     "332BX2000X": [
-      "equipment supplies",
-      "durable equipment"
+      "durable equipment",
+      "equipment supplies"
     ],
     "332BP3500X": [
-      "equipment supplies",
-      "durable equipment"
+      "durable equipment",
+      "equipment supplies"
     ],
     "333300000X": [
       "emergency response"
@@ -6213,8 +6213,8 @@
     "332800000X": [],
     "335G00000X": [],
     "332000000X": [
-      "coast guard",
-      "military coast"
+      "military coast",
+      "coast guard"
     ],
     "332900000X": [],
     "335U00000X": [],
@@ -6223,8 +6223,8 @@
     "3336C0003X": [],
     "3336C0004X": [],
     "3336H0001X": [
-      "home infusion",
-      "infusion therapy"
+      "infusion therapy",
+      "home infusion"
     ],
     "3336I0012X": [],
     "3336L0003X": [
@@ -6239,8 +6239,8 @@
     "344800000X": [],
     "341600000X": [],
     "3416A0800X": [
-      "air transport",
-      "ambulance air"
+      "ambulance air",
+      "air transport"
     ],
     "3416L0300X": [],
     "3416S0300X": [
@@ -6249,32 +6249,32 @@
     ],
     "347B00000X": [],
     "341800000X": [
-      "coast guard",
+      "guard transport",
       "military coast",
-      "guard transport"
+      "coast guard"
     ],
     "3418M1120X": [
-      "coast guard",
-      "military coast",
-      "guard ambulance",
       "guard transport",
-      "transport military",
+      "military coast",
+      "coast guard",
+      "guard ambulance",
+      "ambulance air",
       "air transport",
-      "ambulance air"
+      "transport military"
     ],
     "3418M1110X": [
-      "coast guard",
-      "military coast",
-      "guard ambulance",
       "guard transport",
+      "military coast",
+      "coast guard",
+      "guard ambulance",
       "transport military"
     ],
     "3418M1130X": [
-      "water transport",
-      "coast guard",
-      "military coast",
-      "guard ambulance",
       "guard transport",
+      "military coast",
+      "coast guard",
+      "water transport",
+      "guard ambulance",
       "transport military",
       "ambulance water"
     ],
@@ -6291,520 +6291,520 @@
     "342000000X": []
   },
   "vocab_keep": [
-    "nutritionist",
-    "rural",
-    "respiratory",
-    "psychotherapy",
-    "magnetic",
-    "disease",
-    "vascular",
-    "sports",
-    "nuclear",
-    "planning",
-    "personal",
-    "veterinarian",
-    "based",
-    "local",
-    "disorder",
-    "ambulatory",
-    "water",
-    "duty",
-    "fitter",
-    "nurse",
-    "facility",
-    "adult",
-    "director",
-    "transportation",
-    "pelvic",
-    "public",
-    "banking",
-    "low",
-    "geriatric",
-    "registered",
-    "adolescent",
-    "substance",
-    "orthopedic",
-    "pharmacist",
-    "advanced",
-    "illness",
-    "cardiovascular",
-    "environmental",
-    "perinatal",
-    "record",
-    "educator",
-    "orthotic",
-    "children",
-    "equipment",
-    "coast",
-    "ophthalmic",
-    "epilepsy",
-    "dietitian",
-    "graphics",
-    "palliative",
-    "eating",
-    "pharmacy",
-    "hepatology",
-    "organ",
-    "pulmonary",
-    "cardiac",
-    "risk",
-    "pain",
-    "assistive",
-    "behavioral",
-    "attendant",
-    "biomedical",
-    "assistant",
-    "oral",
-    "technician",
-    "phd",
-    "maxillofacial",
-    "mental",
-    "microbiology",
-    "pediatric",
-    "professional",
-    "subacute",
-    "ambulance",
-    "language",
-    "van",
-    "surgical",
-    "hospice",
-    "coding",
-    "radiation",
-    "program",
-    "school",
-    "electrophysiology",
-    "educational",
-    "modifications",
-    "undersea",
-    "dental",
-    "management",
-    "factors",
-    "plastic",
-    "neuroimaging",
-    "consultant",
-    "legal",
-    "vision",
-    "speech",
-    "anesthesiology",
-    "foot",
-    "inpatient",
-    "podiatric",
-    "allergy",
-    "patient",
-    "residential",
-    "brain",
-    "air",
-    "neurodevelopmental",
-    "case",
-    "genetics",
-    "worker",
-    "snf",
-    "community",
-    "driving",
-    "independent",
-    "nephrology",
-    "vehicle",
-    "sonography",
-    "christian",
-    "molecular",
-    "diseases",
-    "abuse",
-    "orthopaedic",
-    "examiner",
-    "otolaryngology",
-    "social",
-    "acute",
-    "neuropsychologist",
-    "access",
-    "dermatopathology",
-    "interventional",
-    "genetic",
-    "maternal",
-    "use",
-    "intellectual",
-    "heart",
     "eeg",
-    "histology",
-    "anatomic",
-    "diagnostic",
-    "family",
-    "certified",
-    "within",
-    "response",
-    "intermediate",
-    "neonatal",
-    "massage",
-    "religious",
-    "pathology",
-    "feeding",
-    "multi",
-    "radiologic",
-    "technology",
-    "home",
-    "disabilities",
-    "day",
-    "meals",
-    "rheumatology",
-    "swallowing",
-    "aide",
-    "urology",
-    "transportable",
-    "immunology",
-    "guard",
-    "respite",
-    "reconstructive",
-    "audiologist",
-    "treatment",
-    "primary",
-    "manager",
-    "cardiology",
-    "psychiatry",
-    "therapist",
     "optometric",
-    "military",
-    "neuromuscular",
-    "hearing",
-    "art",
-    "neurology",
-    "mobile",
-    "other",
-    "hand",
-    "non",
-    "long",
-    "engineering",
-    "physical",
-    "infusion",
-    "lactation",
-    "radiology",
-    "nonmedical",
-    "licensed",
-    "infectious",
-    "obesity",
-    "child",
-    "specialty",
-    "surgery",
-    "oncology",
-    "endocrinology",
-    "chronic",
-    "specialist",
-    "pediatrics",
-    "therapy",
-    "gerontology",
-    "mri",
-    "renal",
-    "diagnostics",
-    "laboratory",
-    "physician",
-    "addiction",
-    "gynecology",
-    "ergonomics",
-    "supplier",
-    "outpatient",
-    "trauma",
-    "information",
-    "reproductive",
-    "women",
-    "mobility",
+    "reconstructive",
     "critical",
-    "psychologist",
-    "human",
-    "neuroscience",
-    "operational",
-    "preventive",
-    "practitioner",
-    "podiatrist",
-    "dentist",
-    "bank",
-    "function",
-    "administrator",
-    "contact",
-    "internal",
-    "lens",
-    "support",
-    "science",
-    "assisted",
-    "general",
-    "urogynecology",
-    "nursing",
-    "development",
-    "rehabilitation",
-    "toxicology",
-    "nutrition",
-    "term",
-    "transport",
+    "oncology",
+    "infusion",
+    "consultant",
+    "histology",
+    "allergy",
+    "adolescent",
     "obstetric",
-    "mammography",
-    "imaging",
-    "chiropractor",
-    "procedure",
-    "transplant",
-    "gastroenterology",
-    "neuromusculoskeletal",
-    "dialysis",
-    "living",
-    "sleep",
-    "analyst",
-    "research",
-    "occupational",
-    "emergency",
-    "hyperbaric",
-    "agency",
-    "behavior",
-    "injury",
-    "developmental",
-    "special",
-    "modification",
-    "aid",
-    "ankle",
-    "facial",
-    "neck",
-    "exercise",
-    "education",
-    "provider",
-    "optometrist",
-    "training",
-    "organization",
-    "midwife",
-    "supplies",
-    "skilled",
-    "obstetrics",
-    "student",
-    "biochemical",
-    "technologist",
-    "blood",
+    "long",
+    "radiation",
+    "geriatric",
+    "endocrinology",
+    "disorder",
+    "lactation",
+    "director",
+    "neuromuscular",
     "custodial",
-    "dermatology",
-    "hematology",
-    "counselor",
-    "informatics",
-    "diabetes",
-    "head",
-    "psychiatric",
-    "contractor",
-    "forensic",
+    "rehabilitation",
+    "facility",
+    "imaging",
+    "rheumatology",
+    "ophthalmic",
+    "inpatient",
+    "water",
+    "genetic",
+    "injury",
+    "psychologist",
+    "dietitian",
+    "pathology",
+    "electrophysiology",
+    "equipment",
+    "worker",
+    "meals",
+    "maternal",
+    "nursing",
+    "van",
     "durable",
+    "physician",
+    "substance",
+    "social",
+    "psychotherapy",
+    "infectious",
+    "resonance",
+    "contact",
+    "emergency",
+    "pain",
+    "genetics",
+    "behavior",
+    "radiology",
+    "dental",
+    "surgical",
+    "licensed",
+    "head",
+    "microbiology",
+    "community",
+    "developmental",
+    "education",
+    "religious",
+    "engineering",
+    "procedure",
+    "independent",
+    "function",
+    "transplant",
+    "eating",
+    "duty",
+    "pelvic",
+    "biomedical",
+    "vascular",
+    "treatment",
+    "specialist",
+    "other",
+    "hospice",
+    "laboratory",
+    "ankle",
+    "sonography",
+    "non",
+    "respiratory",
+    "anesthesiology",
+    "pediatric",
+    "mobile",
+    "nurse",
+    "preventive",
+    "science",
+    "provider",
+    "public",
+    "lens",
+    "optometrist",
+    "chronic",
+    "term",
+    "research",
+    "risk",
+    "obstetrics",
+    "pediatrics",
+    "undersea",
+    "cardiac",
+    "children",
+    "neurology",
+    "family",
+    "orthopaedic",
+    "environmental",
+    "intellectual",
+    "general",
+    "audiologist",
+    "assistant",
+    "neuromusculoskeletal",
+    "multi",
+    "perinatal",
+    "neuroimaging",
+    "analyst",
+    "school",
+    "development",
+    "foot",
+    "case",
+    "administrator",
+    "aide",
+    "diagnostics",
+    "massage",
+    "epilepsy",
+    "guard",
+    "adult",
+    "counselor",
+    "low",
+    "gynecology",
+    "veterinarian",
+    "technology",
+    "residential",
+    "transportation",
+    "manager",
+    "organ",
+    "orthopedic",
+    "diagnostic",
+    "podiatric",
+    "modification",
+    "acute",
+    "human",
+    "therapy",
+    "disease",
+    "hyperbaric",
+    "maxillofacial",
+    "otolaryngology",
+    "biochemical",
+    "informatics",
+    "modifications",
+    "phd",
+    "language",
+    "examiner",
+    "based",
+    "hand",
     "ophthalmology",
-    "resonance"
+    "training",
+    "obesity",
+    "transportable",
+    "skilled",
+    "hepatology",
+    "aid",
+    "agency",
+    "vision",
+    "local",
+    "radiologic",
+    "bank",
+    "specialty",
+    "women",
+    "palliative",
+    "mental",
+    "dermatopathology",
+    "illness",
+    "assisted",
+    "support",
+    "student",
+    "contractor",
+    "trauma",
+    "ambulance",
+    "assistive",
+    "supplier",
+    "neuropsychologist",
+    "patient",
+    "vehicle",
+    "psychiatric",
+    "forensic",
+    "nephrology",
+    "sports",
+    "gerontology",
+    "heart",
+    "neurodevelopmental",
+    "intermediate",
+    "management",
+    "midwife",
+    "pharmacy",
+    "sleep",
+    "blood",
+    "registered",
+    "renal",
+    "child",
+    "physical",
+    "educator",
+    "graphics",
+    "oral",
+    "mobility",
+    "organization",
+    "psychiatry",
+    "outpatient",
+    "dermatology",
+    "snf",
+    "toxicology",
+    "chiropractor",
+    "cardiology",
+    "neck",
+    "abuse",
+    "nutrition",
+    "certified",
+    "air",
+    "reproductive",
+    "anatomic",
+    "nuclear",
+    "molecular",
+    "technologist",
+    "urogynecology",
+    "respite",
+    "hearing",
+    "pulmonary",
+    "diseases",
+    "mri",
+    "internal",
+    "facial",
+    "educational",
+    "brain",
+    "neonatal",
+    "factors",
+    "pharmacist",
+    "magnetic",
+    "legal",
+    "art",
+    "personal",
+    "use",
+    "behavioral",
+    "subacute",
+    "supplies",
+    "professional",
+    "ergonomics",
+    "day",
+    "nutritionist",
+    "coast",
+    "christian",
+    "occupational",
+    "information",
+    "orthotic",
+    "coding",
+    "plastic",
+    "therapist",
+    "addiction",
+    "living",
+    "special",
+    "advanced",
+    "ambulatory",
+    "banking",
+    "feeding",
+    "driving",
+    "fitter",
+    "primary",
+    "urology",
+    "surgery",
+    "cardiovascular",
+    "technician",
+    "mammography",
+    "planning",
+    "home",
+    "speech",
+    "within",
+    "immunology",
+    "transport",
+    "exercise",
+    "record",
+    "neuroscience",
+    "nonmedical",
+    "practitioner",
+    "swallowing",
+    "diabetes",
+    "podiatrist",
+    "access",
+    "operational",
+    "military",
+    "hematology",
+    "interventional",
+    "dialysis",
+    "attendant",
+    "rural",
+    "program",
+    "disabilities",
+    "gastroenterology",
+    "response",
+    "dentist"
   ],
   "bigram_keep": [
-    "internal hematology",
-    "blood banking",
-    "nutrition pediatric",
-    "interventional technology",
-    "plastic reconstructive",
-    "residential treatment",
-    "technician technologist",
-    "respiratory therapist",
-    "therapist certified",
-    "general acute",
-    "pathology hematology",
-    "surgery pediatric",
-    "based residential",
-    "information coding",
-    "pelvic surgery",
-    "oral maxillofacial",
-    "urogynecology reconstructive",
-    "case management",
-    "biochemical genetics",
-    "vascular surgery",
-    "nutrition support",
-    "assistive technology",
-    "psychologist psychotherapy",
-    "independent examiner",
-    "independent duty",
-    "vascular interventional",
-    "physical therapy",
-    "reconstructive surgery",
-    "equipment supplies",
-    "genetic pathology",
-    "durable equipment",
-    "molecular genetic",
-    "hospice palliative",
-    "laboratory immunology",
-    "social worker",
-    "psychiatry neurology",
-    "physical disabilities",
-    "technologist vascular",
-    "pathology anatomic",
-    "environmental modification",
-    "dental laboratory",
-    "coding specialist",
-    "reproductive endocrinology",
-    "child adolescent",
-    "palliative hospice",
-    "surgery orthopaedic",
-    "ankle surgery",
-    "intermediate facility",
-    "dentist oral",
-    "nurse neonatal",
-    "audiologist assistive",
-    "ambulance air",
-    "specialist oncology",
-    "multi specialty",
-    "mental child",
-    "genetics molecular",
-    "community mobility",
-    "pulmonary function",
-    "surgery plastic",
-    "genetics genetics",
-    "technology supplier",
-    "function technologist",
-    "pulmonary rehabilitation",
-    "occupational therapist",
-    "substance abuse",
-    "day training",
-    "facility intellectual",
-    "physician assistant",
-    "nurse psychiatric",
-    "neurology addiction",
-    "transport van",
-    "developmental disabilities",
-    "military provider",
-    "nurse obstetric",
-    "physical rehabilitation",
-    "facility mental",
-    "occupational therapy",
-    "neurology neurology",
-    "patient transport",
-    "speech language",
-    "military general",
-    "technologist pathology",
-    "psychiatric mental",
-    "treatment facility",
-    "undersea hyperbaric",
-    "dentist dental",
-    "feeding eating",
-    "maxillofacial surgery",
-    "therapist hand",
-    "critical access",
-    "physical therapist",
-    "rehabilitation substance",
-    "facial plastic",
-    "emergency technician",
-    "diagnostic neuroimaging",
-    "pulmonary diagnostics",
-    "chronic disease",
-    "water transport",
-    "religious nonmedical",
-    "preventive occupational",
-    "pathology pathology",
-    "technician information",
-    "addiction substance",
-    "dietitian registered",
-    "mental illness",
-    "behavior analyst",
     "brain injury",
-    "nuclear nuclear",
-    "resonance imaging",
-    "technician other",
-    "other biomedical",
-    "contact lens",
-    "therapy assistant",
-    "coast guard",
-    "imaging mri",
-    "mental adult",
-    "within head",
-    "long term",
-    "technology practitioner",
-    "technologist cardiovascular",
-    "military military",
-    "human factors",
-    "radiology diagnostic",
-    "facility assisted",
-    "neonatal pediatrics",
-    "otolaryngology facial",
-    "genetics biochemical",
-    "therapist ergonomics",
-    "counselor assistive",
-    "magnetic resonance",
-    "obstetrics gynecology",
-    "radiology mobile",
-    "family planning",
-    "hematology oncology",
-    "transplant hepatology",
-    "provider organization",
-    "technologist ophthalmic",
-    "other eeg",
-    "nursing facility",
-    "hearing aid",
-    "ambulatory procedure",
-    "abuse rehabilitation",
-    "head neck",
-    "therapist pediatrics",
-    "technologist other",
-    "pediatric critical",
-    "therapist registered",
-    "specialist technologist",
-    "technologist information",
-    "nutrition specialist",
-    "allergy immunology",
-    "registered pulmonary",
-    "technologist contact",
-    "home infusion",
-    "surgery surgery",
-    "other surgical",
-    "biomedical engineering",
-    "assisted living",
-    "rehabilitation counselor",
-    "operational transportable",
-    "emergency response",
-    "practitioner pediatrics",
-    "registered nutrition",
-    "podiatrist foot",
-    "intellectual developmental",
-    "respite respite",
-    "plastic surgery",
-    "pathology histology",
-    "driving community",
-    "pathology laboratory",
-    "registered nurse",
-    "infusion therapy",
-    "reconstructive pelvic",
-    "nurse specialist",
-    "guard ambulance",
-    "anatomic pathology",
-    "lactation consultant",
-    "low vision",
-    "provider independent",
-    "custodial facility",
-    "surgery within",
-    "orthopaedic surgery",
-    "nurse practitioner",
-    "dental therapist",
-    "technician pathology",
-    "living facility",
-    "community based",
-    "massage therapist",
-    "radiologic technologist",
-    "guard transport",
-    "transport military",
-    "air transport",
-    "substance use",
-    "pediatric emergency",
-    "practitioner neonatal",
-    "christian science",
-    "skilled nursing",
-    "pediatrics pediatric",
-    "military coast",
-    "rehabilitation facility",
-    "infectious diseases",
-    "eating swallowing",
-    "technologist optometric",
-    "ambulance water",
     "specialist research",
-    "physician nutrition",
-    "foot ankle",
-    "therapist human",
-    "pathology microbiology",
-    "specialist psychiatric",
-    "snf subacute",
-    "disabilities child",
-    "use disorder",
-    "surgery surgical",
-    "pathology blood",
+    "community mobility",
+    "dental therapist",
+    "plastic surgery",
+    "technician other",
+    "neonatal pediatrics",
+    "speech language",
+    "occupational therapy",
+    "nurse specialist",
+    "physical therapy",
+    "chronic disease",
+    "pathology laboratory",
+    "provider independent",
+    "psychiatric mental",
+    "head neck",
+    "day training",
+    "biochemical genetics",
+    "respiratory therapist",
+    "hearing aid",
+    "specialist technologist",
+    "nursing facility",
+    "physician assistant",
+    "physical rehabilitation",
+    "air transport",
+    "contact lens",
+    "transport military",
+    "therapist ergonomics",
     "neurodevelopmental disabilities",
+    "mental illness",
+    "dietitian registered",
+    "registered nutrition",
+    "pediatrics pediatric",
+    "pediatric critical",
+    "technologist optometric",
+    "facility intellectual",
+    "neurology neurology",
+    "based residential",
+    "obstetrics gynecology",
+    "behavior analyst",
+    "living facility",
+    "anatomic pathology",
+    "multi specialty",
+    "rehabilitation counselor",
+    "physician nutrition",
+    "pulmonary rehabilitation",
+    "pathology hematology",
+    "developmental disabilities",
+    "nurse neonatal",
+    "technologist cardiovascular",
+    "technology supplier",
+    "environmental modification",
+    "laboratory immunology",
+    "reconstructive surgery",
+    "nutrition support",
+    "religious nonmedical",
+    "military general",
+    "intellectual developmental",
+    "technologist information",
+    "dental laboratory",
+    "military military",
+    "radiology mobile",
+    "reconstructive pelvic",
+    "other eeg",
+    "surgery surgery",
+    "function technologist",
+    "nutrition specialist",
+    "abuse rehabilitation",
+    "guard transport",
+    "operational transportable",
+    "preventive occupational",
+    "information coding",
+    "snf subacute",
+    "military coast",
+    "dentist oral",
+    "durable equipment",
+    "undersea hyperbaric",
+    "pathology blood",
+    "therapist hand",
+    "practitioner neonatal",
+    "oral maxillofacial",
+    "mental child",
+    "technologist other",
+    "orthopaedic surgery",
+    "surgery hand",
+    "ankle surgery",
+    "interventional technology",
+    "assistive technology",
+    "nurse practitioner",
+    "hematology oncology",
+    "practitioner pediatrics",
+    "equipment supplies",
+    "substance use",
+    "custodial facility",
+    "genetic pathology",
+    "dentist dental",
+    "physical therapist",
+    "technologist vascular",
+    "radiology diagnostic",
+    "treatment facility",
+    "infusion therapy",
+    "facial plastic",
+    "lactation consultant",
+    "other surgical",
+    "genetics molecular",
+    "independent duty",
+    "intermediate facility",
+    "ambulance air",
+    "patient transport",
+    "nurse obstetric",
+    "respite respite",
+    "provider organization",
+    "technician information",
+    "genetics genetics",
+    "pathology microbiology",
+    "podiatrist foot",
+    "general acute",
+    "low vision",
+    "within head",
+    "pathology anatomic",
+    "disabilities child",
+    "nurse psychiatric",
+    "reproductive endocrinology",
+    "emergency response",
+    "driving community",
+    "coding specialist",
+    "substance abuse",
+    "independent examiner",
+    "allergy immunology",
+    "resonance imaging",
+    "surgery plastic",
+    "technologist contact",
+    "imaging mri",
+    "pulmonary diagnostics",
+    "rehabilitation facility",
+    "neurology addiction",
+    "therapist certified",
+    "ambulance water",
+    "christian science",
+    "technologist ophthalmic",
+    "molecular genetic",
+    "blood banking",
+    "surgery pediatric",
+    "surgery within",
+    "plastic reconstructive",
+    "transplant hepatology",
+    "registered pulmonary",
+    "magnetic resonance",
+    "feeding eating",
+    "hospice palliative",
+    "guard ambulance",
+    "biomedical engineering",
+    "pediatric emergency",
+    "foot ankle",
+    "specialist psychiatric",
+    "social worker",
+    "child adolescent",
+    "vascular interventional",
+    "long term",
+    "community based",
+    "therapist pediatrics",
+    "technician technologist",
+    "maxillofacial surgery",
+    "physical disabilities",
     "certified pulmonary",
+    "human factors",
+    "critical access",
+    "pathology histology",
+    "internal hematology",
+    "mental adult",
+    "vascular surgery",
+    "massage therapist",
+    "other biomedical",
+    "assisted living",
+    "facility assisted",
+    "ambulatory procedure",
+    "radiologic technologist",
+    "addiction substance",
+    "military provider",
+    "pathology pathology",
+    "infectious diseases",
+    "counselor assistive",
+    "audiologist assistive",
+    "eating swallowing",
+    "surgery orthopaedic",
+    "psychologist psychotherapy",
+    "skilled nursing",
+    "pelvic surgery",
+    "therapist human",
+    "coast guard",
+    "facility mental",
+    "water transport",
+    "pulmonary function",
+    "occupational therapist",
+    "palliative hospice",
+    "specialist oncology",
+    "technologist pathology",
+    "therapist registered",
+    "surgery surgical",
+    "genetics biochemical",
+    "otolaryngology facial",
+    "psychiatry neurology",
+    "nutrition pediatric",
+    "technician pathology",
+    "home infusion",
+    "rehabilitation substance",
+    "emergency technician",
+    "case management",
+    "residential treatment",
+    "nuclear nuclear",
+    "registered nurse",
+    "urogynecology reconstructive",
+    "use disorder",
+    "technology practitioner",
+    "family planning",
+    "transport van",
     "laboratory management",
-    "surgery hand"
+    "diagnostic neuroimaging",
+    "therapy assistant"
   ]
 }
