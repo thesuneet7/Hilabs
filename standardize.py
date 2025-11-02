@@ -3,8 +3,20 @@ import argparse, pandas as pd, re
 from typing import List, Tuple, Dict
 from rapidfuzz import fuzz, process
 import json
+import re
 
 RE_NON_ALNUM = re.compile(r"[^0-9a-z ]+")
+
+NUCC_CODE_PATTERN = re.compile(r"\b[A-Z0-9]{10}\b", re.IGNORECASE)
+
+def extract_nucc_codes(text: str):
+    """Extract all 10-character alphanumeric NUCC codes from the text."""
+    if not isinstance(text, str):
+        return []
+    matches = NUCC_CODE_PATTERN.findall(text.upper())
+    # basic sanity filter: ensure at least 2 digits and ends with a letter
+    return [m for m in matches if any(c.isdigit() for c in m) and m[-1].isalpha()]
+
 
 def load_generic_words(path="generic_terms.json"):
     try:
@@ -72,6 +84,13 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
                  index_by_norm: Dict[str, List[int]],
                  candidates: List[str], codes: List[str],
                  fuzzy_cutoff=0.60) -> Tuple[str, float, str]:
+     # --- NEW: detect NUCC codes directly in the input ---
+    direct_codes = extract_nucc_codes(raw)
+    if direct_codes:
+        # normalize uppercase for consistency
+        codes_str = "|".join(sorted(set(c.upper() for c in direct_codes)))
+        return codes_str, 1.0, "direct NUCC code detected in input"
+
     rn = normalize_text(raw)
     if rn == "":
         return "JUNK", 0.0, "blank input"
