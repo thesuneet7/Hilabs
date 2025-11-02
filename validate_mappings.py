@@ -32,8 +32,8 @@ def load_nucc_map(path: str) -> Dict[str, str]:
         for f in ("display_name","classification","specialization"):
             v = r.get(f) or r.get(f.capitalize()) or ""
             if str(v).strip(): parts.append(str(v).strip())
-        label = " ".join(parts).strip() or code
-        if code: out[code] = label
+        confidence = " ".join(parts).strip() or code
+        if code: out[code] = confidence
     return out
 
 def codes_to_best_label(code_str: str, code2label: Dict[str,str], raw: str) -> Tuple[str, List[str]]:
@@ -103,7 +103,7 @@ class SemanticChecker:
 # ---------- main ----------
 def main():
     ap = argparse.ArgumentParser(description="Validate NUCC mappings (only for fuzzy rows).")
-    ap.add_argument("--input", required=True, help="mapper output CSV: must have raw_specialty, nucc_codes, Label")
+    ap.add_argument("--input", required=True, help="mapper output CSV: must have raw_specialty, nucc_codes, confidence")
     ap.add_argument("--nucc", required=True, help="nucc_taxonomy_master.csv")
     ap.add_argument("--keywords", required=True, help="nucc_tokens.json from nucc_token_extractor.py")
     ap.add_argument("--out", required=True, help="output CSV with QA flags")
@@ -113,11 +113,11 @@ def main():
     args = ap.parse_args()
 
     df = pd.read_csv(args.input, dtype=str).fillna("")
-    required_cols = {"raw_specialty","nucc_codes","Label"}
+    required_cols = {"raw_specialty","nucc_codes","confidence"}
     if not required_cols.issubset(df.columns):
         raise ValueError(f"Input CSV must contain columns: {sorted(required_cols)}")
 
-    df["Label_num"] = pd.to_numeric(df["Label"], errors="coerce").fillna(0.0)
+    df["confidence_num"] = pd.to_numeric(df["confidence"], errors="coerce").fillna(0.0)
     code2label = load_nucc_map(args.nucc)
     nucc_keywords = load_keyword_json(args.keywords)
     sem = None if args.disable_semantic else SemanticChecker()
@@ -141,7 +141,7 @@ def main():
     for i in tqdm(df.index.tolist(), leave=False):
         raw = str(df.at[i, "raw_specialty"])
         codes = str(df.at[i, "nucc_codes"]).strip()
-        L = float(df.at[i, "Label_num"])
+        confidence = float(df.at[i, "confidence_num"])
 
         # Skip junk
         if codes == "JUNK" or codes == "":
@@ -149,7 +149,7 @@ def main():
             continue
 
         # Exact/synonym → auto green
-        if L >= 1.0:
+        if confidence >= 1.0:
             df.at[i, "green_flag"] = 1
             continue
 
@@ -190,7 +190,7 @@ def main():
         if not args.disable_semantic: flags.append(int(c_flag))
         df.at[i, "green_flag"] = 1 if sum(flags) == 0 else 0
 
-    df.drop(columns=["Label_num"], inplace=True)
+    df.drop(columns=["confidence_num"], inplace=True)
     df.to_csv(args.out, index=False)
     print(f"✅ Wrote {len(df)} rows to {args.out}")
 

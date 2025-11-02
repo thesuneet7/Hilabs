@@ -271,7 +271,7 @@ def main():
     # --- process rows ---
     rows = []
     for raw in in_df[col].astype(str).tolist():
-        nucc_codes, label, explain = classify_row(
+        nucc_codes, confidence, explain = classify_row(
             raw, synonyms, index_by_norm, candidates, codes,
             valid_codes=valid_codes, token_dict=token_dict, fuzzy_cutoff=0.60
         )
@@ -279,7 +279,7 @@ def main():
         # 1. Append clinic/center code if applicable
         if has_clinic_or_center(raw):
             nucc_codes = append_code_preserve_order(nucc_codes, "261Q00000X")
-            label = 1  # Overwrite label to 1 when manually adding clinic/center code
+            confidence = 1  # Overwrite confidence to 1 when manually adding clinic/center code
             explain = (explain + " + appended 261Q00000X for 'clinic/center' rule") if explain else "appended 261Q00000X for 'clinic/center' rule"
 
         # 2. Append emergency/medical/technician codes if all are present
@@ -289,16 +289,16 @@ def main():
             nucc_codes = append_code_preserve_order(nucc_codes, "146N00000X")
             explain += " + mandatory emergency/medical/technician codes appended"
 
-            label = 1  # Forcibly overwrite Label to 1 when mandatory codes are added
+            confidence = 1  # Forcibly overwrite confidence to 1 when mandatory codes are added
 
         rows.append({
             "raw_specialty": raw,
             "nucc_codes": nucc_codes,
-            "Label": label,
+            "confidence": confidence,
             "explain": explain
         })
 
-    out_df = pd.DataFrame(rows, columns=["raw_specialty","nucc_codes","Label","explain"])
+    out_df = pd.DataFrame(rows, columns=["raw_specialty", "nucc_codes", "confidence", "explain"])
     out_df.to_csv(args.out, index=False)
     print(f"Wrote {len(out_df)} rows to {args.out}")
 

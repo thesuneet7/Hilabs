@@ -1,4 +1,4 @@
-raw_specialty,nucc_codes,Label,explain,validated_label_used,methodA_flag,methodA_overlap_unigram,methodA_overlap_bigram,methodA_uni_jaccard,methodA_bi_jaccard,methodB_flag,methodB_fwd,methodB_rev,methodB_avg,methodC_flag,methodC_cosine,green_flag
+raw_specialty,nucc_codes,confidence,explain,validated_label_used,methodA_flag,methodA_overlap_unigram,methodA_overlap_bigram,methodA_uni_jaccard,methodA_bi_jaccard,methodB_flag,methodB_fwd,methodB_rev,methodB_avg,methodC_flag,methodC_cosine,green_flag
 ACUPUNCTURE,171100000X,0.8333,fuzzy match (query='acupuncture'): 'acupuncturist' score=0.83,Acupuncturist,1,0,0,0.0,0.0,0,0.8333,0.8333,0.8333,0,0.7503,0
 ADOLESCENT MEDICINE,207PE0004X|207QA0000X|207RA0000X|2080A0000X,1.0,fuzzy match (query='adolescent medicine'): 'medicine' score=1.00; 'family medicine adolescent medicine' score=1.00; 'internal medicine adolescent medicine' score=1.00; 'pediatrics adolescent medicine' score=1.00,,,,,,,,,,,,,1
 ALLERGY & IMMUNOLOGY,207K00000X,1.0,exact match on 'allergy immunology',,,,,,,,,,,,,1
