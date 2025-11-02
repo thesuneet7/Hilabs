@@ -1,149 +1,169 @@
 # HiLabs Hackathon 2025: Specialty Standardization Challenge
 
-## 🧩 Problem Statement
+## Problem Statement
 
-**Standardizing Provider Specialties to NUCC Taxonomy**
-
-Healthcare provider data often contains free-text specialty names that are inconsistent, misspelled, or non-standardized. This project aims to **standardize provider specialties** by mapping them to the official NUCC Taxonomy using fuzzy matching, synonyms, and text normalization techniques.
+Standardizing Provider Specialties to NUCC Taxonomy — creating a consistent mapping from messy provider specialty names to standardized NUCC taxonomy codes using fuzzy matching, token-based, and semantic methods.
 
 ---
 
-## ⚙️ Features
+## Overview
 
-* Cleans and normalizes free-text specialties
-* Uses fuzzy matching (`rapidfuzz`) for closest taxonomy matches
-* Handles synonyms and generic terms intelligently
-* Flags ambiguous or low-confidence matches
-* Outputs a standardized CSV with detailed match info
+This project automates the standardization of provider specialties by:
 
----
-
-## 🧠 Methodology
-
-1. **Inputs**
-
-   * `nucc_taxonomy_master.csv` – official NUCC taxonomy data
-   * `input_specialties.csv` – list of raw specialties to standardize
-   * `synonyms.csv` – curated synonym list
-
-2. **Processing**
-
-   * Text normalization (lowercasing, removing punctuation and stopwords)
-   * Fuzzy string matching using `rapidfuzz`
-   * Tie-breaking for close similarity scores
-   * Configurable cutoff thresholds
-
-3. **Outputs**
-
-   * `output.csv` containing:
-
-     * Input specialty
-     * Matched NUCC taxonomy
-     * Confidence score
-     * Match status (Exact / Fuzzy / Ambiguous / Unmatched)
+* Cleaning and normalizing raw specialty names.
+* Matching them to NUCC taxonomy entries using a combination of string similarity and semantic techniques.
+* Validating the mappings through multi-method QA.
 
 ---
 
-## 💻 Installation
+## Project Structure
 
-### Step 1: Clone the repository
-
-```bash
-git clone https://github.com/thesuneer7/Hilabs.git
-cd Hilabs
 ```
-
-### Step 2: Create and activate a virtual environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate       # for Mac/Linux
-# OR
-venv\Scripts\activate        # for Windows
-```
-
-### Step 3: Install dependencies
-
-```bash
-pip install -r requirements.txt
+Hilabs/
+│
+├── standardize.py            # Fuzzy matching and standardization
+├── validate_mappings.py      # QA validation for fuzzy matches
+├── nucc_taxonomy_master.csv  # NUCC taxonomy master reference
+├── synonyms.csv              # Optional synonyms mapping
+├── nucc_tokens.json          # Precomputed NUCC keyword tokens
+├── output.csv                # Output after standardization
+└── validated_output.csv      # Output after QA validation
 ```
 
 ---
 
-## 🚀 Usage
+## Step 1: Setup Instructions
 
-### Basic command
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/<your-org>/hilabs-specialty-standardization.git
+   cd hilabs-specialty-standardization
+   ```
+2. **Create a virtual environment (recommended):**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Step 2: Running Standardization
+
+The `standardize.py` script performs fuzzy matching between input specialties and NUCC taxonomy labels.
+
+**Usage:**
 
 ```bash
-python standardize.py \
-  --nucc nucc_taxonomy_master.csv \
-  --input input_specialties.csv \
-  --synonyms synonyms.csv \
-  --out output.csv
+python standardize.py --nucc nucc_taxonomy_master.csv --input input_specialties.csv --synonyms synonyms.csv --out output.csv
 ```
 
-### Optional parameters
+**Arguments:**
+
+* `--nucc`: Path to NUCC taxonomy master file.
+* `--input`: Input CSV containing raw specialty names.
+* `--synonyms`: Optional synonyms file for enhanced matching.
+* `--out`: Output CSV path.
+
+---
+
+## Step 3: Running Validation (QA)
+
+The `validate_mappings.py` script checks the fuzzy matches using three complementary methods — **A**, **B**, and **C** — to ensure mapping accuracy.
+
+**Usage:**
 
 ```bash
---fuzzy-cutoff <float>    # Minimum similarity threshold (default: 0.60)
---tie-window <float>      # Score range for ties (default: 3)
+python validate_mappings.py --input output.csv --nucc nucc_taxonomy_master.csv --keywords nucc_tokens.json --out validated_output.csv
 ```
 
-### Example
+**Arguments:**
 
-```bash
-python standardize.py \
-  --nucc nucc_taxonomy_master.csv \
-  --input input_specialties.csv \
-  --synonyms synonyms.csv \
-  --out output.csv \
-  --fuzzy-cutoff 0.7 \
-  --tie-window 3
-```
+* `--input`: Output file from `standardize.py`.
+* `--nucc`: NUCC taxonomy reference CSV.
+* `--keywords`: Tokenized NUCC keyword JSON.
+* `--out`: Output path for validated file.
+* `--min_avg_sim`: (Optional) Threshold for fuzzy similarity (default 0.65).
+* `--min_sem_cos`: (Optional) Threshold for semantic similarity (default 0.60).
+* `--disable_semantic`: Add this flag to skip semantic validation.
 
 ---
 
-## 📁 File Descriptions
+## Validation Methods
 
-| File                       | Description                                    |
-| -------------------------- | ---------------------------------------------- |
-| `standardize.py`           | Main standardization script                    |
-| `synonyms.csv`             | List of known specialty synonyms               |
-| `generic_terms.json`       | Generic terms to exclude from matching         |
-| `nucc_taxonomy_master.csv` | NUCC taxonomy reference file                   |
-| `input_specialties.csv`    | Raw input specialties                          |
-| `output.csv`               | Output file with standardized results          |
-| `problem_cases.csv`        | Logged ambiguous or unmatched cases (optional) |
+### **Method A — Keyword Overlap (Rule-Based)**
 
----
+Uses precomputed NUCC token and bigram dictionaries (`nucc_tokens.json`) to measure direct lexical overlap between raw specialties and NUCC labels.
 
-## 🧪 Example Output
+* Calculates unigram and bigram overlaps.
+* Assigns higher weight to bigram matches.
+* Flags records where overlap is below a threshold.
 
-| Input Specialty     | Standardized NUCC Term                    | Confidence | Status    |
-| ------------------- | ----------------------------------------- | ---------- | --------- |
-| cardiologist        | Internal Medicine: Cardiovascular Disease | 0.99       | Exact     |
-| skin clinic         | Dermatology                               | 0.87       | Fuzzy     |
-| ortho surgeon       | Orthopedic Surgery                        | 0.92       | Fuzzy     |
-| alternative healing | —                                         | —          | Unmatched |
+### **Method B — Mutual Fuzzy Similarity**
 
----
+Evaluates bidirectional fuzzy similarity (forward and reverse) between raw specialty and mapped NUCC label using `rapidfuzz`.
 
-## 👩‍💻 Contributors
+* Computes average fuzzy similarity score.
+* Flags mappings below a defined minimum average similarity (default 0.65).
 
-**Vasudharaje Srivastava**
-**Suneet Maharana**
-**Aditya Mishra**
-Team HiLabs Hackathon 2025
+### **Method C — Semantic Similarity (Transformer-Based)**
+
+Applies sentence embeddings from `sentence-transformers` (default: `all-MiniLM-L6-v2`) to assess contextual similarity between raw and NUCC label.
+
+* Computes cosine similarity between normalized embeddings.
+* Flags mappings below a cosine threshold (default 0.60).
+
+Each row receives a **green_flag = 1** only if all active validation methods pass.
 
 ---
 
-## 📜 License
+## Output Columns
 
-This project was developed as part of the **HiLabs Hackathon 2025: Specialty Standardization Challenge**. All rights reserved by the organizing team and contributors.
+| Column                 | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `validated_label_used` | Final NUCC label used for validation           |
+| `methodA_flag`         | 0 if sufficient keyword overlap, else 1        |
+| `methodB_flag`         | 0 if fuzzy match strong enough, else 1         |
+| `methodC_flag`         | 0 if semantic similarity strong enough, else 1 |
+| `green_flag`           | 1 if all active methods pass, else 0           |
 
 ---
 
-## 🎯 Short repo description (one-line)
+## Step 4: How to Build and Run the Docker Container
 
-Standardize free-text provider specialties to NUCC taxonomy using normalization, synonyms, and fuzzy matching.
+1. **Create** `requirements.txt` and `Dockerfile` in your project directory.
+2. **Build** the Docker image from the terminal in your project directory:
 
+   ```bash
+   docker build -t my-python-app .
+   ```
+3. **Run** the Docker container:
+
+   ```bash
+   docker run -it my-python-app
+   ```
+4. *(Optional)* To run a specific script inside the container, modify your Dockerfile’s `CMD` line:
+
+   ```dockerfile
+   CMD ["python", "your_script.py"]
+   ```
+
+---
+
+## Example Workflow
+
+1. Run `standardize.py` to generate fuzzy mappings.
+2. Validate results using `validate_mappings.py`.
+3. Review flags in the final CSV for QA.
+
+---
+
+## Credits
+
+Developed by team **Mrittika_AI** for **HiLabs Hackathon 2025** — Specialty Standardization Challenge.
