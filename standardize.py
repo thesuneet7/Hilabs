@@ -3,26 +3,21 @@ import argparse, pandas as pd, re
 from typing import List, Tuple, Dict
 from rapidfuzz import fuzz, process
 import json
-import re
 
 RE_NON_ALNUM = re.compile(r"[^0-9a-z ]+")
-
 NUCC_CODE_PATTERN = re.compile(r"\b[A-Z0-9]{10}\b", re.IGNORECASE)
 
 def extract_nucc_codes(text: str):
-    """Extract all 10-character alphanumeric NUCC codes from the text."""
     if not isinstance(text, str):
         return []
     matches = NUCC_CODE_PATTERN.findall(text.upper())
-    # basic sanity filter: ensure at least 2 digits and ends with a letter
     return [m for m in matches if any(c.isdigit() for c in m) and m[-1].isalpha()]
-
 
 def load_generic_words(path="generic_terms.json"):
     try:
         with open(path, "r") as f:
             words = json.load(f)
-        return set(w.lower().strip() for w in words if w.strip())
+        return set(w.lower().strip() for w in words if str(w).strip())
     except Exception:
         return set()
 
@@ -84,29 +79,28 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
                  index_by_norm: Dict[str, List[int]],
                  candidates: List[str], codes: List[str],
                  fuzzy_cutoff=0.60) -> Tuple[str, float, str]:
-     # --- NEW: detect NUCC codes directly in the input ---
     direct_codes = extract_nucc_codes(raw)
     if direct_codes:
-        # normalize uppercase for consistency
         codes_str = "|".join(sorted(set(c.upper() for c in direct_codes)))
         return codes_str, 1.0, "direct NUCC code detected in input"
 
     rn = normalize_text(raw)
     if rn == "":
         return "JUNK", 0.0, "blank input"
+
     exps = expand_via_synonyms(raw, synonyms)
+
     for e in exps:
         if e in index_by_norm:
             ids = index_by_norm[e]
             out = sorted({codes[i] for i in ids if codes[i]})
             return ("|".join(out) if out else "JUNK"), 1.0, f"exact match on '{e}'"
-        # ------------- FUZZY MATCH over all expansions -------------
-    mapping = {candidates[i]: i for i in range(len(candidates))}
 
+    mapping = {candidates[i]: i for i in range(len(candidates))}
     best_f = 0.0
     best_res = None
     best_exp = None
-    for exp in exps:                              # ← loop over all expansions
+    for exp in exps:
         res = process.extract(exp, mapping.keys(), scorer=fuzz.token_set_ratio, limit=5)
         if res:
             top_cand, top_score, _ = res[0]
@@ -119,7 +113,6 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
 
     f = round(best_f, 4)
     res = best_res
-
     if f < fuzzy_cutoff:
         return "JUNK", f, f"best fuzzy {f:.2f} below cutoff {fuzzy_cutoff:.2f} (query='{best_exp}')"
 
@@ -132,6 +125,27 @@ def classify_row(raw: str, synonyms: Dict[str, List[str]],
     explain = f"fuzzy match (query='{best_exp}'): " + "; ".join([f"'{c}' score={r/100:.2f}" for c, r, _ in near])
     return "|".join(matched), f, explain
 
+# ---- NEW: detect if original raw contains 'clinic' or 'center' tokens (case-insensitive) ----
+def has_clinic_or_center(raw: str) -> bool:
+    if not isinstance(raw, str): return False
+    s = raw.lower()
+    # strict token check to avoid substrings like 'epicenter' or 'clinician'
+    return bool(re.search(r"\bclinic\b", s) or re.search(r"\bcenter\b", s))
+
+def append_code_preserve_order(code_str: str, extra_code: str) -> str:
+    if not code_str or code_str.upper() == "JUNK":
+        base = []
+    else:
+        base = [c for c in code_str.split("|") if c.strip()]
+    base.append(extra_code)
+    seen = set()
+    out = []
+    for c in base:
+        cu = c.upper()
+        if cu not in seen:
+            seen.add(cu)
+            out.append(cu)
+    return ("|".join(out)) if out else "JUNK"
 
 def main():
     p = argparse.ArgumentParser(description="NUCC specialty standardizer with Label flag")
@@ -156,10 +170,20 @@ def main():
     rows = []
     for raw in in_df[col].astype(str).tolist():
         nucc_codes, label, explain = classify_row(raw, synonyms, index_by_norm, candidates, codes, fuzzy_cutoff=0.60)
+
+        # --- NEW: if raw contains 'clinic' or 'center', append 261Q00000X regardless of matches ---
+        appended = False
+        if has_clinic_or_center(raw):
+            nucc_codes = append_code_preserve_order(nucc_codes, "261Q00000X")
+            appended = True
+
+        if appended:
+            explain = (explain + " + appended 261Q00000X for 'clinic/center' rule") if explain else "appended 261Q00000X for 'clinic/center' rule"
+
         rows.append({
             "raw_specialty": raw,
             "nucc_codes": nucc_codes,
-            "Label": label,         # 1.0 for exact/synonym; fuzzy score (0–1) for fuzzy; 0.0 for blanks/no-candidate junk
+            "Label": label,        # unchanged: still reflects match confidence (exact=1.0, fuzzy in [0,1], or 0.0)
             "explain": explain
         })
 
