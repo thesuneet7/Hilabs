@@ -135,7 +135,7 @@ Each row receives a **green_flag = 1** only if all active validation methods pas
 
 ---
 
-## Step 4: How to Build and Run the Docker Container
+## Step 4: How to Build and Run the Docker Container (Optional - Recommended to run the program through venv manually)
 
 1. **Create** `requirements.txt` and `Dockerfile` in your project directory.
 2. **Build** the Docker image from the terminal in your project directory:
@@ -147,11 +147,6 @@ Each row receives a **green_flag = 1** only if all active validation methods pas
 
    ```bash
    docker run -it my-python-app
-   ```
-4. *(Optional)* To run a specific script inside the container, modify your Dockerfile’s `CMD` line:
-
-   ```dockerfile
-   CMD ["python", "your_script.py"]
    ```
 
 ---
